@@ -1,0 +1,28 @@
+{
+    "nome": "nome",
+    "name": "name",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (um pouco de pó de prata)",
+    "mana": 50,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "fogo",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Um texto longo pra k7 aqui",
+    "source": "LDJ"
+}
