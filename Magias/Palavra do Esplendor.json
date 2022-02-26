@@ -1,0 +1,31 @@
+{
+    "nome": "Palavra do Esplendor",
+    "name": "Word of Radiance",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "luz",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "1,5 metros",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "mago",
+        "bruxo",
+        "feiticeiro"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você levanta sua mão para o alto, pronunciando uma palavra divina e um raio elementar cai como um trovão nos inimigos. Cada criatura a sua escolha que você pode ver dentro do alcance deve ter sucesso em um teste de resistência de Constituição o sofre 1d6 de dano elementar. O dano da magia aumenta em 1d6 guando você alcança o 5º nível (2d6), 11º nível (3d6) e 17 nível (4d6).",
+    "source": "Xanathar"
+}

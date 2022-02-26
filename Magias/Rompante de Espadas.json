@@ -1,0 +1,39 @@
+{
+    "nome": "Rompante de Espadas",
+    "name": "Sword Burst",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "fogo",
+        "sombras",
+        "luz",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (um pouco de pó de prata)",
+    "mana": 50,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "fogo",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "monge",
+        "ladino",
+        "guerreiro",
+        "mago",
+        "bruxo",
+        "feiticeiro"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você cria um círculo momentâneo de lâminas elementais que giram ao seu redor. Todas as outras criaturas a até 1,5m de você devem ser bem-sucedidas em uma salvaguarda de Destreza ou recebem 1d6 de dano elemental.\n\tO dano da magia aumenta em 1d6 quando você alcança o 5º nível (2d6), 11 nível (3d6), e 17º nível (4d6).",
+    "source": "Tasha"
+}

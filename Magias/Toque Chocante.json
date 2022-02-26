@@ -1,0 +1,33 @@
+{
+    "nome": "Toque Chocante",
+    "name": "Shocking Grasp",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "dmg_effect": "relâmpago",
+    "dmg": "1d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "monge",
+        "mago",
+        "bruxo",
+        "feiticeiro"
+    ],
+    "tags": [
+        "dano",
+        "toque"
+    ],
+    "descricao": "Eletricidade surge da sua mão para transmitir um choque em uma criatura que você tentar tocar. Faça um ataque corpo-a-corpo com magia contra o alvo. Você tem vantagem na jogada de ataque se o alvo estiver vestindo qualquer armadura de metal. Se atingir, o alvo sofre 1d8 de dano elétrico e não pode usar reações até o início do próximo turno dele.\n\tO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+    "source": "LDJ"
+}

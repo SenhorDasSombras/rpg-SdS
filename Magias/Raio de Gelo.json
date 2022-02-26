@@ -1,0 +1,36 @@
+{
+    "nome": "Raio de Gelo",
+    "name": "Ray of Frost",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "ar",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "distância",
+    "dmg_effect": "elemental",
+    "dmg": "1d8",
+    "classes": [
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "bardo",
+        "monge"
+    ],
+    "tags": [
+        "dano",
+        "controle"
+    ],
+    "descricao": "Um raio elemental parte em direção de uma criatura, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, ele sofre 1d8 de dano elemental e seu deslocamento é reduzido em 3 metros até o começo do seu próximo turno.\n\tO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+    "source": "LDJ"
+}

@@ -1,0 +1,28 @@
+{
+    "nome": "Golpe Sonoro",
+    "name": "Thunderclap",
+    "nivel": 0,
+    "escola": "musical",
+    "ritual": false,
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "4,5 metros",
+    "componentes": "SM (um instrumento musical)",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "energia",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "monge"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você cria uma violenta explosão sonora, que pode ser ouvida a até 30 metros de distância. Cada criatura diferente de você a até 4,5 metros de você deve realizar um teste de resistência de Constituição. Se falhar na resistência, o alvo sofre 1d6 de dano energético.\n\tO dano da magia aumenta em 1d6 quando você alcança o 5º nível (2d6), 11 º nível (3d6) e 17º nível (4d6).",
+    "source": "Xanathar"
+}

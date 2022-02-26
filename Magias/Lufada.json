@@ -1,0 +1,36 @@
+{
+    "nome": "Lufada",
+    "name": "Gust",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "sombras",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 50,
+    "duracao": "instantânea",
+    "attack_save": "STR Save",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "ladino",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "bardo",
+        "monge"
+    ],
+    "tags": [
+        "utilidade",
+        "controle"
+    ],
+    "descricao": "Você utiliza seu elemento para causar um dos efeitos em um ponto que você pode ver dentro do alcance:\n\t• Uma criatura Média ou menor que você escolher deve ser bem sucedido num teste de resistência de Força ou será afastada 1,5 metros de você.\n\t• Você cria uma pequena rajada elemental capaz de mover um objeto que não esteja sendo segurado nem carregado e que não pese mais de 2,5 quilos. O objeto é afastado 3 metros de você. Ele não é empurrado com força suficiente para causar dano.\n\t• [Ar] Você cria um efeito sensorial inofensível usando o ar, como fazer folhas farfalharem, ventos fecharem persianas, suas roupas balançarem com uma brisa.\n\t• [Sombras] Você cria um efeito sensorial inofensível usando as sombras, como deixar sua sombra maior, diminuir um pouco a luz do ambiente, fazer a sombra de alguém sumir ou criar uma sombra que pode distrair alguém.\n\t• [Terra] Você cria um efeito sensorial inofensível usando terra, como fazer um pequeno morrinho, um leve tremor capaz de desbalancear um pequeno objeto ou assustar alguém.\n\t• [Metal] Você cria um efeito sensorial inofensível como esquentar ou deformar levemente um metal.",
+    "source": "Xanathar"
+}

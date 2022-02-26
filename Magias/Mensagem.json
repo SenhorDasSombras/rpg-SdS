@@ -1,0 +1,33 @@
+{
+    "nome": "Mensagem",
+    "name": "Message",
+    "nivel": 0,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VSM (um pedaço curto de fio de cobre)",
+    "mana": 100,
+    "duracao": "1 rodada",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "ladino",
+        "guerreiro",
+        "monge",
+        "bardo"
+    ],
+    "tags": [
+        "utilidade",
+        "comunicação"
+    ],
+    "descricao": "Você aponta seu dedo para uma criatura dentro do alcance e sussurra uma mensagem. O alvo (e apenas ele) ouvi a mensagem e pode responder com um sussurro que apenas você pode ouvir.\n\tVocê pode conjurar essa magia através de objetos sólidos se você tiver familiaridade com o alvo. Silêncio mágico, 30 centímetros de rocha, 2,5 centímetros de metal comum, uma fina camada de chumbo, ou 90 centímetros de madeira ou terra bloqueiam a magia. A magia não precisa seguir uma linha reta e pode viajar livremente, dobrando esquinas ou através de aberturas.",
+    "source": "LDJ"
+}

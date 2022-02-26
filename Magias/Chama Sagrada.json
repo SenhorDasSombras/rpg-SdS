@@ -1,0 +1,35 @@
+{
+    "nome": "Chama Sagrada",
+    "name": "Secred Flame",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "luz",
+    "dmg": "1d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "monge",
+        "bardo",
+        "ladino",
+        "guerreiro",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "distância"
+    ],
+    "descricao": "Radiação similar a uma chama desce sobre uma criatura que você possa ver, dentro do alcance. O alvo deve ser bem sucedido num teste de resistência de Destreza ou sofrerá 1d8 de dano radiante. O alvo não recebe qualquer benefício de cobertura contra esse teste de resistência.\n\tO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
+    "source": "LDJ"
+}

@@ -1,0 +1,29 @@
+{
+    "nome": "Criar Fogueira",
+    "name": "Create Bonfire",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "fogo"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 100,
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "DEX Save",
+    "dmg_effect": "fogo",
+    "dmg": "1d8",
+    "classes": [
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "controle"
+    ],
+    "descricao": "Você cria uma fogueira no solo em um ponto que você possa ver, dentro do alcance. Até a magia acabar, a fogueira preenche um cubo de 1,5 metros. Qualquer criatura no espaço da fogueira quando você a conjura deve ser bem sucedida num teste de resistência de Destreza ou sofrerá 1d8 de dano de fogo. Uma criatura também deve realizar o teste de resistência quando entrar no espaço da fogueira pela primeira vez em um turno, ou terminar seu turno nela.\n\tVocê gasta mais 50 de mana por turno para continuar se concentrando na magia.\n\tO dano da magia aumenta em 1d8 quando você alcança o 5º nível (2d8), 11º nível (3d8) e 17º nível (4d8).",
+    "source": "Xanathar"
+}

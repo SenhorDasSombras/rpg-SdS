@@ -1,0 +1,34 @@
+{
+    "nome": "Reparo Metálico",
+    "name": "Mending",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "metal"
+    ],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "toque",
+    "componentes": "VSM (dois ímas)",
+    "mana": 200,
+    "duracao": "instantânea",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "guerreiro",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "bardo",
+        "monge"
+    ],
+    "tags": [
+        "toque",
+        "utilidade"
+    ],
+    "descricao": "Essa magia repara uma única quebra ou fissura em um objeto feito de metal que você tocar, como um elo quebrado de uma corrente, duas metades de uma chave partida ou uma arma arranhada. Contanto que a quebra ou fissura não tenha mais de 30 centímetros em qualquer dimensão, você pode remenda-la, não deixando qualquer vestígio do dano anterior.\n\tEssa magia pode reparar fisicamente um item mágico ou constructo, mas a magia não irá restaurar a magia em tais objetos.",
+    "source": "LDJ"
+}

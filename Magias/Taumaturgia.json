@@ -1,0 +1,28 @@
+{
+    "nome": "Taumaturgia",
+    "name": "Thaumaturgy",
+    "nivel": 0,
+    "escola": "ilusionista",
+    "ritual": false,
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "V",
+    "mana": 50,
+    "mana_adicional": "25 por turno",
+    "duracao": "até 1 minuto",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bruxo",
+        "feiticeiro",
+        "mago",
+        "ladino",
+        "guerreiro",
+        "monge"
+    ],
+    "tags": [
+        "utilidade"
+    ],
+    "descricao": "Você manifesta pequenas maravilhas dentro do alcance. Você cria um dos seguintes efeitos mágicos:\n\t• Sua voz ressoa com o triplo do volume normal por 1 minuto.\n\t• Você provoca tremores inofensivos no solo por 1 minuto.\n\t• Você cria, instantaneamente, um som que se origina de um ponto, à sua escolha, dentro do alcance, como o barulho de um trovão, o gralhar de um corvo ou sussurros sinistros.\n\t• Você altera a aparência dos seus olhos por 1 minuto.  Se você conjurar essa magia diversas vezes, você pode ter até três dos efeitos de 1 minuto ativos por vez, e você pode dissipar um desses efeitos com uma ação. Você gasta 25 de mana a cada turno.",
+    "source": "LDJ"
+}

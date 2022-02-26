@@ -1,0 +1,40 @@
+{
+    "nome": "Chicote",
+    "name": "Lightning Lure",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "relâmpago",
+        "luz",
+        "sombras",
+        "metal",
+        "terra",
+        "fogo"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "4,5 metros",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "STR Save",
+    "dmg_effect": "elemental",
+    "dmg": "1d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bruxo",
+        "mago",
+        "feiticeiro",
+        "monge",
+        "guerreiro"
+    ],
+    "tags": [
+        "dano",
+        "distância",
+        "controle",
+        "combate"
+    ],
+    "descricao": "Você cria um chicote elemental que golpeia uma criatura a sua escolha a sua vista a até 4,5m de você. O alvo deve ser bem-sucedido em uma salvaguarda de Força ou é puxado por até 3m em linha reta na sua direção, e então recebe 1d8 de dano elemental se estiver a até 1,5m de você.  O dano dessa magia aumenta em 1d8 quando você alcança o 5º nível (2d8), 11º nível (3d8), e 17º nível (4d8).",
+    "source": "Tasha"
+}

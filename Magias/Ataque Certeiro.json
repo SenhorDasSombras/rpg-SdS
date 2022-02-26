@@ -1,0 +1,28 @@
+{
+    "nome": "Ataque Certeiro",
+    "name": "True Strike",
+    "nivel": 0,
+    "escola": "psíquica",
+    "ritual": false,
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "S",
+    "mana": 100,
+    "duracao": "1 rodada",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "guerreiro",
+        "ladino",
+        "feiticeiro",
+        "bruxo",
+        "mago",
+        "monge"
+    ],
+    "tags": [
+        "buff",
+        "combate"
+    ],
+    "descricao": "Você encara um alvo no alcance, vasculhando seus pensamentos superficiais. Sua magia garante a você uma breve intuição sobre as defesas do alvo. No seu próximo turno, você terá vantagem na primeira jogada de ataque contra o alvo.",
+    "source": "LDJ"
+}

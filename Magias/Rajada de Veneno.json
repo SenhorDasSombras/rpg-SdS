@@ -1,0 +1,37 @@
+{
+    "nome": "Rajada de Veneno",
+    "name": "Poison Spray",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "veneno",
+        "sombras",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "4,5 metros",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "elemental",
+    "dmg": "1d12",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "guerreiro",
+        "ladino",
+        "monge",
+        "bardo",
+        "bruxo",
+        "feiticeiro",
+        "mago"
+    ],
+    "tags": [
+        "dano",
+        "distância"
+    ],
+    "descricao": "Você ergue sua mão em direção de uma criatura que você possa ver, dentro do alcance e projeta um sopro de gás tóxico da sua palma. A criatura deve ser bem sucedida num teste de resistência de Constituição ou sofrerá 1d12 de dano de veneno.\n\tO dano dessa magia aumenta em 1d12 quando você alcança o 5° nível (2d12), 11° nível (3d12) e 17° nível (4d12).",
+    "source": "LDJ"
+}

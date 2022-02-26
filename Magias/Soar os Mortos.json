@@ -1,0 +1,28 @@
+{
+    "nome": "Soar os Mortos",
+    "name": "Toll the Dead",
+    "nivel": 0,
+    "escola": "musical",
+    "ritual": false,
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (um instrumento musical ou canto)",
+    "mana": 200,
+    "duracao": "instantânea",
+    "attack_save": "WIS Save",
+    "dmg_effect": "necrótico",
+    "dmg": "1d8 ou 1d12",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "monge"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você toca uma melodia agoniante que preenche or ar em volta de uma criatura que você pode ver dentro do alcance. O alvo deve ter sucesso em um teste de resistência de Sabedoria ou sofrerá 1d8 de dano necrótico. Se o alvo tiver perdido qualquer de seus pontos de vida, ele sofre um dano necrótico de 1d12.  O dano da magia aumenta em um dado quando atinge o 5º nível (2d8 ou 2d12), 11 º nível (3d8 ou 3d12) e 17º nível (4d8 ou 4d12)",
+    "source": "Xanathar"
+}

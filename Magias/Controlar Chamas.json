@@ -1,0 +1,29 @@
+{
+    "nome": "Controlar Chamas",
+    "name": "Control Flames",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "fogo",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "S",
+    "mana": 100,
+    "duracao": "instantânea ou 1 hora",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "classes": [
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "controle"
+    ],
+    "descricao": "Você escolhe uma chama não mágica que você possa ver, dentro do alcance, e que ocupe até um cubo de 1,5 metros. Você afeta ela de uma das seguintes formas:\n\t• Você instantaneamente expande a chama em 1,5 metro em uma direção, considerando que exista madeira ou outro combustível no local novo.\n\t• Você instantaneamente extingue as chamas dentro do cubo.\n\t• Você dobra ou reduz à metade a área de luz plena e de penumbra emitida pela chama, muda a cor dela, ou ambos. As mudanças duram por 1 hora.\n\t• Você faz com que formas simples - como um forma imprecisa de uma criatura, objeto inanimado ou local - apareçam dentro das chamas e se animem como você quiser. As formas duram por 1 hora.\n\tSe você conjurar essa magia diversas vezes , você pode ter até três dos seus efeitos não instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação.",
+    "source": "Xanathar"
+}

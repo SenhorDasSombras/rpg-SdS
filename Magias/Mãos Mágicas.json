@@ -1,0 +1,32 @@
+{
+    "nome": "Mãos Mágicas",
+    "name": "Mage Hand",
+    "nivel": 0,
+    "escola": "necromancia",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "monge",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade"
+    ],
+    "descricao": "Uma mão espectral flutuante aparece num ponto, à sua escolha, dentro do alcance. A mão permanece pela duração ou até você dissipa-la com uma ação. A mão some se estiver a mais de 9 metros de você ou se você conjurar essa magia novamente.\n\tVocê pode usar sua ação para controlar a mão. Você pode usar a mão para manipular um objeto, abrir uma porta ou recipiente destrancado, guardar ou pegar um item de um recipiente aberto ou derramar o conteúdo de um frasco. Você pode mover a mão até 9 metros a cada vez que a usa.\n\tA mão não pode atacar, ativar itens mágicos.\n\tVocê gasta 20 de mana para cada turno que passar, 50 de mana caso a mão esteja carregando algo que pese mais de 1 quilo e 100 caso ela esteja carregando algo com mais de três quilos. Se ela tentar carregar mais de 5 quilos, você deve fazer um teste de resistência de sua habilidade de conjuração CD 12 + a quantidade de quilos acima de 5. Além disso, você gasta 100 vezes a quantidade de quilos acima de 5 pontos de mana por turno.",
+    "source": "LDJ"
+}

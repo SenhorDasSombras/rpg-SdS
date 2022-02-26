@@ -1,0 +1,35 @@
+{
+    "nome": "Lâmina Estrondosa",
+    "name": "Booming Blade",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "relâmpago",
+        "ar",
+        "luz",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (arma marcial corpo-a-corpo)",
+    "mana": 100,
+    "duracao": "1 rodada",
+    "attack_save": "corpo-a-corpo",
+    "dmg_effect": "elemental",
+    "dmg": "1d8",
+    "classes": [
+        "ladino",
+        "guerreiro",
+        "paladino"
+    ],
+    "tags": [
+        "dano",
+        "combate",
+        "controle",
+        "corpo-a-corpo",
+        "arma"
+    ],
+    "descricao": "Você brande a arma utilizada na conjuração dessa magia e faz um ataque corpo a corpo contra uma criatura até 1,5m de você. Em um acerto, o alvo sofre os efeitos normais do ataque da arma e então fica envolvo em energia estrondosa até o começo do seu próximo turno. Se o alvo se mover 1,5m ou mais de forma voluntária após isso, ele recebe 1d8 de dano do seu elemento e a magia se encerra.\n\tO dano da magia aumenta quando você alcança certos níveis. No 5º nível, o ataque corpo a corpo provoca 1d8 de dano adicional se acertar, e o dano que o alvo recebe por se mover aumenta para 2d8. Ambos os danos aumentam em 1d8 no 11º nível (2d8 e 3d8) e novamente no 17º nível (3d8 e 4d8).",
+    "source": "Tasha"
+}

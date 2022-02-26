@@ -1,0 +1,35 @@
+{
+    "nome": "Globos de Luz",
+    "name": "Dancing Lights",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "luz",
+        "fogo"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VSM (um pouco de fósforo ou wychwood ou um inseto luminoso)",
+    "mana": 50,
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "feiticeiro",
+        "mago",
+        "ladino",
+        "guerreiro",
+        "bruxo",
+        "monge"
+    ],
+    "tags": [
+        "utilidade"
+    ],
+    "descricao": "Você cria até quatro luzes do tamanho de tochas dentro do alcance, fazendo-as parecerem tochas, lanternas ou esferas luminosas que flutuam no ar pela duração. Você também pode combinar as quatro luzes em uma forma luminosa, vagamente humanoide, de tamanho Médio. Qualquer que seja a forma que você escolher, cada luz produz penumbra num raio de 3 metros.\n\tCom uma ação bônus, no seu turno, você pode mover as luzes, até 18 metros, para um novo local dentro do alcance. Uma luz deve estar a, pelo menos, 6 metros de outra luz criada por essa magia e uma luz some se exceder o alcance da magia.\n\tVocê gasta 25 de mana por turno para manter essa magia ativa.",
+    "source": "LDJ"
+}

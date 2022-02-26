@@ -1,0 +1,31 @@
+{
+    "nome": "Proteção contra Lâminas",
+    "name": "Blade Ward",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 100,
+    "duracao": "1 rodada",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "mago",
+        "bardo"
+    ],
+    "tags": [
+        "defesa",
+        "combate"
+    ],
+    "descricao": "[Ar] Você estende sua mão e traça uma parede de vento que te protege.\n[Água] Você cria um fluxo de água ao seu redor, protegendo sua pele de lâminas.\n[Terra] Você torna sua pele mais resistente, como uma rocha.[Metal] Você torna sua pele mais resistente, como metal.\n\n\tAté seu próximo turno, você tem resistência contra dano de concussão, cortante e perfurante de ataques com armas.",
+    "source": "LDJ"
+}
