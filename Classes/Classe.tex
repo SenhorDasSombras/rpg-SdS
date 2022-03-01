@@ -1,0 +1,963 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{RPG_Adventure}[2021/10/20]
+
+\input{/home/giatro/.config/user/giatro_packages.tex}
+
+\input{/home/giatro/.config/user/giatro_macros.tex}
+
+\title{Classes de\\ \Huge{O Senhor das Sombras}}
+\date{\today}
+\author{Lucas Paiolla Forastiere}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Bárbaro}%
+\label{cha:barbaro}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Clérigo}%
+\label{cha:clerigo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Guerreiro}%
+\label{cha:guerreiro}
+
+\section*{Características de Classe\t\t}%
+\label{sec:caracteristicas_de_classe}
+
+Como um mago, você adquire as seguintes características de classe.
+
+\subsubsection{Pontos de Vida}%
+\label{ssub:pontos_de_vida}
+
+\textbf{Dado de Vida}: 1d10 por nível de guerreiro \nl
+\textbf{Pontos de Vida no 1º Nível:} 10 + seu modificador de Constituição. \nl
+\textbf{Pontos de vida nos Níveis Seguintes:} 1d10 (ou 6) + seu modificador de
+Constituição por nível de guerreiro após o 1º.
+
+\subsubsection{Proficiências}%
+\label{ssub:proficiencias}
+
+\textbf{Armaduras:} Todas as armaduras, escudos \nl
+\textbf{Armas:} Armas simples, armas marciais \nl
+\textbf{Ferramentas:} Nenhuma \jump
+\textbf{Testes de Resistência}: Força, Constituição \nl
+\textbf{Pericias:} Escolha duas entre Acrobacia, Adestrar Animais, Atletismo,
+História, Intuição, Intimidação, Percepção e Sobrevivência.
+
+\subsubsection{Equipamento}%
+\label{ssub:equipamento}
+
+Você começa com o seguinte equipamento, além do equipamento concedido pelo seu
+antecedente.
+\begin{itemize}
+    \item (a) uma cota de malha ou (b) um gibão de peles, um arco longo e 20
+        flechas;
+    \item (a) uma arma marcial e um escudo ou (b) duas armas marciais;
+    \item (a) uma besta leve e 20 virotes ou (b) dois machados de arremesso;
+    \item (a) um pacote de aventureiro ou (b) um pacote de explorador.
+\end{itemize}
+
+\section*{Estilo de Luta\t\t\t\t\t\t\t\t\t}%
+\label{sec:estilo_de_luta}
+
+Você adota um estilo de combate particular que será sua especialidade. Escolhe
+uma das opções a seguir. Você não pode escolher o mesmo Estilo de Combate mais
+de uma vez, mesmo se puder escolher novamente.
+
+\subsubsection{Arquearia}%
+\label{ssub:arquearia}
+
+Você ganha +2 de bônus nas jogadas de ataque realizadas com uma arma de ataque à
+distância.
+
+\subsubsection{Arremesso de Armas}%
+\label{ssub:arremesso_de_armas}
+
+Você pode sacar uma arma que possua a propriedade de arremesso como parte de sua
+ação de ataque com essa arma.
+
+Adicionalmente, quando você acerta um ataque à distância usando uma arma de
+arremesso, você ganha um bônus de +2 na jogada de dano.
+
+\subsubsection{Ataque Desarmado}%
+\label{ssub:ataque_desarmado}
+
+Seus ataques desarmados podem provocar dano contundente igual a 1d6 + seu
+modificador de Força em caso de acerto. Se você não estiver empunhando nenhuma
+arma ou escudo ao realizar a jogada de ataque, esse 1d6 se transforma em 1d8.
+
+No começo de cada um de seus turnos, você pode causar 1d4 de dano contundente a
+uma criatura agarrada por você.
+
+\subsubsection{Combate com Armas Grandes}%
+\label{ssub:combate_com_armas_grandes}
+
+Quando você rolar um $1$ ou $2$ num dado de dano de um ataque com uma arma
+corpo-a-corpo que você esteja empunhando com duas mãos, você pode rolar o dado
+novamente e usar a nova rolagem. A arma deve ter a propriedade duas mãos ou
+versátil para ganhar esse benefício.
+
+\subsubsection{Combate com Duas Armas}%
+\label{ssub:combate_com_duas_armas}
+
+Quando você estiver engajado em uma luta com duas armas, você pode adicionar o
+seu modificador de habilidade de dano na jogada de dano de seu segundo ataque.
+
+\subsubsection{Defesa}%
+\label{ssub:defesa}
+
+Enquanto estiver usando armadura, você ganha +1 de bônus em sua CA.
+
+\subsubsection{Duelismo}%
+\label{ssub:duelismo}
+
+Quando você empunhar uma arma de ataque corpo-a-corpo em uma mão e nenhuma outra
+arma, você ganha +2 de bônus nas jogadas de dano com essa arma.
+
+\subsubsection{Interceptador}%
+\label{ssub:interceptador}
+
+Quando uma criatura que você possa ver acerta um alvo que não seja você, a até
+1,5m de distância de você com um ataque, você pode usar sua reação para reduzir
+o dano recebido por esse alvo em 1d10 + seu bônus de proficiência (até um mínimo
+de 0 de dano). Você deve estar empunhando um escudo ou uma arma simples ou
+marcial para usar essa reação.
+
+\subsubsection{Luta as Cegas}%
+\label{ssub:luta_as_cegas}
+
+Você tem percepção às cegas com um alcance de 3m. Dentro desse alcance, você
+pode efetivamente ver qualquer coisa que não esteja sob cobertura total, mesmo
+se você estiver cego ou na escuridão. Além disso, você pode ver uma criatura
+invisível nessa área, a menos que a criatura se esconda de você com sucesso.
+
+\subsubsection{Proteção}%
+\label{ssub:protecao}
+
+Quando uma criatura que você possa ver atacar um alvo que esteja a até 1,5 metro
+de você, você pode usar sua reação para impor desvantagem nas jogadas de ataque
+da criatura. Você deve estar empunhando um escudo.
+
+\subsubsection{Técnica Superior}%
+\label{ssub:tecnica_superior}
+
+Você aprende uma manobra a sua escolha dentre aquelas disponíveis para o
+arquétipo do Mestre de Batalha. Se uma manobra que você utilizar exigir que o
+alvo realize uma jogada de salvaguarda para resistir ao efeito dela, a CD da
+salvaguarda será igual a 8 + seu bônus de proficiência + seu modificador de
+Força ou Destreza (o que você preferir).
+
+Você ganha um dado de superioridade, que é 1d6 (esse dado é adicionado a
+quaisquer dados de superioridade que você tenha de outra fonte). Esse dado é
+usado para abastecer suas manobras. Um dado de superioridade é gasto quando você
+o utiliza. Você recupera os dados gastos quando você termina um descanso curto
+ou longo.
+
+\section*{Retomar o Fôlego\t\t\t\t\t\t\t}%
+\label{sec:retomar_o_folego}
+
+Você possui uma reserva de estamina e pode usá-la para proteger a si mesmo
+contra danos. No seu turno, você pode usar uma ação bônus para recuperar pontos
+de vida igual a 1d10 + seu nível de guerreiro.
+
+Uma vez que você use essa característica, você precisa terminar um descanso
+curto ou longo para usá-la de novo.
+
+\section*{Surto de Ação\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:surto_de_acao}
+
+A partir do 2º nível, você pode forçar o seu limite para além do normal por um
+momento. Durante o seu turno, você pode realizar uma ação adicional juntamente
+com sua ação e possível ação bônus.
+
+Uma vez que você use essa característica, você precisa terminar um descanso
+curto ou longo para usá-la de novo.
+
+A partir do 17º nível, você pode usá-la duas vezes antes do descanso, porém
+somente uma vez por turno.
+
+\section*{Arquétipo Marcial\t\t\t\t\t\t\t}%
+\label{sec:arquetipo_marcial}
+
+No 3º nível, você escolhe um arquétipo o qual se esforçará para seguir as
+técnicas e estilos de combate dele. Todos os arquétipos estão detalhados no
+final da descrição da classe. O arquétipo confere a você características
+especial no 3º nível e de novo nos 7º, 10º, 15º e 18º nível.
+
+\section*{Incremento em Habilidade\t\t}%
+\label{sec:incremento_em_habilidade}
+
+Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode
+ganha dois pontos de habilidades para distribuir entre suas habilidades. Por
+padrão, você não pode elevar um valor de habilidade acima de 20 com essa
+característica.
+
+Opcionalmente, você pode escolher um talento seguindo as regras de talentos.
+
+\section*{Ataque Extra\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:ataque_extra}
+
+A partir do 5º nível, você pode atacar duas vezes, ao invés de uma, quando usar
+a ação Atacar durante o seu turno.
+
+O número de ataques aumenta para três quando você alcançar o 11º nível de
+guerreiro e para 4 quando alcançar o 20º nível de guerreiro.
+
+\section*{Indomável\t\t\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:indomavel}
+
+A partir do 9º nível, você pode jogar de novo um teste de resistência que
+falhou. Se o fizer, você deve usar o novo valor e não pode usar essa
+característica de novo antes de terminar um descanso longo.
+
+Você pode usar esta característica duas vezes entre descansos longos quando
+chegar no 13º nível e três vezes entre descansos longos quando chegar no 17º
+nível.
+
+\section*{Arquétipos Marciais\t\t\t\t\t\t}%
+\label{sec:arquetipos_marciaistttttt}
+
+Diferentes guerreiros escolhem diferentes caminhos para aperfeiçoar seu poder em
+combate. O arquétipo marcial que você escolhe seguir reflete essa escolha.
+
+\subsection*{Campeão}%
+\label{sub:campeao}
+
+O arquétipo Campeão foca no desenvolvimento da pura força física acompanhada por
+uma perfeição mortal.
+
+Aqueles que trilham o caminho desse arquétipo combinam rigorosos treinamentos
+com excelência física para desferir golpes devastadores.
+
+\subsubsection{Crítico Aprimorado}%
+\label{ssub:critico_aprimorado}
+
+A partir do 3º nível, seus ataques com armas adquirem uma margem de acerto
+crítico de 19 a 20 nas jogadas de ataque.
+
+\subsubsection{Atletismo Extraordinário}%
+\label{ssub:atletismo_extraordinario}
+
+A partir do 7º nível, você adiciona metade de seu bônus de proficiência
+(arredondado para cima) em qualquer teste de Força, Destreza ou Constituição que
+você já não aplique seu bônus de proficiência.
+
+Além disso, quando você fizer um salto longo com corrida, o alcance em metros
+que poderá saltar aumenta em 0,3 vezes o seu modificador de Força.
+
+\subsubsection{Estilo de Luta Adicional}%
+\label{ssub:estilo_de_luta_adicional}
+
+No 10º nível, você pode escolher um segundo Estilo de Combate da sua
+característica de classe.
+
+\subsubsection{Crítico Superior}%
+\label{ssub:critico_superior}
+
+A partir do 15º nível, seus ataques com armas adquirem uma margem de acerto
+crítico de 18 a 20 nas jogadas de ataque.
+
+\subsubsection{Sobrevivente}%
+\label{ssub:sobrevivente}
+
+No 18º nível, você alcança o topo da resiliência em batalha. No começo de cada
+um de seus turnos, você recupera uma quantidade de pontos de vida igual a 5 +
+seu modificador de Constituição se não estiver com mais que metade de seus
+pontos de vida. Você não recebe esse benefício se estiver com 0 pontos de vida.
+
+\subsection*{Mestre de Batalha}%
+\label{sub:mestre_de_batalha}
+
+Aqueles que emulam o arquétipo de Mestre de Batalha empregam técnicas marciais
+passadas de geração em geração. Para um Mestre de Batalha, o combate é um campo
+acadêmico, as vezes, incluindo assuntos além da batalha, como forjaria e
+caligrafia. Nem todo guerreiro absorve as lições de história, teoria e arte que
+são refletidas no arquétipo de Mestre de Batalha, mas aqueles que conseguem,
+tornam-se guerreiros bem-supridos de grande perícia e conhecimento.
+
+\subsubsection{Superioridade em Combate}%
+\label{ssub:superioridade_em_combate}
+
+Quando você escolhe esse arquétipo, no 3° nível, você aprende manobras que são
+abastecidas com dados especiais chamados dados de superioridade.
+
+\textbf{Manobras.} Você aprende três manobras, à sua escolha, que são detalhadas
+em ``Manobras'', a seguir.
+
+Muitas manobras aprimoram um ataque de várias formas.  Você só pode usar uma
+manobra por ataque.
+
+Você aprende duas manobras adicionais, à sua escolha, no 7°, 10° e 15° nível. A
+cada vez que você aprende uma nova manobra, você pode substituir uma manobra
+conhecida por uma diferente.
+
+\textbf{Dados de Superioridade.} Você tem quatro dados de superioridade, que são
+d8s. Um dado de superioridade é gasto quando você usa-o. Você recupera todos os
+dados de superioridade gastos quando terminar um descanso curto ou longo.
+
+Você adquire outro dado de superioridade no 7° nível e mais um no 15° nível.
+
+\textbf{Teste de Resistência.} Algumas das suas manobras exigem que o alvo
+realize um teste de resistência contra o efeito da manobra. A CD do teste de
+resistência é calculada a seguir:\jump
+\textbf{CD para suas manobras} = 8 + bônus de proficiência + seu modificador de
+Força ou Destreza (à sua escolha).
+
+\subsubsection{Estudioso da Guerra}%
+\label{ssub:estudioso_da_guerra}
+
+No 3° nível, você ganha proficiência com um tipo de ferramenta de artesão, à sua
+escolha.
+
+\subsubsection{Conheça seu Inimigo}%
+\label{ssub:conheca_seu_inimigo}
+
+A partir do 7° nível, se você gastar, pelo menos, 1 minuto observando ou
+interagindo com outra criatura fora de combate, você pode aprender certas
+informações sobre as capacidades dela comparadas as suas. O Mestre conta a você
+se a criatura é igual, superior ou inferior a você a respeito de duas das
+seguintes características, à sua escolha:
+
+\begin{itemize}
+    \item Valor de Força
+    \item Valor de Destreza
+    \item Valor de Constituição
+    \item Classe de Armadura
+    \item Pontos de Vida atuais
+    \item Nível total de classe (se possuir)
+    \item Níveis da classe guerreiro (se possuir)
+\end{itemize}
+
+\subsubsection{Superiorridade em Combate Aprimorada}%
+\label{ssub:superiorridade_em_combate_aprimorada}
+
+No 10° nível, seus dados de superioridade se tornam d10s.
+
+No 18° nível, eles se tornam d12s.
+
+\subsubsection{Implacável}%
+\label{ssub:implacavel}
+
+No 15º nível, quando você rolar iniciativa e não tiver nenhum dado de
+superioridade restante, você recupera um dado de superioridade.
+
+\subsubsection{Manobras}%
+\label{ssub:manobras}
+
+As manobras são apresentadas em ordem alfabética.
+
+\paragraph{Aparar.} Quando outra criatura causar dano a você com um ataque
+corpo-a-corpo, você pode usar sua reação e gastar um dado de superioridade para
+reduzir o dano pelo número rolado no dado de superioridade + seu modificador de
+Destreza.
+
+\paragraph{Ataque Ameaçador.} Quando você atingir uma criatura com um ataque com
+arma, você pode gastar um dado de superioridade para tentar amedrontar o alvo.
+Você adiciona seu dado de superioridade a jogada de dano do ataque e o alvo deve
+realizar um teste de resistência de Sabedoria. Se falhar, ele ficará com medo de
+você até o final do seu próximo turno.
+
+\paragraph{Ataque de Encontrão.} Quando você atingir uma criatura com um ataque
+com arma, você pode gastar um dado de superioridade para tentar empurrar o alvo
+para trás. Você adiciona seu dado de superioridade a jogada de dano do ataque e,
+se o alvo for Grande ou menor, ele deve realizar um teste de resistência de
+Força. Se falhar, você empurra o alvo para até 4,5 metros de você.
+
+\paragraph{Ataque de Finta.} Você pode gastar um dado de superioridade e usar
+uma ação bônus, no seu turno, para fintar, escolhendo uma criatura a 1,5 metro
+de você como alvo. Você tem vantagem na sua próxima jogada de ataque contra essa
+criatura, nesse turno. Se o ataque atingir, você adiciona seu dado de
+superioridade ao dano do ataque.
+
+\paragraph{Ataque de Manobra.} Quando você atingir uma criatura com um ataque
+com arma, você pode gastar um dado de superioridade para tentar manobrar um de
+seus companheiros para uma posição mais vantajosa. Você adiciona seu dado de
+superioridade a jogada de dano do ataque e escolhe uma criatura amigável que
+possa ver ou ouvir você. Aquela criatura pode usar sua reação para se mover até
+metade do seu deslocamento, sem provocar ataques de oportunidade do alvo do seu
+ataque.
+
+\paragraph{Ataque de Precisão.} Quando você realizar uma jogada de ataque com
+arma contra uma criatura, você pode gastar um dado de superioridade para
+adicioná-lo a jogada. Você pode usar essa manobra antes ou depois de realizar a
+jogada de ataque, mas deve usá-la antes de qualquer efeito do ataque ser
+aplicado.
+
+\paragraph{Ataque Desarmante.} Quando você atingir uma criatura com um ataque
+com arma, você pode gastar um dado de superioridade para tentar desarmar o alvo,
+forçando-o a derrubar um item, à sua escolha, que ele esteja empunhando. Você
+adiciona o dado de superioridade a jogada de dano do ataque e o alvo deve
+realizar um teste de resistência de Força. Se fracassar, ele derrubará o objeto
+escolhido. O objeto cai aos pés dele.
+
+\paragraph{Ataque Estendido.} Quando você atingir uma criatura com um ataque
+corpo-a-corpo com arma, você pode gastar um dado de superioridade para aumentar
+o alcance do seu ataque em 1,5 metro. Se você atingir, você adiciona o seu dado
+de superioridade ao dano causado pelo ataque.
+
+\paragraph{Ataque Provocante.} Quando você atingir uma criatura com um ataque
+com arma, você pode gastar um dado de superioridade para tentar incitar a alvo a
+atacar você. Você adiciona seu dado de superioridade a jogada de dano do ataque
+e o alvo deve realizar um teste de resistência de Sabedoria. Se falhar, o alvo
+terá desvantagem em todas as jogadas de ataque contra alvos diferentes de você,
+até o fim do seu próximo turno.
+
+\paragraph{Ataque Trespassante.} Quando você atingir uma criatura com um ataque
+corpo-a-corpo com arma, você pode gastar um dado de superioridade para tentar
+causar dano a outra criatura com o mesmo ataque. Escolha uma criatura a 1,5
+metro do alvo original e que esteja no seu alcance. Se a jogada de ataque
+original atingiria a segunda criatura, ela sofre dano igual ao número rolado no
+dado de superioridade. O dano é do mesmo tipo que o causado pelo ataque
+original.
+
+\paragraph{Avaliação Tática} Quando você fizer um teste de Inteligência
+(Investigação), Inteligência (História) ou Sabedoria (Intuição), você pode
+gastar um dado de superioridade e adicioná-lo a esse teste.
+
+\paragraph{Contra-Atacar.} Quando uma criatura atacar você com um ataque
+corpo-a-corpo e errar, você pode usar sua reação e gastar um dado de
+superioridade para realizar um ataque corpo-a-corpo com arma contra essa
+criatura.  Se você atingir, você adiciona seu dado de superioridade a jogada de
+dano do ataque.
+
+\paragraph{Derrubar.} Quando você atingir uma criatura com um ataque com arma,
+você pode gastar um dado de superioridade para tentar derrubar o alvo no chão.
+Você adiciona seu dado de superioridade a jogada de dano do ataque e, se o alvo
+for Grande ou menor, ele deve realizar um teste de resistência de Força. Se
+falhar, o alvo ficará caído no chão.
+
+\paragraph{Emboscada} Quando você realizar um teste de Destreza (Furtividade) ou
+uma jogada de iniciativa, você pode gastar um dado de superioridade e adicionar
+o valor do dado na rolagem, desde que você não esteja incapacitado.
+
+\paragraph{Engodo} Quando você estiver a até 1,5m de uma criatura em seu turno,
+você pode gastar um dado de superioridade e trocar de lugar com essa criatura,
+desde que você gaste pelo menos 1,5m de movimento e a criatura seja voluntária e
+não esteja incapacitada. Esse movimento não provoca ataques de oportunidade.
+Jogue o dado de superioridade. Até o começo do seu próximo turno, você ganha um
+bônus na CA igual ao número rolado.
+
+\paragraph{Enganchar} Quando uma criatura que você possa ver se move dentro do
+alcance que você possui com uma arma corpo-a-corpo que você está empunhando,
+você pode usar sua reação para gastar um dado de superioridade e realizar um
+ataque contra essa criatura, usando essa arma. Se o ataque acertar, adicione o
+dado de superioridade à jogada de dano da arma.
+
+\paragraph{Golpe Distrativo.} Quando você atingir uma criatura com um ataque com
+arma, você pode gastar um dado de superioridade para tentar distrair a criatura,
+abrindo uma brecha para um de seus aliados. Você adiciona seu dado de
+superioridade a jogada de dano do ataque. A próxima jogada de ataque realizada
+contra o alvo por uma criatura diferente de você, tem vantagem, se o ataque for
+realizado antes do começo do seu próximo turno.
+
+\paragraph{Golpe do Comandante.} Quando você realiza a ação de Ataque, no seu
+turno, você pode desistir de um dos seus ataques e usar uma ação bônus para
+direcionar o ataque de um dos seus companheiros. Quando você faz isso, escolha
+uma criatura amigável que possa ver ou ouvir você e gaste um dado de
+superioridade. Essa criatura pode, imediatamente, usar sua reação para realizar
+um ataque com arma, adicionando seu dado de superioridade a jogada de dano do
+ataque.
+
+\paragraph{Inspirar.} No seu turno, você pode usar uma ação bônus e gastar um
+dado de superioridade para reforçar a determinação dos seus companheiros. Quando
+o fizer, escolha uma criatura amigável que possa ver ou ouvir você. Essa
+criatura ganha uma quantidade de pontos de vida temporários igual a sua rolagem
+de dado de superioridade + seu modificador de Carisma.
+
+\paragraph{Passo Evasivo.} Quando você se mover, você pode gastar um dado de
+superioridade, role o dado e adicione o número rolado a sua CA até você terminar
+seu deslocamento.
+
+\paragraph{Presença Dominante} Quando você realizar um teste de Carisma
+(Intimidação, Performance ou Persuasão), você pode gastar um dado de
+superioridade e adicionar o resultado dele a esse teste.
+
+\paragraph{Golpe Imobilizador} Imediatamente após acertar uma criatura com um
+ataque corpo-a-corpo em seu turno, você pode gastar um dado de superioridade e
+então tentar agarrar o alvo como uma ação bônus (veja o Livro do Jogador para as
+regras sobre Agarrar). Adicione o dado de superioridade ao seu teste de Força
+(Atletismo).
+
+\paragraph{Lançamento Rápido} Como uma ação bônus, você pode gastar um dado de
+superioridade e realizar um ataque com uma arma que tenha a propriedade de
+arremesso. Você pode sacar a arma como parte dessa ação de ataque. Se você
+acertar, adicione o dado de superioridade na jogada de dano da arma.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Ladino}%
+\label{cha:ladino}
+
+\section*{Características de Classe\t\t}%
+\label{sec:caracteristicas_de_classe}
+
+Como um mago, você adquire as seguintes características de classe.
+
+\subsubsection{Pontos de Vida}%
+\label{ssub:pontos_de_vida}
+
+\textbf{Dado de Vida}: 1d8 por nível de ladino \nl
+\textbf{Pontos de Vida no 1º Nível:} 8 + seu modificador de Constituição. \nl
+\textbf{Pontos de vida nos Níveis Seguintes:} 1d8 (ou 5) + seu modificador de
+Constituição por nível de ladino após o 1º.
+
+\subsubsection{Proficiências}%
+\label{ssub:proficiencias}
+
+\textbf{Armaduras:} Armaduras leves \nl
+\textbf{Armas:} Armas simples, bestas de mão, espadas longas, rapieiras, espadas
+curtas\nl
+\textbf{Ferramentas:} Ferramentas de ladrão \jump
+\textbf{Testes de Resistência}: Destreza, Inteligência \nl
+\textbf{Pericias:} Escolha quatro entre Acrobacia, Atletismo, Atuação,
+Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção,
+Persuasão e Prestidigitação.
+
+\subsubsection{Equipamento}%
+\label{ssub:equipamento}
+
+Você começa com o seguinte equipamento, além do equipamento concedido pelo seu
+antecedente.
+\begin{itemize}
+    \item (a) uma rapieira ou (b) uma espada longa;
+    \item (a) um arco curto e uma aljava com 20 flechas ou (b) uma espada curta;
+    \item (a) um pacote de assaltante ou (b) um pacote de aventureiro ou (c) um
+        pacote de explorador;
+    \item Armadura de couro, duas adagas e ferramentas de ladrão.
+\end{itemize}
+
+\section*{Especialização\t\t\t\t\t\t\t\t\t}%
+\label{sec:especializacaottttttttt}
+
+No 1º nível, você escolhe duas de suas perícias que seja proficiente, ou uma
+perícia que seja proficiente e ferramentas de ladrão. Seu bônus de proficiência
+é dobrado em qualquer teste de habilidade que fizer com elas.
+
+No 6º nível, você pode escolher outras duas de suas proficiências (em perícias
+ou ferramentas de ladrão) para ganhar esse benefício.
+
+\section*{Ataque Furtivo\t\t\t\t\t\t\t\t\t}%
+\label{sec:ataque_furtivo}
+
+A partir do 1º nível, você sabe como atacar sutilmente e explorar a distração de
+seus inimigos. Uma vez por turno, você pode adicionar 1d6 nas jogadas de dano
+contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de
+ataque. O ataque deve ser com uma arma de acuidade ou à distância.
+
+Você não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo
+estiver a 1,5 metro de distância dele, desde que este inimigo não esteja
+incapacitado e você não tenha desvantagem nas jogadas de ataque.
+
+A quantidade de dano extra aumenta conforme você ganha níveis nessa classe, como
+mostrado na coluna Ataque Furtivo da tabela O Ladino.
+
+\section*{Gíria de Ladrão\t\t\t\t\t\t\t\t}%
+\label{sec:giria_de_ladrao}
+
+Durante seu treinamento você aprendeu as gírias de ladrão, um misto de dialeto,
+jargão e códigos secretos que permitem você passar mensagens secretas durante
+uma conversa aparentemente normal. Somente outra criatura que conheça essas
+gírias de ladrão entende as mensagens.
+
+Leva-se quatro vezes mais tempo para transmitir essa mensagem do que falar a
+mesma ideia claramente.
+
+Além disso, você entende um conjunto de sinais secretos e símbolos usados para
+transmitir mensagens curtas e simples, como saber se uma área é perigosa ou se é
+território de uma guilda de ladrões, se o saque está próximo, se as pessoas na
+área são alvos fáceis ou até mesmo indicar lugares seguros para ladinos se
+esconderem.
+
+\section*{Ação Ardilosa\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:acao_ardilosa}
+
+A partir do 2º nível, seu pensamento rápido e agilidade faz você se mover e agir
+rapidamente. Você pode usar uma ação bônus durante cada um de seus turnos em
+combate. Esta ação pode ser usada somente para Disparada, Desengajar ou
+Esconder.
+
+\section*{Arquétipo de Ladino\t\t\t\t\t\t}%
+\label{sec:arquetipo_de_ladino}
+
+No 3º nível, você escolhe um arquétipo que se esforçará para se equiparar
+através de exercícios de suas habilidades de ladino. Sua escolha garante a você
+características no 3º nível e de novo no 9º, 13º e 17º nível. As possíveis
+escolhas estão detalhadas no final da descrição da classe.
+
+\section*{Incremento em Habilidade\t\t}%
+\label{sec:incremento_em_habilidade}
+
+Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode
+ganha dois pontos de habilidades para distribuir entre suas habilidades. Por
+padrão, você não pode elevar um valor de habilidade acima de 20 com essa
+característica.
+
+Opcionalmente, você pode escolher um talento seguindo as regras de talentos.
+
+\section*{Esquiva Sobrenatural\t\t\t\t\t}%
+\label{sec:esquiva_sobrenatural}
+
+A partir do 5º nível, quando um inimigo que você possa ver o acerta com um
+ataque, você pode usar sua reação para reduzir pela metade o dano sofrido.
+
+\section*{Evasão\t\t\t\t\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:evasao}
+
+A partir do 7º nível, você pode esquivar-se agilmente de certos efeitos em área,
+como o sopro flamejante de um dragão vermelho ou uma magia tempestade de gelo.
+
+Quando você for alvo de um efeito que exige um teste de resistência de Destreza
+para sofrer metade do dano, você não sofre dano algum se passar, e somente
+metade do dano se falhar.
+
+\section*{Talento Confiável\t\t\t\t\t\t\t}%
+\label{sec:talento_confiavel}
+
+No 11º nível, você refinou suas perícias beirando à perfeição. Toda vez que você
+fizer um teste de habilidade no qual possa adicionar seu bônus de proficiência,
+você trata um resultado no d20 de 9 ou menor como um 10.
+
+\section*{Sentido Cego\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:sentido_cego}
+
+No 14º nível, se você for capaz de ouvir, você está ciente da localização de
+qualquer criatura escondida ou invisível a até 3 metros de você
+
+\section*{Mente Escorregadia\t\t\t\t\t\t}%
+\label{sec:mente_escorregadia}
+
+No 15º nível, você adquire uma grande força de vontade, adquirindo proficiência
+nos testes de resistência de Sabedoria.
+
+\section*{Elusivo\t\t\t\t\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:elusivo}
+
+A partir do 18º nível, você se torna tão sagaz que raramente alguém encosta a
+mão em você. Nenhuma jogada de ataque tem vantagem contra você, desde que você
+não esteja incapacitado.
+
+\section*{Golpe de Sorte\t\t\t\t\t\t\t\t\t}%
+\label{sec:golpe_de_sorte}
+
+No 20º nível, você adquire um dom incrível para ter sucesso nos momentos em que
+mais precisa. Se um ataque seu falhar contra um alvo ao seu alcance, você pode
+transformar essa falha em um acerto. Ou se falhar em um teste qualquer, você
+pode tratar a jogada desse mesmo teste como 20 natural.
+
+Uma vez que você use essa característica, você não pode fazê-lo de novo até
+terminar um descanso curto ou longo.
+
+\section*{Arquétipos de Ladino\t\t\t\t\t}%
+\label{sec:arquetipos_de_ladino}
+
+Ladinos possuem muitas características em comum, incluindo a ênfase no
+aperfeiçoamento de suas perícias, na precisão e aproximação mortal em combate, e
+nos seus reflexos cada vez mais rápidos. Mas, diferentes ladinos orientam seus
+talentos em direções variadas, personificadas pelos vários arquétipos de ladino.
+Seu arquétipo escolhido reflete o seu foco – não necessariamente a indicação de
+sua profissão, mas a descrição de suas técnicas preferidas.
+
+\subsection*{Assassino}%
+\label{sub:assassino}
+
+Você focou seu treinamento na macabra arte da morte.
+
+Aqueles que devotam-se a esse arquétipo são diversos: assassinos de aluguel,
+espiões, caçadores de recompensa e, até mesmo, padres especialmente treinados em
+exterminar os inimigos das suas divindades. Subterfúgio, veneno e disfarces
+ajudam você a eliminar seus oponentes com eficiência mortífera.
+
+\subsubsection{Proficiência Adicional}%
+\label{ssub:proficiencia_adicional}
+
+Quando você escolhe esse arquétipo, no 3º nível, você ganha proficiência com kit
+de disfarce e kit de venenos.
+
+\subsubsection{Assassinar}%
+\label{ssub:assassinar}
+
+A partir do 3° nível, você fica mais mortal quando pega seus oponentes
+desprevenidos. Você tem vantagem nas jogadas de ataque contra qualquer criatura
+que ainda não tenha chegado ao turno dela no combate. Além disso, qualquer
+ataque que você fizer contra essa criatura que está surpresa, será um ataque
+crítico.
+
+\subsubsection{Especialização em Infiltração}%
+\label{ssub:especializacao_em_infiltracao}
+
+A partir do 9° nível, você pode infalivelmente, criar identidades falsas para si
+mesmo. Você deve gastar sete dias e 25 po para estabelecer o histórico,
+profissão e filiações para uma identidade. Você não pode estabelecer uma
+identidade que pertença a alguém. Por exemplo, você deveria adquirir roupas
+apropriadas, cartas de introdução e um certificado, aparentemente oficial, para
+estabelecer-se como um membro da casa de comércio de uma cidade remota, assim,
+você poderia introduzir-se na companhia de outros comerciantes abastados.
+
+Posteriormente, se você adotar a nova identidade como disfarce, outras criaturas
+acreditarão que você é aquela pessoa, até terem algum motivo obvio para pensarem
+o contrário.
+
+\subsubsection{Impostor}%
+\label{ssub:impostor}
+
+No 13° nível, você adquire a habilidade de imitar a fala, escrita e
+comportamento de outra pessoa, infalivelmente.
+
+Você deve gastar pelo menos três horas estudando esses três componentes do
+comportamento de uma pessoa, ouvindo sua articulação, examinando sua escrita e
+observando seus maneirismos.
+
+Seu ardil é imperceptível para um observador casual. Se uma criatura desconfiada
+suspeitar que algo está errado, você tem vantagem em qualquer teste de Carisma
+(Enganação) que você fizer para evitar ser detectado.
+
+\subsubsection{Golpe Letal}%
+\label{ssub:golpe_letal}
+
+No 17° nível, você se torna um mestre da morte instantânea. Quando você atacar e
+atingir uma criatura que esteja surpresa, ela deve realizar um teste de
+resistência de Constituição (CD 8 + seu modificador de Destreza + seu bônus de
+proficiência). Se ela falhar, dobre o dano do seu ataque contra a criatura.
+
+\subsection*{Ladrão}%
+\label{sub:ladrao}
+
+Você aprimorou suas habilidades na arte do furto de pequenos itens. Gatunos,
+bandidos, batedores de carteira e outros criminosos geralmente seguem esse
+arquétipo, mas também aqueles ladinos que preferem se ver como caçadores de
+tesouro profissionais, exploradores de masmorras e investigadores. Além de
+aprimorar sua agilidade e furtividade, você aprende perícias úteis para
+desbravar ruínas antigas, ler idiomas incomuns e usar itens mágicos que
+normalmente não poderia.
+
+\subsubsection{Mãos Rápidas}%
+\label{ssub:maos_rapidas}
+
+A partir do 3º nível, você pode usar a sua ação bônus concedida pela Ação
+Ardilosa para fazer um teste de Destreza (Prestidigitação), usar suas
+ferramentas de ladrão para desarmar uma armadilha ou abrir uma fechadura, ou
+realizar a ação de Usar um Objeto.
+
+\subsubsection{Andarilho de Telhados}%
+\label{ssub:andarilho_de_telhados}
+
+No 3º nível, você adquire a habilidade de escalar mais rápido que o normal.
+Escalar agora não possui custo adicional de movimento para você.
+
+Além disso, quando você fizer um salto com corrida, o alcance que pode saltar
+aumenta um número de metros igual a 0,3 vezes o seu modificador de Destreza.
+
+\subsubsection{Furtividade Surpresa}%
+\label{ssub:furtividade_surpresa}
+
+A partir do 9º nível, você tem vantagem no teste de Destreza (Furtividade) se
+você não mover-se mais do que a metade de seu deslocamento em um turno.
+
+\subsubsection{Usar Instrumento Mágico}%
+\label{ssub:usar_instrumento_magico}
+
+ No 13º nível, você aprende o suficiente sobre como a magia funciona e pode
+ improvisar o uso de itens que nem mesmo foram destinados a você. Você ignora
+ todos os requisitos de classes, raças e níveis para uso de qualquer item
+ mágico.
+
+\subsubsection{Reflexo de Ladrão}%
+\label{ssub:reflexo_de_ladrao}
+
+Quando atinge o 17º nível, você se torna adepto em fazer emboscadas e fugas
+rápidas de situações perigosas. Você pode realizar dois turnos durante o
+primeiro turno de cada combate. Você realiza seu primeiro turno na sua
+iniciativa e o segundo na ordem de sua iniciativa menos 10.
+
+Você não pode usar essa característica quando está surpreso.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Mago}%
+\label{cha:mago}
+
+\section*{Características de Classe\t\t}%
+\label{sec:caracteristicas_de_classe}
+
+Como um mago, você adquire as seguintes características de classe.
+
+\subsubsection{Pontos de Vida}%
+\label{ssub:pontos_de_vida}
+
+\textbf{Dado de Vida}: 1d6 por nível de mago \nl
+\textbf{Pontos de Vida no 1º Nível:} 6 + seu modificador de Constituição. \nl
+\textbf{Pontos de vida nos Níveis Seguintes:} 1d6 (ou 4) + seu modificador de
+Constituição por nível de mago após o 1º.
+
+\subsubsection{Proficiências}%
+\label{ssub:proficiencias}
+
+\textbf{Armaduras:} Nenhuma \nl
+\textbf{Armas:} Armas simples \nl
+\textbf{Ferramentas:} Nenhuma \jump
+\textbf{Testes de Resistência}: Inteligência, Sabedoria \nl
+\textbf{Pericias:} Escolha duas entre Arcanismo, História, Intuição,
+Investigação, Medicina e Religião.
+
+\subsubsection{Equipamento}%
+\label{ssub:equipamento}
+
+Você começa com o seguinte equipamento, além do equipamento concedido pelo seu
+antecedente.
+\begin{itemize}
+    \item (a) um bordão ou (b) uma adaga;
+    \item (a) uma bolsa de componentes ou (b) um foco arcano;
+    \item (a) um pacote de estudioso ou (b) um pacote de explorador;
+\end{itemize}
+
+\section*{Plano Astral\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:plano_astral}
+
+Com muito tempo de estudo e dedicação, os magos conseguem expandir seu plano
+astral, tornando-os especialistas em conjuração de magias que outras classes
+nunca conseguiram conjurar.
+
+\subsection*{Plano expandido}%
+\label{sub:plano_expandido}
+
+
+Desde o 1º nível de Mago, você possui o dobro de mana armazenado em seu plano
+astral do que qualquer outra classe conseguiria.
+
+\subsection*{Pedras de Poder}%
+\label{sub:pedras_de_poder}
+
+A partir do 6º nível, o mago pode usar Pedras de Poder em seus equipamentos para
+aumentar a mana total que ele possui e melhorar suas magias. Cada pedra de poder
+possui uma característica única.
+
+\section*{Recuperação Arcana\t\t\t\t\t}%
+\label{sec:recuperacao_arcana}
+
+Você aprendeu como recuperar um pouco de sua mana em seus estudos como mago. Uma
+vez por dia, quando você terminar um descanso curto, você pode recuperar $10\%$
+de sua mana total.
+
+\section*{Metamágica\t\t\t\t\t\t\t\t\t\t\t}%
+\label{sec:metamagica}
+
+No 2º nível, você adquire a habilidade de distorcer suas magias para se
+adequarem às suas necessidades. Você ganha duas das seguintes opções de
+Metamágica, à sua escolha. Você adquire outra no 10º e 17º nível.
+
+Você pode usar apenas uma opção de Metamágica em uma magia quando a conjura, a
+não ser que esteja descrito o contrário.
+
+\subsubsection*{Magia Acelerada}%
+\label{ssub:magia_acelerada}
+
+Quando você conjurar uma magia que tenha um tempo de conjuração de 1 ação, você
+gasta $50\%$ a mais da mana descrita na magia para conjurá-la como uma ação
+bônus.
+
+\subsubsection*{Magia Aumentada}%
+\label{ssub:magia_aumentada}
+
+Quando você conjura uma magia que obriga uma criatura a realizar um teste de
+resistência contra o seu efeito, você pode gastar $75\%$ a mais da mana descrita
+na magia para dar desvantagem a um alvo da magia no primeiro teste de
+resistência feito contra ela.
+
+\subsubsection*{Magia Cuidadosa}%
+\label{ssub:magia_cuidadosa}
+
+Quando você conjurar uma magia que obriga outras criaturas a realizarem um teste
+de resistência, você pode proteger algumas dessas criaturas da força total da
+magia. Para tanto, você gasta $25\%$ a mais da mana descrita na magia e escolhe
+um número dessas criaturas até o seu modificador de Carisma (mínimo de uma
+criatura). Uma criatura escolhida passa automaticamente no teste de resistência
+contra a magia.
+
+\subsubsection*{Magia Distante}%
+\label{ssub:magia_distante}
+
+Quando você conjurar uma magia que tenha distância de $1,5$ metro ou maior, você
+pode gastar $25\%$ a mais da mana descrita na magia para dobrar o alcance dela.
+
+Quando você conjurar uma magia com alcance de toque, você pode gastar $75\%$ da
+mana descrita na magia para mudar o alcance para $4,5$ metros.*
+
+\subsubsection*{Magia Duplicada}%
+\label{ssub:magia_duplicada}
+
+Quando você conjurar uma magia que seja incapaz de ter mais de uma criatura como
+alvo no nível atual dela e não possua alcance pessoal, você pode gastar uma
+quantidade de mana igual a $25\%$ da mana descrita na magia vezes o nível da
+magia para ter uma segunda criatura, no alcance da magia, como alvo (se a magia
+for um truque, então o gasto é de $25\%$ da mana descrita na magia).
+
+\subsubsection{Magia Estendida}%
+\label{ssub:magia_estendida}
+
+Quando você conjurar uma magia que tenha duração de $1$ minuto ou maior, você
+pode gastar $50\%$ da mana usada para conjurar a magia para reduzir pela metade o
+custo adicional de mana por tempo descrito na magia e dobrar o tempo total de
+duração da magia (máximo de $24$ horas).
+
+\subsubsection*{Magia Perseguidora}%
+\label{ssub:magia_perseguidora}
+
+Se você realizar uma jogada de ataque para uma magia e errar, você pode gastar
+$50\%$ da mana usada para conjurar a magia e jogar o d20 novamente, ficando com
+o novo resultado.
+
+Você pode usar a Magia Perseguidora mesmo se já tiver usado outra opção
+Metamágica durante a conjuração da magia.
+
+\subsubsection*{Magia Sutil}%
+\label{ssub:magia_sutil}
+
+Quando você conjurar uma magia, você pode gastar $25\%$ do custo descrito na
+magia para fazê-lo sem qualquer componente somático ou verbal.
+
+\section*{Incremento em Habilidade\t\t}%
+\label{sec:incremento_em_habilidade}
+
+Quando você atinge o 4º nível e novamente no 8º, 12º, 16º e 19º nível, você pode
+ganha dois pontos de habilidades para distribuir entre suas habilidades. Por
+padrão, você não pode elevar um valor de habilidade acima de 20 com essa
+característica.
+
+Opcionalmente, você pode escolher um talento seguindo as regras de talentos.
+
+\section*{Conjuração Extra\t\t\t\t\t\t\t}%
+\label{sec:conjuraçao_extra}
+
+A partir do 5º nível, você pode conjurar duas vezes, ao invés de uma, quando
+usar a ação Conjuração durante o seu turno.
+
+O número de ataques aumenta para três quando você alcançar o 11º nível de
+guerreiro e para 4 quando alcançar o 20º nível de guerreiro.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Monge}%
+\label{cha:monge}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Xamã}%
+\label{cha:xama}
+
+
+\end{document}
