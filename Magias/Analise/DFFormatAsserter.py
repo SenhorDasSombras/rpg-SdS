@@ -4,6 +4,8 @@ from functools import reduce
 
 
 def fill_na_by_column(df):
+    """Receives a spell df and fil its NA values using the default for each
+    column."""
     df.elementos = df.elementos.apply(
         lambda x: x if isinstance(x, list) else [])
     df.attack_save.fillna('N/A', inplace=True)
@@ -14,19 +16,31 @@ def fill_na_by_column(df):
 
 
 def assert_column_not_null(df, column):
+    """Receive a DataFrame and a column and return a ValueError if that column
+    has null values."""
     if any(df[column].isna()):
         raise ValueError(f"Column '{column}' shouldn't have null values!")
 
 
-def assert_columns_not_null(df):
-    not_null_columns = ['nome', 'name', 'nivel', 'escola', 'tempo_conjuracao', 'alcance_area',
-                        'componentes', 'mana', 'duracao', 'classes', 'tags', 'descricao', 'source',
-                        'mana_adicional']
+def assert_columns_not_null(df, not_null_columns=None):
+    """Receives a DataFrame and a set of columns and returns a ValueError if any
+    of them have null values. The set of columns has a default value."""
+
+    if not_null_columns is None:
+        not_null_columns = {'nome', 'name', 'nivel', 'escola',
+                            'tempo_conjuracao', 'alcance_area', 'componentes',
+                            'mana', 'duracao', 'classes', 'tags', 'descricao',
+                            'source', 'mana_adicional'}
+
     for column in not_null_columns:
         assert_column_not_null(df, column)
 
 
 def _get_non_null_rows_of_columns(df, columns):
+    """Private function that returns the index for all non null columns.
+
+    The rows will appear the number of times a column from the set is non null.
+    """
     rows = [df[column].dropna().index for column in columns]
     if len(rows) >= 2:
         rows = reduce(lambda x, y: x.append(y), rows)
@@ -34,6 +48,11 @@ def _get_non_null_rows_of_columns(df, columns):
 
 
 def assert_no_extra_columns(df):
+    """
+    Assert a spell df has no extra column beyond the columns we expect.
+
+    It returns a possibly empty list with the names of all the extra columns and 
+    """
     extra_columns = list()
     for column in df.columns:
         if column not in G_COLUMNS:

@@ -2,8 +2,11 @@ import pandas as pd
 import json
 import glob
 
-def get_spells_df():
-    path_prefix = '../'
+def get_spells_df(path_prefix = '../'):
+    """This function returns the spells DataFrame from the .json files.
+
+    You might specify the path to the json files, the default is '../'.
+    """
     files = glob.glob(f'{path_prefix}*.json')
     files = list(map(lambda x: x[len(path_prefix):], files))
     files.remove('_Template.json')
