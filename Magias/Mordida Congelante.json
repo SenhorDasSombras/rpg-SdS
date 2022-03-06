@@ -33,6 +33,6 @@
         "dano",
         "debuff"
     ],
-    "descricao": "Você faz com que um frio entorpecente se forme em uma criatura que você possa ver, dentro do alcance. O alvo deve realizar um teste de resistência de Constituição. Se falhar na resistência, o alvo sofre ld6 de dano elemental e terá desvantagem na próxima jogada de ataque com arma que fizer antes do final do seu próximo turno.\n\tO dano da magia aumenta em 1d6 quando você alcança o 5º nível (2d6), 11 º nível (3d6) e 17º nível (4d6). ",
+    "descricao": "Você faz com que um frio entorpecente se forme em uma criatura que você possa ver, dentro do alcance. O alvo deve realizar um teste de resistência de Constituição. Se falhar na resistência, o alvo sofre 1d6 de dano elemental e terá desvantagem na próxima jogada de ataque com arma que fizer antes do final do seu próximo turno.\n\tO dano da magia aumenta em 1d6 quando você alcança o 5º nível (2d6), 11 º nível (3d6) e 17º nível (4d6). ",
     "source": "Xanathar"
 }

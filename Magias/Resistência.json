@@ -12,7 +12,7 @@
     "alcance_area": "toque",
     "componentes": "VSM (um manto em miniatura)",
     "mana": 75,
-    "adicional_mana": "50 por turno",
+    "mana_adicional": "50 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "N/A",
     "dmg_effect": "N/A",
