@@ -12,7 +12,7 @@ def fill_na_by_column(df):
     df.dmg_effect.fillna('N/A', inplace=True)
     df.dmg.fillna('N/A', inplace=True)
     df.ritual.fillna(False, inplace=True)
-    df.mana_adicional.fillna(0, inplace=True)
+    df.mana_adicional.fillna('N/A', inplace=True)
 
 
 def assert_column_not_null(df, column):
