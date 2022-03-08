@@ -5,13 +5,14 @@
     "escola": "elemental",
     "ritual": false,
     "elementos": [
+        "relâmpago",
         "luz",
         "sombras"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "1,5 metros",
     "componentes": "VS",
-    "mana": 150,
+    "mana": 100,
     "duracao": "instantânea",
     "attack_save": "CON Save",
     "dmg_effect": "elemental",

@@ -16,7 +16,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "pessoal",
     "componentes": "VSM (um pouco de pó de prata)",
-    "mana": 50,
+    "mana": 100,
     "duracao": "instantânea",
     "attack_save": "DEX Save",
     "dmg_effect": "fogo",

@@ -5,7 +5,8 @@
     "escola": "elemental",
     "ritual": false,
     "elementos": [
-        "fogo"
+        "fogo",
+        "sombras"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "18 metros",

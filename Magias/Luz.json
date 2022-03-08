@@ -11,6 +11,7 @@
     "alcance_area": "toque",
     "componentes": "VSM (um vaga-lume ou musgo fosforescente)",
     "mana": 100,
+    "mana_adicional": "5 a cada 5 minutos",
     "duracao": "concentração, até 1 hora",
     "attack_save": "DEX Save",
     "dmg_effect": "N/A",
