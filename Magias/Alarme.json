@@ -1,0 +1,32 @@
+{
+    "nome": "Alarme",
+    "name": "Alarm",
+    "nivel": 1,
+    "escola": "musical",
+    "ritual": true,
+    "elementos": [],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um pequeno sino e um pequeno fio de prata)",
+    "mana": 200,
+    "duracao": "8 horas",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "mago",
+        "bruxo",
+        "ladino",
+        "guerreiro",
+        "monge",
+        "bardo"
+    ],
+    "tags": [
+        "utilidade",
+        "detecção"
+    ],
+    "descricao": "Você coloca um alarme para intrusos desavisados.\n\tEscolha uma porta, uma janela ou uma área dentro do alcance que não seja maior que 6 metros cúbicos. Até a magia acabar, um alarme alerta você sempre que uma criatura Miúda ou maior tocarem ou entrarem na área protegida. Quando você conjura a magia, você pode designar as criaturas que não ativarão o alarme. Você também escolhe se o alarme será mental ou audível.\n\tUm alarme mental alerta você com um silvo na sua mente, se você estiver a até de 1,5 quilômetro da área protegida. Esse silvo acordará você se você estiver dormindo.\n\tUm alarme audível produz o som de um sino de mão por 10 minutos num raio de 18 metros. ",
+    "source": "LDJ"
+}

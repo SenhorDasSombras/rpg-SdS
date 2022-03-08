@@ -1,0 +1,34 @@
+{
+    "nome": "Braços de Hadar",
+    "name": "Arms of Hadar",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "3 metros",
+    "componentes": "VS",
+    "mana": 500,
+    "duracao": "instantânea",
+    "attack_save": "STR Save",
+    "dmg_effect": "necrótico",
+    "dmg": "2d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você invoca o poder de Hadar, o Faminto Sombrio.\n\tTentáculos de energia negra brotam de você e golpeiam todas as criaturas a até 3 metros de você. Cada criatura na área deve realizar um teste de resistência de Força. Se falhar, o alvo sofre 2d6 de dano necrótico e não pode fazer reações até o próximo turno dela. Em um sucesso, uma criatura sofre metade do dano e não sofre qualquer outro efeito.\n\t**Melhorar Magia.** Para cada 600 de mana adicionais gastos, o dano aumenta 1d6 até um máximo de 5d6 adicionais.",
+    "source": "LDJ"
+}

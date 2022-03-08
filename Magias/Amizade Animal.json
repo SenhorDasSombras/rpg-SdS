@@ -1,0 +1,33 @@
+{
+    "nome": "Amizade Animal",
+    "name": "Animal Friendship",
+    "nivel": 1,
+    "escola": "musical",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um punhado de comida)",
+    "mana": 200,
+    "duracao": "24 horas",
+    "attack_save": "WIS Save",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "social"
+    ],
+    "descricao": "Essa magia deixa você convencer uma besta que você não quer prejudicar. Escolha uma besta que você possa ver dentro do alcance. Ela deve ver e ouvir você. Se a Inteligência da besta for 4 ou maior, a magia falha. Do contrário, a besta deve ser bem sucedida num teste de resistência de Sabedoria ou ficará enfeitiçada por você pela duração da magia. Se você ou um dos seus companheiros ferir o alvo, a magia termina.\n\t**Melhorar Magia**. A cada 400 de mana adicional que você gastar, você pode afetar uma besta adicional até o máximo de 5.",
+    "source": "LDJ"
+}
