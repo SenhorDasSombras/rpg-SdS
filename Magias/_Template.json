@@ -1,24 +1,38 @@
 {
     "nome": "nome",
     "name": "name",
-    "nivel": 0,
+    "nivel": 1,
     "escola": "elemental",
     "ritual": false,
     "elementos": [
         "água",
-        "terra"
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "pessoal",
     "componentes": "VSM (um pouco de pó de prata)",
-    "mana": 50,
+    "mana": 200,
     "duracao": "instantânea",
     "attack_save": "DEX Save",
     "dmg_effect": "fogo",
     "dmg": "1d6",
     "classes": [
         "clérigo",
-        "paladino"
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
     ],
     "tags": [
         "dano"
