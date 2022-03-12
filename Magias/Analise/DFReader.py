@@ -1,8 +1,14 @@
-import pandas as pd
 import json
 import glob
 
-def get_spells_df(path_prefix = '../'):
+import pandas as pd
+
+from typing import List
+
+def get_spells_df(
+    path_prefix: str = '../',
+    sort_by: List[str]  = None
+):
     """This function returns the spells DataFrame from the .json files.
 
     You might specify the path to the json files, the default is '../'.
@@ -16,4 +22,8 @@ def get_spells_df(path_prefix = '../'):
         with open(f'{path_prefix}{file_name}', 'r') as file:
             result.append(json.load(file))
 
-    return pd.DataFrame(result).sort_values(by=['name', 'nivel']).reset_index(drop=True)
+    if sort_by is None:
+        sort_by = ['name', 'nivel']
+
+    result = pd.DataFrame(result).sort_values(by=sort_by).reset_index(drop=True)
+    return result
