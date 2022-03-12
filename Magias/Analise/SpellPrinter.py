@@ -22,7 +22,7 @@ def get_ritual_str(spell_series):
 
 def get_escola_str(spell_series):
     if spell_series.escola != 'elemental':
-        return ""
+        return f'**{spell_series.escola}**'
 
     elemental_str = ''
     for element in spell_series.elementos[:-1]:

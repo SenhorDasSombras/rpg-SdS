@@ -1,8 +1,11 @@
+import pandas
+
+
 def filter_value_column(df, column, filter_value):
     """Receives a DataFrame, a column to filter and a filter value to filter by
     and return a view of the DataFrame filtered by that value.
     """
-    return df[df[column] == filter]
+    return df[df[column] == filter_value]
 
 
 def filter_list_column(df, column, filter_value):

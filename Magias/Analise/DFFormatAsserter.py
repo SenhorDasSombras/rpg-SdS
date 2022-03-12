@@ -113,10 +113,9 @@ def assert_df_column_types(df):
     mask = get_mask_from_list(df, 'elementos', G_ELEMENTOS)
     assert_column_using_mask(df, 'elementos', mask)
 
-    tempo_conjuracao_regex = re.compile(
-        r'\d+\ (ação|ação bonus|minuto|ações|minutos)')
+    tempo_conjuracao_regex = re.compile(r'\d+\ (ação|ações|ação bonus|ações bonus|minuto|minutos|reação|reações)')
     mask = df.tempo_conjuracao.str.fullmatch(tempo_conjuracao_regex)
-    assert_column_using_mask(df, 'tempo_conjucarao', mask)
+    assert_column_using_mask(df, 'tempo_conjuracao', mask)
 
     alcance_regex = re.compile(r'(pessoal|toque|\d+(,\d+)?\ metros?)')
     mask = df.alcance_area.str.fullmatch(alcance_regex)
@@ -129,8 +128,7 @@ def assert_df_column_types(df):
     mask = df.duracao.str.islower()
     assert_column_using_mask(df, 'duracao', mask)
 
-    attack_save_regex = re.compile(
-        r'(N/A|corpo-a-corpo|distância|(STR|DEX|CON|INT|WIS|CAR)\ (Test|Save))')
+    attack_save_regex = re.compile(r'(N/A|corpo-a-corpo|distância|(STR|DEX|CON|INT|WIS|CHA)\ (Test|Save))')
     mask = df.attack_save.str.fullmatch(attack_save_regex)
     assert_column_using_mask(df, 'attack_save', mask)
 
