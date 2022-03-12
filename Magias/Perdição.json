@@ -10,7 +10,7 @@
     "componentes": "VSM (uma gota de sangue)",
     "mana": 350,
     "mana_adicional": "75 por turno",
-    "duracao": "Concentração, até 1 minuto",
+    "duracao": "concentração, até 1 minuto",
     "attack_save": "CHA Save",
     "dmg_effect": "N/A",
     "dmg": "N/A",
@@ -25,6 +25,6 @@
     "tags": [
         "debuff"
     ],
-    "descricao": "Até três criaturas, à sua escolha, que você possa ver dentro do alcance, devem realizar um teste de resistência de Carisma. Sempre que um alvo que falhou nessa resistência realizar uma jogada de ataque ou um teste de resistência antes da magia acabar, o alvo deve rolar um d4 e subtrair o valor rolado da jogada de ataque ou teste de resistência.  **Melhorar Magia:** Para cada 500 de mana adicional gasto, mais uma criatura é afetada até um máximo de 5. Você pode gastar mais 500 para cada criatura criatura afetada para transformar o d4 em d6.",
+    "descricao": "Até três criaturas, à sua escolha, que você possa ver dentro do alcance, devem realizar um teste de resistência de Carisma. Sempre que um alvo que falhou nessa resistência realizar uma jogada de ataque ou um teste de resistência antes da magia acabar, o alvo deve rolar 1d4 e subtrair o valor rolado da jogada de ataque ou teste de resistência.\n\t**Melhorar Magia:** Para cada 500 de mana adicional gasto, mais uma criatura é afetada até um máximo de 5. Você pode gastar mais 500 para cada criatura criatura afetada para transformar o d4 em d6.",
     "source": "LDJ"
 }
