@@ -36,6 +36,13 @@ def assert_columns_not_null(df, not_null_columns=None):
         assert_column_not_null(df, column)
 
 
+def convert_and_assert_column_to_list(df, column):
+    """Make sure all column values are lists. If value is scalar, it convert it to
+    a list with that value."""
+    convert_scalars_to_list = lambda x: [x] if type(x) != list else x
+    df[column] = df[column].apply(convert_scalars_to_list)
+
+
 def _get_non_null_rows_of_columns(df, columns):
     """Private function that returns the index for all non null columns.
 
@@ -106,8 +113,7 @@ def assert_column_using_mask(df, column, mask):
 
 
 def assert_df_column_types(df):
-    mask = df.escola.str.islower()
-    mask = mask & (df.escola.isin(G_ESCOLAS))
+    mask = get_mask_from_list(df, 'escola', G_ESCOLAS)
     assert_column_using_mask(df, 'escola', mask)
 
     mask = get_mask_from_list(df, 'elementos', G_ELEMENTOS)
