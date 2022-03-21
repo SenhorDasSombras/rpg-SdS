@@ -123,7 +123,7 @@ def assert_df_column_types(df):
     mask = df.tempo_conjuracao.str.fullmatch(tempo_conjuracao_regex)
     assert_column_using_mask(df, 'tempo_conjuracao', mask)
 
-    alcance_regex = re.compile(r'(pessoal|toque|\d+(,\d+)?\ metros?)')
+    alcance_regex = re.compile(r'(pessoal(\ \(cone\ de\ \d+(,\d+)\ metros?\))?|toque|\d+(,\d+)?\ metros?)')
     mask = df.alcance_area.str.fullmatch(alcance_regex)
     assert_column_using_mask(df, 'alcance_area', mask)
 
