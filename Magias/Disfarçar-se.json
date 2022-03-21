@@ -11,7 +11,7 @@
     "mana": 200,
     "mana_adicional": "20 a cada 10 minutos",
     "duracao": "1 hora",
-    "attack_save": "INT Check",
+    "attack_save": "INT Test",
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [

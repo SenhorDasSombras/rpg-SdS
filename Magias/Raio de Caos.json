@@ -20,7 +20,7 @@
     "componentes": "VS",
     "mana": 600,
     "duracao": "instantânea",
-    "attack_save": "distancia",
+    "attack_save": "distância",
     "dmg_effect": "elemental",
     "dmg": "2d8 + 1d6",
     "classes": [
