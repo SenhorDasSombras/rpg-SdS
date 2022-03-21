@@ -1,0 +1,32 @@
+{
+    "nome": "Compreender Idiomas",
+    "name": "Comprehend Languages",
+    "nivel": 1,
+    "escola": "psíquica",
+    "ritual": true,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (uma pitada de fuligem e sal)",
+    "mana": 350,
+    "duracao": "1 hora",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "social"
+    ],
+    "descricao": "Pela duração, você compreende o significado literal de qualquer idioma falado que você ouvir. Você também compreende qualquer idioma escrito que vir, mas você deve tocar a superfície onde as palavras estão escritas.\n\tLeva, aproximadamente, 1 minuto para ler uma página de texto.\n\tEssa magia não decifra mensagens secretas em textos ou glifos, como um selo arcano, que não seja parte de um idioma escrito.",
+    "source": "LDJ"
+}

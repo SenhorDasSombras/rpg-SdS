@@ -1,0 +1,33 @@
+{
+    "nome": "Detectar Veneno e Doença",
+    "name": "Detect Poison and Disease",
+    "nivel": 1,
+    "escola": "receita",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 200,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 10 minutos",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "detecção"
+    ],
+    "descricao": "Pela duração, você sente a presença e localização de venenos, criaturas venenosas e doenças a até 9 metros de você. Você também identifica o tipo de veneno, criatura venenosa ou doença em cada caso.\n\tA magia pode penetrar a maioria das barreiras, mas é bloqueada por 30 centímetros de rocha, 2,5 centímetros de metal comum, uma fina camada de chumbo, ou 90 centímetros de madeira ou terra.\n\tAo utilizar a magia, role 1d20 e some seu modificador de conjuração. Se o veneno ou doença foi criado por um mago do veneno, sua rolagem deve dar 10 + o modificador de conjuração do mago para você detectar a presença e deve dar 15 + o modificador de conjuração do mago para você identificar o tipo.",
+    "source": "LDJ"
+}

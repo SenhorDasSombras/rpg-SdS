@@ -1,0 +1,37 @@
+{
+    "nome": "Orbe Elemental",
+    "name": "Chromatic Orb",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "27 metros",
+    "componentes": "VS",
+    "mana": 400,
+    "duracao": "instantânea",
+    "attack_save": "distância",
+    "dmg_effect": "elemental",
+    "dmg": "3d8",
+    "classes": [
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você arremessa uma esfera de energia elemental de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance. Você realiza um ataque à distância com magia. Se o ataque atingir, a criatura sofre 3d8 de dano elemental. **Melhorar Magia.** Para cada 500 de mana adicional gasto, você pode adicionar 1d8 no dano até um máximo de 5d8 extras.",
+    "source": "LDJ"
+}

@@ -1,0 +1,30 @@
+{
+    "nome": "Causar Medo",
+    "name": "Cause Fear",
+    "nivel": 1,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "V",
+    "mana": 250,
+    "mana_adicional": "25 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "WIS Save",
+    "dmg_effect": "amedrontado",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "debuff"
+    ],
+    "descricao": "Você desperta o senso de mortalidade em uma criatura que você possa ver dentro do alcance. O alvo precisa ser bem sucedido em teste de resistência de Sabedoria ou se tornará amedrontada por você até que a magia termine. O alvo amedrontado pode repetir o teste de resistência ao fim de cada um de seus turnos, terminando o efeito em si mesmo com um sucesso.\n\t**Melhorar Magia.** Para cada 500 de mana adicionais gastos, você adiciona uma criatura extra como alvo, com um máximo de 7 alvos. As criaturas precisam estar a no máximo 9 metros uma da outra quando você as incluir como alvos.",
+    "source": "Xanathar"
+}

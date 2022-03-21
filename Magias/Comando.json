@@ -1,0 +1,33 @@
+{
+    "nome": "Comando",
+    "name": "Command",
+    "nivel": 1,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 300,
+    "duracao": "instantânea",
+    "attack_save": "WIS Save",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "social",
+        "controle"
+    ],
+    "descricao": "Você pronuncia uma palavra de comando para uma criatura que você possa ver dentro do alcance. O alvo deve ser bem sucedido num teste de resistência de Sabedoria ou seguirá seu comando no próximo turno dele. A magia não tem efeito se o alvo for um morto-vivo, se ele não entender seu idioma ou se o comando for diretamente nocivo a ele.\n\tAlguns comandos típicos e seus efeitos a seguir. Você pode proferir um comando diferente dos descritos aqui. Se o fizer, o Mestre descreve como o alvo reage. Se o alvo não puder cumprir o comando, a magia termina. \n\t__Aproxime-se.__ O alvo se move para próximo de você o máximo que puder na rota mais direta, terminando seu turno, se ele se mover a até 1,5 metro de você.\n\t__Largue.__ O alvo larga o que quer que ele esteja segurando, e termina seu turno.\n\t__Fuja.__ O alvo gasta seu turno se movendo para longe de você da forma mais rápida que puder.\n\t__Deite-se.__ O alvo deita-se no chão e então, termina seu turno.\n\t__Parado.__ O alvo não se move e não realiza nenhuma ação. Uma criatura voadora continua no alto, considerando que ela seja capaz de fazê-lo. Se ela tiver que se mover para continuar no alto, ela voa a mínima distância necessária para permanecer no ar.\n\t**Melhorar Magia.** Você pode gastar 500 de mana extra para adicionar mais uma criatura como alvo. As criaturas devem estar a 9 metros entre si para serem afetadas.",
+    "source": "LDJ"
+}

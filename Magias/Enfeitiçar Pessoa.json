@@ -1,0 +1,34 @@
+{
+    "nome": "Enfeitiçar Pessoa",
+    "name": "Charm Person",
+    "nivel": 1,
+    "escola": ["psíquica", "musical"],
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 400,
+    "duracao": "1 hora",
+    "attack_save": "WIS Save",
+    "dmg_effect": "enfeitiçado",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "debuff",
+        "social"
+    ],
+    "descricao": "Você tenta enfeitiçar um humanoide que você possa ver dentro do alcance. Ele deve realizar um teste de resistência de Sabedoria, e recebe vantagem nesse teste se você ou seus companheiros estiverem lutando com ele.  Se ele falhar, ficará enfeitiçado por você até a magia acabar ou até você ou seus companheiros fizerem qualquer coisa nociva contra ele. A criatura enfeitiçada reconhece você como um conhecido amigável. Quando a magia acabar, a criatura saberá que foi enfeitiçada por você.\n\t**Melhorar Magia.** Para cada 500 de mana adicionais gastos, você pode afetar mais uma humanoide até um máximo de 5 humanoides. Para cada 500 de mana adicionais gastos por humanoide afetado, você pode extender o tempo de duração em 1 hora, até um máximo de 5 horas. Gastando 2500 de mana por humanoide afetado, você pode remover a parte da magia que fala que a criatura saberá que foi enfeitiçada por você.",
+    "source": "LDJ"
+}

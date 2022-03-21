@@ -1,0 +1,34 @@
+{
+    "nome": "Vínculo com a Besta",
+    "name": "Beast Bond",
+    "nivel": 1,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (um tufo de pelos envolto por um pano)",
+    "mana": 150,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 10 minutos",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "comunicação",
+        "buff"
+    ],
+    "descricao": "Você estabelece um elo telepático com uma besta que você tocar que seja amigável a você ou que esteja enfeitiçada por você. A magia falha se o valor de Inteligência da besta for 4 ou maior. Até a magia acabar, o elo permanece ativo contato que você e a besta tenham linha de visão um do outro. Através do elo, a besta pode compreender suas mensagens telepáticas para ela e pode comunicar telepaticamente emoções e conceitos simples de volta para você.\n\tEnquanto o elo estiver ativo, a besta ganha vantagem nas jogadas de ataque contra qualquer criatura a até 1,5 metros de você que você possa ver.",
+    "source": "Xanathar"
+}

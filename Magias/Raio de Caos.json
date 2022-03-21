@@ -1,0 +1,42 @@
+{
+    "nome": "Raio de Caos",
+    "name": "Chaos Boat",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VS",
+    "mana": 600,
+    "duracao": "instantânea",
+    "attack_save": "distancia",
+    "dmg_effect": "elemental",
+    "dmg": "2d8 + 1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você conjura uma massa ondulante de energia caótica elemental em uma criatura no alcance. Faça um ataque a distância com magia contra o alvo. Se atingir, o alvo leva 2d8 + 1d6 de dano elemental.\n\tSe os dois d8 rolados possuírem o mesmo valor, então a energia caótica salta para um alvo dentro de 9 metros de distância a sua escolha. Faça uma nova rolagem de ataque a distância contra o novo e role novamente o dano, fazendo com que a magia possa novamente saltar para outro alvo.\n\t[Corpo-a-corpo] Você pode, ao invés de realizar um ataque à distância, utilizar uma arma corpo-a-corpo para fazer um ataque. Sua arma se enche dessa energia caótica e o efeito é o mesmo, mas a diferença é que o alvo inicial sofre 2d8 + o dano que sua arma possui naturalmente.\n\t**Melhorar Magia.** Para cada 500 adicionais de mana gasto, o dano da magia aumenta em 1d6, com um limite de 5d6 extras.",
+    "source": "Xanathar"
+}

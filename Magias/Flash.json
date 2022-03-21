@@ -1,0 +1,35 @@
+{
+    "nome": "Flash",
+    "name": "Color Spray",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal (cone de 4,5 metros)",
+    "componentes": "VSM (um punhado de pó ou areia)",
+    "mana": 300,
+    "duracao": "1 rodada",
+    "attack_save": "N/A",
+    "dmg_effect": "cego",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "debuff"
+    ],
+    "descricao": "Um feixe de luzes surge da sua mão. Role 6d10; o total é a quantidade de pontos de vida de criaturas que essa magia pode afetar. As criaturas num cone de 4,5 metros, originado de você, são afetadas em ordem ascendente dos seus pontos de vida (ignorando criaturas inconsciente e que não podem ver).\n\tComeçando com as criaturas que tiverem menos pontos de vida, cada criatura afetada por essa magia ficará cega até o fim da magia. Subtraia os pontos de vida de cada criatura do total antes de considerar os pontos de vida da próxima criatura. Os pontos de vida de uma criatura devem ser iguais ou menores que o total restante para que essa criatura seja afetada\n\t**Melhorar Magia.** Você pode gastar 500 de mana adicionais para receber 2d10 extras até um limite de 10d10 extras. Você pode gastar 1500 de mana adicionais para fazer o efeito durar mais uma rodada até um máximo de 3 rodadas.",
+    "source": "LDJ"
+}

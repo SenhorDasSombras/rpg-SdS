@@ -1,0 +1,34 @@
+{
+    "nome": "Bênção",
+    "name": "Bless",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um borrifo de água benta)",
+    "mana": 300,
+    "mana_adicional": "30 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Um texto longo pra k7 aqui",
+    "source": "LDJ"
+}

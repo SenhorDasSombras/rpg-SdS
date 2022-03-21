@@ -1,0 +1,35 @@
+{
+    "nome": "Criar ou Destruir Água",
+    "name": "Create or Destroy Water",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (uma gota de água se estiver criando ou alguns grãos de areia se estiver destruindo)",
+    "mana": 300,
+    "duracao": "instantânea",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "controle"
+    ],
+    "descricao": "Você pode tanto criar quanto destruir água.\n\t**Criar Água.** Você cria 30 litros de água limpa dentro do alcance, em um recipiente aberto. Alternativamente, a água pode cair como chuva em um cubo de 9 metros dentro do alcance, extinguindo chamas expostas na área.\n\t**Destruir Água.** Você destrói até 30 litros de água de um recipiente aberto dentro do alcance. Alternativamente, você pode destruir um nevoeiro em um cubo de 9 metros dentro do alcance.\n\t**Melhorar Magia.** Você pode adicionais mais 30 litros de água para cada 500 de mana gastos até um total de 150 litro adicionais máximos. Você pode aumentar o tamanho do cubo em 1,5 para cada 500 de mana gastos adicionalmente até um máximo de 7,5 metros.",
+    "source": "LDJ"
+}
