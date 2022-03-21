@@ -6,12 +6,14 @@ from functools import reduce
 def fill_na_by_column(df):
     """Receives a spell df and fil its NA values using the default for each
     column."""
+    df = df.copy()
     df.elementos = df.elementos.apply(lambda x: x if isinstance(x, list) else [])
     df.attack_save.fillna('N/A', inplace=True)
     df.dmg_effect.fillna('N/A', inplace=True)
     df.dmg.fillna('N/A', inplace=True)
     df.ritual.fillna(False, inplace=True)
     df.mana_adicional.fillna('N/A', inplace=True)
+    return df
 
 
 def assert_column_not_null(df, column):
@@ -38,8 +40,10 @@ def assert_columns_not_null(df, not_null_columns=None):
 def convert_and_assert_column_to_list(df, column):
     """Make sure all column values are lists. If value is scalar, it convert it to
     a list with that value."""
+    df = df.copy()
     convert_scalars_to_list = lambda x: [x] if type(x) != list else x
     df[column] = df[column].apply(convert_scalars_to_list)
+    return df
 
 
 def _get_non_null_rows_of_columns(df, columns):
