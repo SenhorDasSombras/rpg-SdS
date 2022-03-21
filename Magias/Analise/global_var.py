@@ -1,4 +1,4 @@
-G_ESCOLAS = ['elemental', 'necromancia', 'psíquica', 'ilusionista', 'invocação', 'espiritual', 'atrativa', 'musical', 'pura']
+G_ESCOLAS = ['elemental', 'necromancia', 'psíquica', 'ilusionista', 'invocação', 'espiritual', 'atrativa', 'musical', 'pura', 'receita']
 G_ELEMENTOS = ['ar', 'fogo', 'luz', 'metal', 'relâmpago', 'sombras', 'terra', 'veneno', 'água']
 G_TAGS = ['buff', 'debuff', 'controle', 'combate', 'utilidade', 'dano', 'defesa', 'cura', 'distância', 
           'corpo-a-corpo', 'toque', 'arma', 'comunicação', 'social', 'detecção']
