@@ -21,8 +21,13 @@ def get_ritual_str(spell_series):
 
 
 def get_escola_str(spell_series):
-    if spell_series.escola != 'elemental':
-        return f'**{spell_series.escola}**'
+    escola_str = ''
+    for escola in spell_series.escola[:-1]:
+        escola_str += f'{escola}, '
+    escola_str += f'{spell_series.escola[-1]}'
+
+    if 'elemental' not in spell_series.escola:
+        return f'**{escola_str}**'
 
     elemental_str = ''
     for element in spell_series.elementos[:-1]:
@@ -30,7 +35,7 @@ def get_escola_str(spell_series):
     elemental_str += f'{spell_series.elementos[-1]}'
     elemental_str = f'(_{elemental_str}_)'
 
-    escola_str = f'**{spell_series.escola}** {elemental_str}'
+    escola_str = f'**{escola_str}** {elemental_str}'
     return escola_str
 
 
@@ -89,7 +94,7 @@ def _get_header_str(spell_series, styled=True):
     componentes_str = get_componentes_str(spell_series)
     mana_str = get_mana_str(spell_series)
 
-    header_str = f"\tEscola: {escola_str}\n"
+    header_str = f"\tEscola(s): {escola_str}\n"
     header_str += f"\tTempo conjuração: **{spell_series.tempo_conjuracao}**\n"
     header_str += f"\tAlcance: **{spell_series.alcance_area}**\n"
     header_str += f"\tComponentes: {componentes_str}\n"
