@@ -6,8 +6,7 @@ from functools import reduce
 def fill_na_by_column(df):
     """Receives a spell df and fil its NA values using the default for each
     column."""
-    df.elementos = df.elementos.apply(
-        lambda x: x if isinstance(x, list) else [])
+    df.elementos = df.elementos.apply(lambda x: x if isinstance(x, list) else [])
     df.attack_save.fillna('N/A', inplace=True)
     df.dmg_effect.fillna('N/A', inplace=True)
     df.dmg.fillna('N/A', inplace=True)
@@ -58,7 +57,7 @@ def assert_no_extra_columns(df):
     """
     Assert a spell df has no extra column beyond the columns we expect.
 
-    It returns a possibly empty list with the names of all the extra columns and 
+    It returns a possibly empty list with the names of all the extra columns and
     """
     extra_columns = list()
     for column in df.columns:
@@ -98,18 +97,21 @@ def return_columns_not_matching_mask(df, column, mask):
 
 def get_mask_from_list(df, column, list_of_possible_values):
     unique_values = set(df[column].sum())
-    wrong_values = list(
-        filter(lambda x: x not in list_of_possible_values, unique_values))
-    mask = df[column].apply(lambda a_list: any(
-        [True if element in wrong_values else False for element in a_list]))
+
+    get_values_out_of_list = lambda x: x not in list_of_possible_values
+    wrong_values = list(filter(get_values_out_of_list, unique_values))
+
+    true_if_any_element_is_wrong = lambda a_list: any([True if element in wrong_values else False for element in a_list])
+    mask = df[column].apply(true_if_any_element_is_wrong)
     mask = ~mask
+
     return mask
 
 
 def assert_column_using_mask(df, column, mask):
     if not mask.all():
-        raise ValueError(
-            f"Column '{column}' have wrong values:\n{return_columns_not_matching_mask(df, column, mask)}")
+        error_str = f"Column '{column}' have wrong values:\n{return_columns_not_matching_mask(df, column, mask)}"
+        raise ValueError(error_str)
 
 
 def assert_df_column_types(df):
