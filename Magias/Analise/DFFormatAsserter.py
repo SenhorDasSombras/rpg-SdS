@@ -1,18 +1,21 @@
-from global_var import *
 import re
 from functools import reduce
+
+from global_var import *
 
 
 def fill_na_by_column(df):
     """Receives a spell df and fil its NA values using the default for each
     column."""
     df = df.copy()
-    df.elementos = df.elementos.apply(lambda x: x if isinstance(x, list) else [])
-    df.attack_save.fillna('N/A', inplace=True)
-    df.dmg_effect.fillna('N/A', inplace=True)
-    df.dmg.fillna('N/A', inplace=True)
+    df.elementos = df.elementos.apply(
+        lambda x: x if isinstance(x, list) else []
+    )
+    df.attack_save.fillna("N/A", inplace=True)
+    df.dmg_effect.fillna("N/A", inplace=True)
+    df.dmg.fillna("N/A", inplace=True)
     df.ritual.fillna(False, inplace=True)
-    df.mana_adicional.fillna('N/A', inplace=True)
+    df.mana_adicional.fillna("N/A", inplace=True)
     return df
 
 
@@ -28,10 +31,22 @@ def assert_columns_not_null(df, not_null_columns=None):
     of them have null values. The set of columns has a default value."""
 
     if not_null_columns is None:
-        not_null_columns = {'nome', 'name', 'nivel', 'escola',
-                            'tempo_conjuracao', 'alcance_area', 'componentes',
-                            'mana', 'duracao', 'classes', 'tags', 'descricao',
-                            'source', 'mana_adicional'}
+        not_null_columns = {
+            "nome",
+            "name",
+            "nivel",
+            "escola",
+            "tempo_conjuracao",
+            "alcance_area",
+            "componentes",
+            "mana",
+            "duracao",
+            "classes",
+            "tags",
+            "descricao",
+            "source",
+            "mana_adicional",
+        }
 
     for column in not_null_columns:
         assert_column_not_null(df, column)
@@ -84,19 +99,23 @@ def assert_df_columns(df):
     extra_columns, extra_col_rows = assert_no_extra_columns(df)
     missing_columns, missing_col_rows = assert_no_missing_columns(df)
 
-    error_str = ''
+    error_str = ""
     if len(extra_columns) > 0:
-        error_str += f'Extra columns: {extra_columns}\n'
-        error_str += f'{df.iloc[extra_col_rows][["nome", "name"] + extra_columns]}'
+        error_str += f"Extra columns: {extra_columns}\n"
+        error_str += (
+            f'{df.iloc[extra_col_rows][["nome", "name"] + extra_columns]}'
+        )
     if len(missing_columns) > 0:
-        error_str += f'Missing columns: {missing_columns}\n'
-        error_str += f'{df.iloc[missing_col_rows][["nome", "name"] + missing_columns]}'
+        error_str += f"Missing columns: {missing_columns}\n"
+        error_str += (
+            f'{df.iloc[missing_col_rows][["nome", "name"] + missing_columns]}'
+        )
     if len(error_str) > 0:
         raise TypeError(error_str)
 
 
 def return_columns_not_matching_mask(df, column, mask):
-    return df[['nome', 'name', column]][~mask]
+    return df[["nome", "name", column]][~mask]
 
 
 def get_mask_from_list(df, column, list_of_possible_values):
@@ -105,7 +124,9 @@ def get_mask_from_list(df, column, list_of_possible_values):
     get_values_out_of_list = lambda x: x not in list_of_possible_values
     wrong_values = list(filter(get_values_out_of_list, unique_values))
 
-    true_if_any_element_is_wrong = lambda a_list: any([True if element in wrong_values else False for element in a_list])
+    true_if_any_element_is_wrong = lambda a_list: any(
+        [True if element in wrong_values else False for element in a_list]
+    )
     mask = df[column].apply(true_if_any_element_is_wrong)
     mask = ~mask
 
@@ -119,40 +140,46 @@ def assert_column_using_mask(df, column, mask):
 
 
 def assert_df_column_types(df):
-    mask = get_mask_from_list(df, 'escola', G_ESCOLAS)
-    assert_column_using_mask(df, 'escola', mask)
+    mask = get_mask_from_list(df, "escola", G_ESCOLAS)
+    assert_column_using_mask(df, "escola", mask)
 
-    mask = get_mask_from_list(df, 'elementos', G_ELEMENTOS)
-    assert_column_using_mask(df, 'elementos', mask)
+    mask = get_mask_from_list(df, "elementos", G_ELEMENTOS)
+    assert_column_using_mask(df, "elementos", mask)
 
-    tempo_conjuracao_regex = re.compile(r'\d+\ (ação|ações|ação bonus|ações bonus|minuto|minutos|reação|reações)')
+    tempo_conjuracao_regex = re.compile(
+        r"\d+\ (ação|ações|ação bônus|ações bônus|minuto|minutos|reação|reações)"
+    )
     mask = df.tempo_conjuracao.str.fullmatch(tempo_conjuracao_regex)
-    assert_column_using_mask(df, 'tempo_conjuracao', mask)
+    assert_column_using_mask(df, "tempo_conjuracao", mask)
 
-    alcance_regex = re.compile(r'(pessoal(\ \(cone\ de\ \d+(,\d+)\ metros?\))?|toque|\d+(,\d+)?\ metros?)')
+    alcance_regex = re.compile(
+        r"(pessoal(\ \(cone\ de\ \d+(,\d+)\ metros?\))?|toque|\d+(,\d+)?\ metros?)"
+    )
     mask = df.alcance_area.str.fullmatch(alcance_regex)
-    assert_column_using_mask(df, 'alcance_area', mask)
+    assert_column_using_mask(df, "alcance_area", mask)
 
-    componentes_regex = re.compile(r'V?S?M?(\ \(.+\))?')
+    componentes_regex = re.compile(r"V?S?M?(\ \(.+\))?")
     mask = df.componentes.str.fullmatch(componentes_regex)
-    assert_column_using_mask(df, 'componentes', mask)
+    assert_column_using_mask(df, "componentes", mask)
 
     mask = df.duracao.str.islower()
-    assert_column_using_mask(df, 'duracao', mask)
+    assert_column_using_mask(df, "duracao", mask)
 
-    attack_save_regex = re.compile(r'(N/A|corpo-a-corpo|distância|(STR|DEX|CON|INT|WIS|CHA)\ (Test|Save))')
+    attack_save_regex = re.compile(
+        r"(N/A|corpo-a-corpo|distância|(STR|DEX|CON|INT|WIS|CHA)\ (Test|Save))"
+    )
     mask = df.attack_save.str.fullmatch(attack_save_regex)
-    assert_column_using_mask(df, 'attack_save', mask)
+    assert_column_using_mask(df, "attack_save", mask)
 
-    mask = get_mask_from_list(df, 'tags', G_TAGS)
-    assert_column_using_mask(df, 'tags', mask)
+    mask = get_mask_from_list(df, "tags", G_TAGS)
+    assert_column_using_mask(df, "tags", mask)
 
-    mask = get_mask_from_list(df, 'classes', G_CLASSES)
-    assert_column_using_mask(df, 'classes', mask)
+    mask = get_mask_from_list(df, "classes", G_CLASSES)
+    assert_column_using_mask(df, "classes", mask)
 
-    source_regex = re.compile(r'(LDJ|Xanathar|Tasha|Wildemount)')
+    source_regex = re.compile(r"(LDJ|Xanathar|Tasha|Wildemount|Custom)")
     mask = df.source.str.fullmatch(source_regex)
-    assert_column_using_mask(df, 'source', mask)
+    assert_column_using_mask(df, "source", mask)
 
 
 def assert_df_schema(df):
