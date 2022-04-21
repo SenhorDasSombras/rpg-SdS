@@ -31,7 +31,7 @@ def get_escola_str(spell_series):
     escola_str += f"{spell_series.escola[-1]}"
 
     if "elemental" not in spell_series.escola:
-        return f"**{escola_str}**"
+        return f"{escola_str}"
 
     elemental_str = ""
     for element in spell_series.elementos[:-1]:
@@ -39,7 +39,7 @@ def get_escola_str(spell_series):
     elemental_str += f"{spell_series.elementos[-1]}"
     elemental_str = f"(_{elemental_str}_)"
 
-    escola_str = f"**{escola_str}** {elemental_str}"
+    escola_str = f"{escola_str} {elemental_str}"
     return escola_str
 
 
@@ -47,20 +47,20 @@ def get_componentes_str(spell_series):
     componentes_str: str
     regex_match = re.search(r"\(.+\)", spell_series.componentes)
     if regex_match is None:
-        componentes_str = f"**{spell_series.componentes}**"
+        componentes_str = f"{spell_series.componentes}"
     else:
-        componentes_str = f"**{spell_series.componentes.split(' ')[0]}** _{regex_match.group(0)}_"
+        componentes_str = (
+            f"{spell_series.componentes.split(' ')[0]} _{regex_match.group(0)}_"
+        )
     return componentes_str
 
 
 def get_mana_str(spell_series):
     mana_str: str
     if spell_series["mana_adicional"] == "N/A":
-        mana_str = f"**{spell_series.mana}**"
+        mana_str = f"{spell_series.mana}"
     else:
-        mana_str = (
-            f"**{spell_series.mana}** (_+ {spell_series.mana_adicional}_)"
-        )
+        mana_str = f"{spell_series.mana} (_+ {spell_series.mana_adicional}_)"
     return mana_str
 
 
@@ -100,18 +100,18 @@ def _get_header_str(spell_series, styled=True):
     componentes_str = get_componentes_str(spell_series)
     mana_str = get_mana_str(spell_series)
 
-    header_str = f"\tEscola(s): {escola_str}\n"
-    header_str += f"\tTempo conjuração: **{spell_series.tempo_conjuracao}**\n"
-    header_str += f"\tAlcance: **{spell_series.alcance_area}**\n"
-    header_str += f"\tComponentes: {componentes_str}\n"
-    header_str += f"\tMana: {mana_str}\n"
-    header_str += f"\tDuração: **{spell_series.duracao}**\n"
+    header_str = f"\t**Escola(s):** {escola_str}\n"
+    header_str += f"\t**Tempo conjuração:** {spell_series.tempo_conjuracao}\n"
+    header_str += f"\t**Alcance:** {spell_series.alcance_area}\n"
+    header_str += f"\t**Componentes:** {componentes_str}\n"
+    header_str += f"\t**Mana:** {mana_str}\n"
+    header_str += f"\t**Duração:** {spell_series.duracao}\n"
     if spell_series.dmg != "N/A":
-        header_str += f"\tDano: **{spell_series.dmg}**\n"
+        header_str += f"\t**Dano**: {spell_series.dmg}\n"
     if spell_series.attack_save != "N/A":
-        header_str += f"\tAttack/Save: **{spell_series.attack_save}**\n"
+        header_str += f"\t**Attack/Save:** {spell_series.attack_save}\n"
     if spell_series.dmg_effect != "N/A":
-        header_str += f"\tDmg effect: **{spell_series.dmg_effect}**\n"
+        header_str += f"\t**Dmg/effect:** {spell_series.dmg_effect}\n"
 
     if styled:
         header_str = get_styled_str(header_str, size="13px")
@@ -162,7 +162,7 @@ def print_markdown_list(strings):
     print_markdown(string)
 
 
-def print_spell_parts(
+def get_spell_parts_str(
     spell_series,
     name=True,
     header=True,
@@ -171,9 +171,10 @@ def print_spell_parts(
     classes=True,
     source=True,
 ):
-    """Receives a spell row and prints it.
-    This function is modularized so that we can choose which parts will be printed off.
-    By default, all parts are printed.
+    """Receives a spell row and returns the string of it.
+    This function is modularized so that we can choose which parts will be
+    returned.
+    By default, all parts are returned.
     """
     str_list = list()
     if name:
@@ -195,6 +196,26 @@ def print_spell_parts(
         source_str = _get_source_str(spell_series)
         str_list.append(source_str)
 
+    return str_list
+
+
+def print_spell_parts(
+    spell_series,
+    name=True,
+    header=True,
+    desc=True,
+    tags=True,
+    classes=True,
+    source=True,
+):
+    """Receives a spell row and prints its parts.
+    This function is modularized so that we can choose which parts will be
+    printed.
+    By default, all parts are printed.
+    """
+    str_list = get_spell_parts_str(
+        spell_series, name, header, desc, tags, classes, source
+    )
     print_markdown_list(str_list)
 
 
