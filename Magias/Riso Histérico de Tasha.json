@@ -1,0 +1,32 @@
+{
+    "nome": "Riso Histérico de Tasha",
+    "name": "Hideous Laughter",
+    "nivel": 1,
+    "escola": "encantamento",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (pequenas tortas e uma pena que é balançada no ar)",
+    "mana": 200,
+    "mana adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "WIS Save",
+    "dmg_effect": "incapacitado",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle", "debuff"
+    ],
+    "descricao": "Uma criatura, à sua escolha, que você possa ver, dentro do alcance, acha tudo hilariantemente engraçado e cai na gargalhada, se essa magia afeta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria ou cairá no chão, ficando incapacitado e incapaz de se levantar pela duração. Uma criatura com valor de Inteligência 4 ou inferior não é afetada.\n\tAo final de cada um dos turnos dela e toda vez que sofrer dano o alvo pode realizar outro teste de resistência de Sabedoria. O alvo terá vantagem no teste de resistência se ele for garantido por ele ter sofrido dano. Se obtiver sucesso, a magia acaba.",
+    "source": "LDJ"
+}

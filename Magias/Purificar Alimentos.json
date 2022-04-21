@@ -1,0 +1,34 @@
+{
+    "nome": "Purificar Alimentos",
+    "name": "Purify Food and Drink",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": true,
+    "elementos": [
+        "água",
+        "terra",
+        "luz",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "3 metros",
+    "componentes": "VS",
+    "mana": 300,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade"
+    ],
+    "descricao": "Toda comida e bebida não-mágica dentro de uma esfera de 1,5 metro de raio centrada num ponto, à sua escolha, dentro do alcance é purificada e se livrada de venenos ou doenças.",
+    "source": "LDJ"
+}

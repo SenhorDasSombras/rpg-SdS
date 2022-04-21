@@ -1,0 +1,35 @@
+{
+    "nome": "Bruxaria",
+    "name": "Hex",
+    "nivel": 1,
+    "escola": ["necromante", "elemental"],
+    "ritual": false,
+    "elementos": [
+        "sombras",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (o olho petrificado de um tritão)",
+    "mana": 300,
+    "mana adicional": "50 por criatura amaldiçoada",
+    "duracao": "concentração, até 1 hora",
+    "dmg_effect": "necrótico",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano", "debuff"
+    ],
+    "descricao": "Você coloca uma maldição em uma criatura que você possa ver, dentro do alcance. Até a magia acabar, você causa 1d6 de dano necrótico extra no alvo sempre que atingi-lo com um ataque. Além disso, escolha uma habilidade quando você conjurar a magia. O alvo tem desvantagem em testes de habilidade feitos com a habilidade escolhida.  Se o alvo cair a 0 pontos de vida antes da magia acabar, você pode usar uma ação bônus, no seu turno subsequente para amaldiçoar outra criatura.\n\tUma magia _remover maldição_ conjurada no alvo acaba com a magia prematuramente. **Melhorar Magia**. A cada 1000 de mana adicionais, você pode adicionar 1d6 ao dano até um máximo de 5d6. A cada 3000 de mana adicionais, você pode adicionar uma desvantagem a mais, até um máximo de 2 desvantagens extras. Para cada dado de dano extra, você gasta 50 a mais ao trocar de alvo. Para cada desvantagem extra, você gasta 200 a mais para trocar de alvo.",
+    "source": "LDJ"
+}

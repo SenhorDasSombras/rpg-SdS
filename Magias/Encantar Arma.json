@@ -1,0 +1,42 @@
+{
+    "nome": "Encantar Arma (Auxílio Divino)",
+    "name": "Searing Smite",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 300,
+    "mana adicional": "20 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "elemental",
+    "dmg": "1d4",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano", "buff"
+    ],
+    "descricao": "Você envolve sua arma com seu elemento. Até o final da magia, seus ataques com aruma causa 1d4 de dano elemento extra ao atingirem.\n\t**Melhorar Magia**. Você pode gastar mais 500 de mana e mais 30 de mana por turno para transformar o d4 em d6. Você pode gastar mais 1500 de mana e mais 50 de mana por turno para transformar o d6 em d8. Você pode gastar mais 5000 de mana e mais 100 de mana por turno para transformar o d8 em d10.",
+    "source": "LDJ"
+}

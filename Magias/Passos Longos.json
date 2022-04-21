@@ -1,0 +1,32 @@
+{
+    "nome": "Passos Longos",
+    "name": "Longstrider",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "luz",
+        "relâmpago",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (um pouco de barro)",
+    "mana": 200,
+    "duracao": "1 hora",
+    "classes": [
+        "ladino",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Você toca uma criatura. O deslocamento da criatura aumenta em 3 metros até a magia acabar.\n\t**Melhorar Magia**. Você pode gastar mais 500 de mana para aumentar em mais 3 metros e, depois, gastar mais 1500 para aumentar em mais 3 metros, totalizando 9 metros adicionais.",
+    "source": "LDJ"
+}

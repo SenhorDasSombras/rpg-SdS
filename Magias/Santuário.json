@@ -1,0 +1,29 @@
+{
+    "nome": "Santuário",
+    "name": "Santuary",
+    "nivel": 1,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um pequeno espelho de prata)",
+    "mana": 300,
+    "duracao": "1 minuto",
+    "attack_save": "WIS Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff", "defesa"
+    ],
+    "descricao": "Você protege uma criatura, dentro do alcance, contra ataques. Até a magia acabar, qualquer criatura que tentar atacar ou usar magias que causem dano contra criatura protegida deve, primeiro, realizar um teste de resistência de Sabedoria. Se falhar na resistência, a criatura deve escolher um novo alvo ou perderá o ataque ou magia. Essa magia não protege a criatura contra efeitos de área, como a explosão de uma bola de fogo.\n\tSe a criatura protegida realizar um ataque ou conjurar uma magia que afete uma criatura inimiga, essa magia acaba.",
+    "source": "LDJ"
+}

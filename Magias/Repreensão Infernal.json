@@ -1,0 +1,35 @@
+{
+    "nome": "Repreensão Infernal",
+    "name": "Hellish Rebuke",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "fogo",
+        "sombras",
+        "relâmpago",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 reação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 350,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "2d10",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você aponta seu dedo e a criatura que causou dano a você é, momentaneamente, envolta por chamas infernais. A criatura deve realizar um teste de resistência de Destreza. Ela sofre 2d10 de dano elemental se falhar na resistência ou metade desse dano se obtiver sucesso. **Melhorar Magia**. Para cada 600 adicionais de mana gastos, você pode adicionar 1d10 no dano.",
+    "source": "LDJ"
+}

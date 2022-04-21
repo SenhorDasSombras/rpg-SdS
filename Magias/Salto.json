@@ -1,0 +1,32 @@
+{
+    "nome": "Salto",
+    "name": "Jump",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "luz",
+        "relâmpago",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (uma perna de gafanhoto)",
+    "mana": 200,
+    "duracao": "1 minuto",
+    "classes": [
+        "ladino",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Você toca uma criatura. A distância de salto da criatura é triplicada até a magia acabar.",
+    "source": "LDJ"
+}

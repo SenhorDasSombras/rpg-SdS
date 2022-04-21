@@ -1,0 +1,35 @@
+{
+    "nome": "Heroísmo",
+    "name": "Heroism",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "luz",
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 200,
+    "mana adicional": "20 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Uma criatura voluntária que você tocar é imbuída com bravura. Até a magia acabar, a criatura é imune a ser amedrontada e ganha pontos de vida temporários igual ao seu modificador de habilidade de conjuração, no início de cada turno dela. Quando a magia acabar, o alvo perde qualquer ponto de vida temporário restante dessa magia. **Melhorar Magia**. Para cada 350 de mana adicionais (e gastando 10 a mais por turno), você pode adicionar mais uma criatura ao efeito da magia.",
+    "source": "LDJ"
+}

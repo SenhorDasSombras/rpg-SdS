@@ -1,0 +1,30 @@
+{
+    "nome": "Identificação",
+    "name": "Identify",
+    "nivel": 1,
+    "escola": "espiritual",
+    "ritual": true,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "toque",
+    "componentes": "VSM (uma perola valendo, no mínimo, 100 po e uma pena de coruja)",
+    "mana": 200,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "detecção"
+    ],
+    "descricao": "Você escolhe um objeto que você deve tocar durante toda a conjuração da magia. Se ele for um item mágico ou algum outro objeto imbuído por magia, você descobre suas propriedades e como usá-lo, se exige sintonia para ser usado e quantas cargas ele tem, se aplicável. Você descobre se quaisquer magias estão afetando o item e quais eles são. Se o item foi criado por magia, você descobre que magia o criou.  \n\tSe você, ao invés, tocar uma criatura durante toda a conjuração, você descobre quais magias, se houver alguma, estão afetando-a atualmente.",
+    "source": "LDJ"
+}

@@ -1,0 +1,32 @@
+{
+    "nome": "Escrita Ilusória",
+    "name": "Illusory Script",
+    "nivel": 1,
+    "escola": "ilusionista",
+    "ritual": true,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "toque",
+    "componentes": "SM (uma tina à base de chumbo valendo, no mínimo, 10 po, que é consumida pela magia)",
+    "mana": 300,
+    "duracao": "10 dias",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "comunicação",
+        "utilidade",
+        "social"
+    ],
+    "descricao": "Você escreve em um pergaminho, papel ou qualquer outro material adequado e tinge ele com uma poderosa ilusão que permanece pela duração.\n\tPara você e para qualquer criatura que você designar quando você conjura essa magia, a escrita parece normal, escrita com a sua caligrafia e transmite qualquer que seja a mensagem que você desejava quando escreveu o texto. Para todos os outros, a escrita aparece como se tivesse sido escrita com uma caligrafia desconhecida ou mágica que é inteligível. Alternativamente, você pode fazer a escrita parecer uma mensagem totalmente diferente, escrita com uma caligrafia e idioma diferentes, apesar de o idioma precisar ser um que você conheça.\n\tNo caso da magia ser dissipada, tanto a escrita original quanto a ilusória desaparecem.\n\tUma criatura com visão verdadeira pode ler a mensagem escondida.",
+    "source": "LDJ"
+}

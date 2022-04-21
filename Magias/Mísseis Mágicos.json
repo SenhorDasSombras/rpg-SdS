@@ -1,0 +1,41 @@
+{
+    "nome": "Mísseis Mágicos",
+    "name": "Magic Missile",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VS",
+    "mana": 350,
+    "duracao": "instantânea",
+    "dmg_effect": "elemental",
+    "dmg": "1d4 + 1",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você cria três dardos elementais. Cada dardo atinge uma criatura, à sua escolha, que você possa ver, dentro do alcance. Um dardo causa 1d4 + 1 de dano elemental ao alvo. Todos os dardos atingem simultaneamente e você pode direciona-los para atingir uma criatura ou várias. **Melhorar Magia**. Para cada 500 de mana adicionais, você adiciona mais um dardo à magia, até um máximo de 10 dardos totais.",
+    "source": "LDJ"
+}
