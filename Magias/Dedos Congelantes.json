@@ -1,0 +1,32 @@
+{
+    "nome": "Dedos Congelantes",
+    "name": "Frost Fingers",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 450,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "água",
+    "dmg": "2d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "utilidade"
+    ],
+    "descricao": "Um vento congelante assopra de seus dedos em um cone de 4,5 metros. Toda criatura nessa área deve fazer um Teste de Resistência de Constituição, levando 2d8 de dano congelante em uma falha ou metade em um sucesso.\n\tO vento congela líquidos não-mágicos na área que não estão sendo vestidos ou carregados.",
+    "source": "IcewindDale"
+}

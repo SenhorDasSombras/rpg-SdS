@@ -1,0 +1,34 @@
+{
+    "nome": "Raio de Bruxa",
+    "name": "Witch Bolt",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "sombras",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um galho de uma árvore que tenha sido atingida por um relâmpago)",
+    "mana": 500,
+    "mana_adicional": "20 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "distância",
+    "dmg_effect": "elemental",
+    "dmg": "1d12",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Um raio crepitante de energia elemental é arremessado em uma criatura dentro do alcance, formando um arco elétrico contínuo entre você e o alvo. Faça um ataque à distância com magia contra a criatura. Se atingir, o alvo sofrerá 1d12 de dano elemental e, em cada um dos seus turnos, pela duração, você pode usar sua ação para causar 1d12 de dano elétrico ao alvo, automaticamente. A magia acaba se você usar sua ação para fazer qualquer outra coisa. A magia também acaba se o alvo estiver fora do alcance da magia ou se você tiver cobertura total para ele.\n\t**Melhorar Magia**. Você pode gastar mais 600 de mana e mais 20 por turno para adicionar 1d12 ao dano, até um máximo de 3d12 adicionais.",
+    "source": "LDJ"
+}

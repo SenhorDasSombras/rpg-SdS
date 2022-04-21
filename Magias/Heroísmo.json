@@ -8,13 +8,13 @@
         "água",
         "terra",
         "ar",
-        "luz",
+        "luz"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "toque",
     "componentes": "VS",
     "mana": 200,
-    "mana adicional": "20 por turno",
+    "mana_adicional": "20 por turno",
     "duracao": "concentração, até 1 minuto",
     "classes": [
         "clérigo",

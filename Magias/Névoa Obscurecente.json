@@ -1,0 +1,38 @@
+{
+    "nome": "Névoa Obscurecente",
+    "name": "Fog Cloud",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "sombras",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VS",
+    "mana": 200,
+    "mana_adicional": "10 a cada 5 minutos",
+    "duracao": "concentração, até 1 hora",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "controle"
+    ],
+    "descricao": "Você cria uma esfera de 6 metros de raio de névoa, centrada num ponto, dentro do alcance. A esfera se espalha, dobrando esquinas, e a área dela é de escuridão densa. Ela permanece pela duração ou até um vento moderado ou mais rápido (pelo menos 15 quilômetros por hora) dispersa-la. Caso o elemento da névoa seja Sombras, Metal ou Veneno, a magia também causa 1d4 de dano em todas as criaturas que começam seu turno dentro do efeito da magia, exceto o conjurador.\n\t**Melhorar Magia.** Para cada 500 de mana adicionais gastos, você pode aumentar em 6 metros o raio da nevoa até um adicional de 30 metros. Se seu elemento pode dar dano com essa magia, você pode gastar 500 adicionais para adicionar 1d4 ao dano até um máximo de 5d4 adicionais.",
+    "source": "LDJ"
+}

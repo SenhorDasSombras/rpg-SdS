@@ -2,7 +2,7 @@
     "nome": "Riso Histérico de Tasha",
     "name": "Hideous Laughter",
     "nivel": 1,
-    "escola": "encantamento",
+    "escola": "musical",
     "ritual": false,
     "elementos": [
     ],
@@ -10,7 +10,7 @@
     "alcance_area": "9 metros",
     "componentes": "VSM (pequenas tortas e uma pena que é balançada no ar)",
     "mana": 200,
-    "mana adicional": "10 por turno",
+    "mana_adicional": "10 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "WIS Save",
     "dmg_effect": "incapacitado",

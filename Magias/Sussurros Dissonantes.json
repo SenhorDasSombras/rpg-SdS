@@ -1,0 +1,33 @@
+{
+    "nome": "Sussorros Dissonantes",
+    "name": "Dissonant Whispers",
+    "nivel": 1,
+    "escola": "musical",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "V",
+    "mana": 350,
+    "duracao": "instantânea",
+    "attack_save": "WIS Save",
+    "dmg_effect": "psíquico",
+    "dmg": "3d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "controle"
+    ],
+    "descricao": "Você sussurra uma melodia dissonante que apenas uma criatura, à sua escolha, dentro do alcance pode ouvir, causando-lhe uma terrível dor. O alvo deve realizar um teste de resistência de Sabedoria. Se falhar na resistência, ele sofrerá 3d6 de dano psíquico e deve, imediatamente, usar sua reação, se disponível, para se mover para o mais longe possível de você. A criatura não se moverá para um terreno obviamente perigoso, como uma fogueira ou abismo. Se obtiver sucesso na resistência, o alvo sofre metade do dano e não precisa se afastar de você. Uma criatura surda obtém sucesso automaticamente na sua resistência.\n\t**Melhorar Magia**. Você pode adicionar mais uma criatura, à sua escolha, dentro do alcance para cada 500 de mana até um máximo de 5 criaturas adicionais. Além disso, você pode adicionar mais 1d6 de dano para cada 500 de mana adicionais até um máximo de 5d6.",
+    "source": "LDJ"
+}

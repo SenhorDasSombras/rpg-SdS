@@ -1,0 +1,36 @@
+{
+    "nome": "Constrição",
+    "name": "Entangle",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "27 metros",
+    "componentes": "VS",
+    "mana": 400,
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "STR Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle"
+    ],
+    "descricao": "Ervas e vinhas poderosas brotam do solo num quadrado de 6 metros a partir de um ponto dentro do alcance. Pela duração, essas plantas transformam o solo na área em terreno difícil.\n\tUma criatura na área quando você conjurar a magia deve ser bem sucedida num teste de resistência de Força ou ficará impedida pelo emaranhado de plantas, até a magia acabar. Uma criatura impedida pelas plantas pode usar sua ação para realizar um teste de Força, contra a CD da magia. Se for bem sucedido, irá se libertar.\n\tQuando a magia termina, as plantas conjuradas murcharão.",
+    "source": "LDJ"
+}

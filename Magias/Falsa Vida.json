@@ -1,0 +1,31 @@
+{
+    "nome": "Falsa Vida",
+    "name": "False Life",
+    "nivel": 1,
+    "escola": ["necromancia", "elemental"],
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (uma pequena quantidade de álcool)",
+    "mana": 400,
+    "duracao": "1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Você envolve-se com uma aura sombria e ganha 1d4 + 4 pontos de vida temporários pela duração da magia.\n\t**Melhorar Magia.** Você pode gastar 500 extras para adicionar 5 pontos de vida até um máximo de 20 pontos de vida adicionais.",
+    "source": "LDJ"
+}

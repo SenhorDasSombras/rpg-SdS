@@ -1,0 +1,31 @@
+{
+    "nome": "Distorcer Valor",
+    "name": "Distort Value",
+    "nivel": 1,
+    "escola": "ilusionista",
+    "ritual": false,
+    "elementos": [],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "toque",
+    "componentes": "V",
+    "mana": 250,
+    "duracao": "8 horas",
+    "attack_save": "INT Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "social",
+        "utilidade"
+    ],
+    "descricao": "Você conjura essa magia em um objeto com não mais que 30 cm em qualquer dimensão e ou dobra o valor percebido do objeto ao adicionar um floreio ilusório ou reduz pela metade o valor percebido do objeto com amassados e arranhões ilusórios. Qualquer pessoa examinando o objeto deve rolar um Teste de Investigação contra seu CD de magia.\n\t**Melhorar Magia.** Você pode gastar mais 500 de mana para adicionar mais 30 cm de dimensão ao item.",
+    "source": "LDJ"
+}

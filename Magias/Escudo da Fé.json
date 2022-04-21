@@ -1,0 +1,38 @@
+{
+    "nome": "Escudo Protetor",
+    "name": "Shield of Faith",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (um pequeno pergaminho com alguns textos sagrados escritos nele)",
+    "mana": 200,
+    "mana_adicional": "10 a cada minuto",
+    "duracao": "concentração, até 10 minuto",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff", "defesa"
+    ],
+    "descricao": "Um campo cintilante aparece ao redor de uma criatura, à sua escolha, dentro do alcance, concedendo +2 de bônus na CA pela duração",
+    "source": "LDJ"
+}

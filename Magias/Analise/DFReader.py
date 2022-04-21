@@ -1,9 +1,9 @@
-import json
 import glob
+import json
+from typing import List
 
 import pandas as pd
 
-from typing import List
 
 def get_spells_df(
     path_prefix: str = '../',

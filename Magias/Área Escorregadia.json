@@ -1,0 +1,33 @@
+{
+    "nome": "Área Escorregadia",
+    "name": "Grease",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (um pouco de pele de porco ou manteiga)",
+    "mana": 350,
+    "duracao": "1 minuto",
+    "attack_save": "DEX Save",
+    "dmg_effect": "caído",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle"
+    ],
+    "descricao": "Se o terreno for de pedra, você transforma essa pedra em uma pedra extremamente polida em um quadrado de 3 metros centrado em um ponto, dentro do alcance, tornando essa área terreno difícil pela duração.\n\tQuando a pedra fica polida, cada criatura de pé na área deve ser bem sucedida num teste de resistência de Destreza ou cairá no chão. Uma criatura que entre na área ou termine seu turno nela também deve passar um teste de resistência de Destreza ou cairá no chão.",
+    "source": "LDJ"
+}

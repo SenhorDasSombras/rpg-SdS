@@ -1,0 +1,37 @@
+{
+    "nome": "Destruição Lancinante",
+    "name": "Wrathful Smite",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "fogo",
+        "luz",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 400,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "corpo-a-corpo",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano", "buff"
+    ],
+    "descricao": "Da próxima vez que você atingir uma criatura com um ataque corpo-a-corpo com arma enquanto essa magia durar, sua arma flameja com intensas chamas e o ataque causa 1d6 de dano elemental extra ao alvo, fazendo-o incendiar pelas chamas. No início de cada turno dele, até a magia acabar, o alvo deve realizar um teste de resistência de Constituição. Se falhar na resistência, ele sofre 1d6 de dano de fogo. Se passar na resistência, a magia acaba. Se o alvo ou uma criatura a 1,5 metro dele usar uma ação para apagar as chamas ou se algum outro efeito extinguir as chamas (como submergir o alvo em água), a magia acaba.\n\t**Melhorar Magia**. Você pode gastar 500 de mana adicionais e 10 por turno para adicionar 1d6 no dano até um máximo de 5d6 adicionais.",
+    "source": "LDJ"
+}

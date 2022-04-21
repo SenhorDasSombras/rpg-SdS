@@ -12,7 +12,7 @@
     "componentes": "VSM (uma arma corpo-a-corpo)",
     "mana": 400,
     "duracao": "instantânea",
-    "attack_save": "ataque corpo-a-corpo",
+    "attack_save": "corpo-a-corpo",
     "dmg_effect": "gelo",
     "dmg": "1d6",
     "classes": [

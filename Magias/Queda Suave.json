@@ -1,0 +1,33 @@
+{
+    "nome": "Queda Suave",
+    "name": "Feather Fall",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 reação",
+    "alcance_area": "18 metros",
+    "componentes": "VM (uma pequena pena ou penugem similar)",
+    "mana": 200,
+    "duracao": "1 minuto",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "exploração"
+    ],
+    "descricao": "Escolha até cinco criaturas caindo, dentro do alcance. A taxa de descendência de uma criatura caindo é reduzida para 18 metros por rodada, até o fim da magia. Se a criatura aterrissar antes da magia acabar, ela não sofre nenhum dano de queda, pode aterrissar em pé e a magia termina para essa criatura.",
+    "source": "LDJ"
+}

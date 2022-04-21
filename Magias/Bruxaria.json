@@ -2,7 +2,7 @@
     "nome": "Bruxaria",
     "name": "Hex",
     "nivel": 1,
-    "escola": ["necromante", "elemental"],
+    "escola": ["necromancia", "elemental"],
     "ritual": false,
     "elementos": [
         "sombras",
@@ -12,7 +12,7 @@
     "alcance_area": "18 metros",
     "componentes": "VSM (o olho petrificado de um tritão)",
     "mana": 300,
-    "mana adicional": "50 por criatura amaldiçoada",
+    "mana_adicional": "50 por criatura amaldiçoada",
     "duracao": "concentração, até 1 hora",
     "dmg_effect": "necrótico",
     "dmg": "1d6",

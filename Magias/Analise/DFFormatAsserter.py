@@ -69,6 +69,9 @@ def _get_non_null_rows_of_columns(df, columns):
     rows = [df[column].dropna().index for column in columns]
     if len(rows) >= 2:
         rows = reduce(lambda x, y: x.append(y), rows)
+    elif len(rows) == 1:
+        rows = rows[0]
+
     return rows
 
 
@@ -147,7 +150,7 @@ def assert_df_column_types(df):
     assert_column_using_mask(df, "elementos", mask)
 
     tempo_conjuracao_regex = re.compile(
-        r"\d+\ (ação|ações|ação bônus|ações bônus|minuto|minutos|reação|reações)"
+        r"\d+\ (ação|ações|ação bônus|ações bônus|reação|reações|minuto|minutos|hora|horas)"
     )
     mask = df.tempo_conjuracao.str.fullmatch(tempo_conjuracao_regex)
     assert_column_using_mask(df, "tempo_conjuracao", mask)
@@ -177,7 +180,9 @@ def assert_df_column_types(df):
     mask = get_mask_from_list(df, "classes", G_CLASSES)
     assert_column_using_mask(df, "classes", mask)
 
-    source_regex = re.compile(r"(LDJ|Xanathar|Tasha|Wildemount|Custom)")
+    source_regex = re.compile(
+        r"(LDJ|Xanathar|Tasha|Wildemount|IcewindDale|Custom)"
+    )
     mask = df.source.str.fullmatch(source_regex)
     assert_column_using_mask(df, "source", mask)
 

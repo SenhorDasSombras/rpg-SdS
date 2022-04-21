@@ -1,0 +1,34 @@
+{
+    "nome": "Golpe Constritor",
+    "name": "Ensnaring Strike",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 400,
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "STR Save",
+    "dmg_effect": "perfurante",
+    "dmg": "1d6",
+    "classes": [
+        "paladino",
+        "ladino",
+        "monge"
+    ],
+    "tags": [
+        "dano",
+        "controle",
+        "combate"
+    ],
+    "descricao": "Da próxima vez que você atingir uma criatura com um ataque com arma, antes do final da magia, um emaranhado maciço de vinhas espinhentas elementais aparecem no local do impacto e o alvo deve ser bem sucedido num teste de resistência de Força ou ficará impedido pelas vinhas mágicas, até o fim da magia. Uma criatura Grande ou maior tem vantagem no seu teste de resistência. Se o alvo for bem sucedido na resistência, as vinhas murcharão.\n\tEnquanto estiver impedido pela magia, um alvo sofre 1d6 de dano perfurante no início de cada um dos turnos dele. Uma criatura impedida pelas vinhas ou uma que possa tocar a criatura, pode usar sua ação para realizar um teste de Força contra a CD da magia. Num sucesso, o alvo é libertado.\n\t**Melhorar Magia.** Você pode gastar 500 de mana extras para adicionar 1d6 no dano até um máximo de 5d6 adicionais.",
+    "source": "LDJ"
+}

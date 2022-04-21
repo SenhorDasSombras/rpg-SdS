@@ -1,0 +1,39 @@
+{
+    "nome": "Escudo Arcano",
+    "name": "Shield",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 reação",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 200,
+    "duracao": "1 rodada",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "defesa"
+    ],
+    "descricao": "Uma barreira de energia aparece e protege você.\n\tAté o início do seu próximo turno, você recebe +5 de bônus na CA, incluindo contra o ataque que desencadeou a magia, e você não sofre dado de mísseis mágicos.",
+    "source": "LDJ"
+}

@@ -1,0 +1,30 @@
+{
+    "nome": "Pés Leves (Recuo Acelerado)",
+    "name": "Expeditious Retreat",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar",
+        "luz",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 100,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 10 minutos",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "monge"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Essa magia permite que você se mova a um ritmo incrível. Quando você a conjura, a partir de então, você pode, com uma ação bônus em cada um de seus turnos até a magia terminar, realizar a ação de Disparada.",
+    "source": "LDJ"
+}

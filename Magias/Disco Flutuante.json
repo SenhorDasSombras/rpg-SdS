@@ -1,0 +1,37 @@
+{
+    "nome": "Disco Flutuante",
+    "name": "Floating Disk",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "luz",
+        "sombras",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (uma gota de mercúrio)",
+    "mana": 200,
+    "mana_adicional": "5 a cada 5 minutos",
+    "duracao": "1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "exploração"
+    ],
+    "descricao": "Essa magia cria um plano horizontal, circular elemental de 90 cm de diâmetro por 2,5 cm de espessura, que flutua 90 centímetros acima do chão em um espaço desocupado, à sua escolha, que você possa ver dentro do alcance. O disco permanece pela duração e pode suportar até 250 quilos. Se mais peso for colocado nele, a magia termina, e tudo em cima do disco cai no chão.\n\tO disco é imóvel enquanto você estiver a até 6 metros dele. Se você se afastar a mais de 6 metros dele, o disco seguirá você, mantendo-se a 6 metros de você. Ele pode atravessar terreno irregular, subir ou descer escadas, encostas e similares, mas ele não pode atravessar mudanças de elevação de 3 metros ou mais. Por exemplo, o disco não pode atravessar um fosso de 3 metros de profundidade nem poderia sair de tal fosso se tivesse sido criado no fundo dele.\n\tSe você se afastar mais de 30 metros do disco (tipicamente por ele não poder rodear um obstáculo para seguir você), a magia acaba.",
+    "source": "LDJ"
+}

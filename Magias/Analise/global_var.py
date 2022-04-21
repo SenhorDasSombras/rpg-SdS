@@ -37,6 +37,7 @@ G_TAGS = [
     "comunicação",
     "social",
     "detecção",
+    "exploração",
 ]
 G_CLASSES = [
     "bardo",

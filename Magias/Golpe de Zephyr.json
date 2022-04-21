@@ -1,0 +1,31 @@
+{
+    "nome": "Golpe de Zephyr",
+    "name": "Zephyr Strike",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 200,
+    "mana_adicional": "10 por turno",
+    "duracao": "instantânea",
+    "dmg_effect": "ar",
+    "dmg": "1d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge"
+    ],
+    "tags": [
+        "dano", "buff"
+    ],
+    "descricao": "Você se move como o vento. Até o fim da magia, seu movimento não provoca ataques de oportunidade.\n\tUma vez até o fim da magia, você pode se dar vantagem em uma rolagem de ataque com arma no seu turno. Esse ataque infringe 1d8 de dano de ar extra caso acerte. Não importa se acertar ou errar, sua velocidade de deslocamento aumenta em 9 metros até o final desse turno.",
+    "source": "Xanathar"
+}
