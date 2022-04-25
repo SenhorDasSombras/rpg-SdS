@@ -1,148 +1,167 @@
 """This module exports a spell dataframe into a LaTeX format (not an entire document, just using LaTeX markup language)."""
 
-import re
-from functools import reduce
+import os
 
-from pandas import DataFrame, Series
+from IPython.display import clear_output
+from pandas import DataFrame
 
-import SpellPrinter as spell_printer
-
-
-def sub_all(pattern: str, repl: str, string: str) -> str:
-    for _ in range(10):
-        string = re.sub(pattern, repl, string, 1)
-    return string
+from SpellFormatConverter import get_latex_spells
 
 
-def replace_italics(markdown_text: str) -> str:
-    string = markdown_text
-    for _ in range(10):
-        string = re.sub(r"(?P<tmp>_)", r"\\textit{", string, 1)
-        string = re.sub(r"_", r"}", string, 1)
-    return string
+def export_tex_file(spells_df: DataFrame, filename: str, verbose: bool = False):
+    """Creates a LaTeX file with the spells contained in the dataframe.
 
+    Parameters
+    ----------
+    spells_df : DataFrame
+        A dataframe containing the spells.
+    filename : str
+        The file name without the .tex extension.
+    verbose : bool, default=False
+        If True, prints the commands used.
+    """
 
-def replace_bold(markdown_text: str) -> str:
-    string = markdown_text
-    for _ in range(10):
-        string = re.sub(r"(?P<tmp>\*\*)", r"\\textbf{", string, 1)
-        string = re.sub(r"\*\*", r"}", string, 1)
-    return string
-
-
-def replace_newlines(markdown_text: str) -> str:
-    latex_text = sub_all(r"<br>", r"\\\\", markdown_text)
-    return latex_text
-
-
-def replace_tabs(markdown_text: str) -> str:
-    latex_text = sub_all(r"&emsp;", r"\\t ", markdown_text)
-    return latex_text
-
-
-def replace_size(string: str, font_size: str) -> str:
-    if font_size == "10px":
-        font_size = "\\tiny"
-    elif font_size == "11px":
-        font_size = "\\scriptsize"
-    elif font_size == "13px":
-        font_size = "\\small"
-    else:
-        font_size = "\\normalsize"
-
-    sized_string = "{%s %s}" % (font_size, string)
-    return sized_string
-
-
-def replace_span(markdown_text: str) -> str:
-    pattern = r"<span style='color:(?P<color>.*);font-size:(?P<fontsize>.*)'>(?P<str>.*)<\/span>"
-
-    match_obj = re.match(pattern, markdown_text)
-
-    string = match_obj.group("str")
-    color = match_obj.group("color")
-    font_size = match_obj.group("fontsize")
-
-    if color != "None":
-        colored_string = "\\textcolor{%s}{%s}" % (color, string)
-    else:
-        colored_string = string
-    latex_text = replace_size(colored_string, font_size)
-    return latex_text
-
-
-def replace_all(markdown_text: str) -> str:
-    latex_text = markdown_text
-    replacements = [
-        replace_italics,
-        replace_bold,
-        replace_newlines,
-        replace_tabs,
-        replace_span,
-    ]
-
-    for func in replacements:
-        latex_text = func(latex_text)
-    return latex_text
-
-
-def get_latex_str_for_parts(parts_str: list) -> str:
-    latex_parts = list()
-    for markdown_part in parts_str:
-        latex_part = replace_all(markdown_part)
-        latex_parts.append(latex_part)
-
-    latex_text = reduce(lambda x, y: f"{x}\n{y}", latex_parts)
-    return latex_text
-
-
-def get_latex_spell(spell_series: Series) -> str:
-    parts_str = spell_printer.get_spell_parts_str(spell_series)
-    latex_text = get_latex_str_for_parts(parts_str)
-    return latex_text
-
-
-def get_latex_spells(spells_df: DataFrame) -> str:
-    latex_text = ""
-    for _, spell_series in spells_df.iterrows():
-        latex_spell = get_latex_spell(spell_series)
-        latex_text += f"{latex_spell}\jump"
-    return latex_text
-
-
-def export_spells(spells_df: DataFrame, filename: str, verbose: bool = False):
     latex_tamplate = r"""
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[12pt, a4paper, oneside]{book}
+\documentclass{RPG_Adventure}[2021/10/20]
 
 \input{/home/giatro/.config/user/giatro_packages.tex}
 
 \input{/home/giatro/.config/user/giatro_macros.tex}
 
-\title{Spells}
+\title{Magias de\\ \Huge{O Senhor das Sombras}}
 \date{\today}
 \author{Lucas Paiolla Forastiere}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 \maketitle
-\tableofcontents
-\newpage
 
 %s
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
     """
-
-    with open(filename, "w") as f:
+    if verbose:
+        print(f"Exporting {filename}.tex")
+    with open(f"{filename}.tex", "w") as f:
         latex_text = get_latex_spells(spells_df)
         if verbose:
             print(latex_text)
         latex_text = latex_tamplate % latex_text
         f.write(latex_text)
+
+
+def compile_tex_file(filename: str, verbose: bool = False):
+    """Compiles a LaTeX file into a PDF file.
+
+    It's important to have the RPG_Adventure.cls file in the same folder as the LaTeX file.
+
+    Parameters
+    ----------
+    filename : str
+        The file name without the .tex extension.
+    verbose : bool, default=False
+        If True, prints the commands used.
+    """
+    base_filename = os.path.basename(filename)
+    dir = os.path.dirname(filename)
+    cwd = os.getcwd()
+
+    try:
+        os.chdir(dir)
+
+        compile_cmd = f"pdflatex -no-file-line-error -interaction nonstopmode {base_filename}.tex > /dev/null 2>&1"
+        rm_cmd = f"rm *.out *.log *.aux"
+
+        if verbose:
+            print(compile_cmd)
+        os.system(compile_cmd)
+
+        if verbose:
+            print(rm_cmd)
+        os.system(rm_cmd)
+    finally:
+        os.chdir(cwd)
+
+
+def open_pdf(filename: str, verbose: bool = False):
+    """Opens a PDF file.
+
+    Parameters
+    ----------
+    filename : str
+        The file name without the .pdf extension.
+    verbose : bool, default=False
+        If True, prints the commands used. The default is False.
+    """
+    if verbose:
+        print(f"Opening {filename}.pdf")
+    os.system(f"zathura {filename}.pdf")
+
+
+def delete_tex_file(filename: str, verbose: bool = False):
+    """Deletes a LaTeX file.
+
+    Parameters
+    ----------
+    filename : str
+        The file name.
+    verbose : bool, default=False
+        If True, prints the commands used. The default is False.
+    """
+    if verbose:
+        print(f"Deleting {filename}.tex")
+    os.system(f"rm {filename}.tex")
+
+
+def export_spells(
+    spells_df: DataFrame,
+    filename: str,
+    verbose: bool = False,
+    open_file: bool = False,
+    delete_tex: bool = False,
+):
+    """The main function of the module.
+
+    It exports the spells contained in the dataframe into a LaTeX file and compiles it into a PDF file.
+
+    Also, it has options to open the PDF file and delete the LaTeX file.
+
+    Parameters
+    ----------
+    spells_df : DataFrame
+        The dataframe containing the spells.
+    filename : str
+        The filename without any extension.
+    verbose : bool, default=False
+        If True, prints the commands used. The default is False.
+    open_file : bool, default=False
+        If True, opens the PDF file. The default is False.
+    delete_tex : bool, default=False
+        If True, deletes the LaTeX file. The default is False.
+    """
+    basename = os.path.basename(filename)
+    file_folder = os.path.dirname(filename)
+    filename = f"latex_compilation/{basename}"
+
+    export_tex_file(spells_df, filename, verbose)
+    compile_tex_file(filename, verbose)
+
+    if open_file:
+        open_pdf(filename, verbose)
+
+    if delete_tex:
+        delete_tex_file(filename, verbose)
+    else:
+        os.system(f"mv latex_compilation/{basename}.tex {file_folder}")
+
+    os.system(f"mv latex_compilation/{basename}.pdf {file_folder}")
+
+    if not verbose:
+        clear_output()
