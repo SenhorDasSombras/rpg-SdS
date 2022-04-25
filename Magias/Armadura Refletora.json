@@ -1,8 +1,8 @@
 {
-    "nome": "Armadura de Agathys",
+    "nome": "Armadura Refletora",
     "name": "Armor of Agathys",
     "nivel": 1,
-    "escola": "elemental",
+    "escola": ["elemental", "musical", "psíquica"],
     "ritual": false,
     "elementos": [
         "água",

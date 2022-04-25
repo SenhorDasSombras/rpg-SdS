@@ -2,7 +2,7 @@
     "nome": "Armadura Arcana",
     "name": "Mage Armor",
     "nivel": 1,
-    "escola": "elemental",
+    "escola": ["elemental", "musical", "psíquica"],
     "ritual": false,
     "elementos": [
         "água",

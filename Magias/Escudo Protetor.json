@@ -2,7 +2,7 @@
     "nome": "Escudo Protetor",
     "name": "Shield of Faith",
     "nivel": 1,
-    "escola": "elemental",
+    "escola": ["elemental", "musical", "psíquica"],
     "ritual": false,
     "elementos": [
         "água",
@@ -18,7 +18,7 @@
     "tempo_conjuracao": "1 ação bônus",
     "alcance_area": "18 metros",
     "componentes": "VSM (um pequeno pergaminho com alguns textos sagrados escritos nele)",
-    "mana": 200,
+    "mana": 350,
     "mana_adicional": "10 a cada minuto",
     "duracao": "concentração, até 10 minuto",
     "classes": [
@@ -33,6 +33,6 @@
     "tags": [
         "buff", "defesa"
     ],
-    "descricao": "Um campo cintilante aparece ao redor de uma criatura, à sua escolha, dentro do alcance, concedendo +2 de bônus na CA pela duração",
+    "descricao": "Um campo cintilante aparece ao redor de uma criatura, à sua escolha, dentro do alcance, concedendo +1 de bônus na CA pela duração.\n\tEsta magia não pode ser utilizada se a criatura já estiver sob efeito de outros escudos mágicos.\n\t**Melhorar Magia**. Você pode gastar mais 500 mana para transformar o efeito em +2 ou então mais 2000 de mana para transformar o efeito em +3.",
     "source": "LDJ"
 }
