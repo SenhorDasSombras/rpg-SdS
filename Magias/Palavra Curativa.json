@@ -29,6 +29,6 @@
     "tags": [
         "cura"
     ],
-    "descricao": "Uma criatura, à sua escolha, que você possa ver dentro do alcance recupera uma quantidade de pontos de vida igual a 1d4 + seu modificador de habilidade de conjuração. Essa magia não tem efeito em mortos-vivos ou constructos **Melhorar Magia**. Para cada 500 de mana adicionais, você pode adicionar 1d4 na cura total. Para cada 500 de mana adicional, você pode escolher uma criatura a mais para ser curada. O valor rolado é o total de cura, você determina como essa cura é distribuída entre as criaturas curadas.",
+    "descricao": "Uma criatura, à sua escolha, que você possa ver dentro do alcance recupera uma quantidade de pontos de vida igual a 1d4 + seu modificador de habilidade de conjuração. Essa magia não tem efeito em mortos-vivos ou constructos.\n\t**Melhorar Magia**. Para cada 500 de mana adicionais, você pode adicionar 1d4 na cura total. Para cada 500 de mana adicional, você pode escolher uma criatura a mais para ser curada. O valor rolado é o total de cura, você determina como essa cura é distribuída entre as criaturas curadas.",
     "source": "LDJ"
 }

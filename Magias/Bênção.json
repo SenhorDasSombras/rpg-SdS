@@ -14,9 +14,6 @@
     "mana": 300,
     "mana_adicional": "30 por turno",
     "duracao": "concentração, até 1 minuto",
-    "attack_save": "N/A",
-    "dmg_effect": "N/A",
-    "dmg": "N/A",
     "classes": [
         "clérigo",
         "paladino",
@@ -29,6 +26,6 @@
     "tags": [
         "buff"
     ],
-    "descricao": "Um texto longo pra k7 aqui",
+    "descricao": "Você abençoa até três criaturas, à sua escolha, dentro do alcance. Sempre que um alvo realizar uma jogada de ataque ou teste de resistência antes da magia acabar, o alvo pode jogar um d4 e adicionar o valor jogado ao ataque ou teste de resistência.\n\t**Melhorar Magia**. Você pode gastar 500 de mana adicionais para adicionar mais uma pessoa até um máximo de 6 pessoas no total.",
     "source": "LDJ"
 }

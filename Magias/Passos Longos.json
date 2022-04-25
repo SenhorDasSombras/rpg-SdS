@@ -5,12 +5,8 @@
     "escola": "elemental",
     "ritual": false,
     "elementos": [
-        "água",
-        "terra",
         "ar",
-        "luz",
-        "relâmpago",
-        "metal"
+        "luz"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "toque",

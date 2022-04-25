@@ -12,7 +12,7 @@
     "componentes": "V",
     "mana": 200,
     "mana_adicional": "10 por turno",
-    "duracao": "instantânea",
+    "duracao": "concentração, até 1 minuto",
     "dmg_effect": "ar",
     "dmg": "1d8",
     "classes": [

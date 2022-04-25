@@ -12,7 +12,7 @@
     "tempo_conjuracao": "1 ação bônus",
     "alcance_area": "pessoal",
     "componentes": "VS",
-    "mana": 100,
+    "mana": 250,
     "mana_adicional": "10 por minuto",
     "duracao": "concentração, até 10 minutos",
     "classes": [

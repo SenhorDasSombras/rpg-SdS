@@ -24,6 +24,6 @@
         "dano",
         "debuff"
     ],
-    "descricao": "Você lança uma série de notas dissonantes atadas com encantamentos sutis numa criatura que você possa ver, dentro do alcance. Se o alvo puder ouvir você, ele deve ser bem sucedido num teste de resistência de Sabedoria ou sofrerá 1d6 de dano psíquico e terá desvantagem na próxima jogada de ataque que ele fizer antes do final do próximo turno dele.  O dano dessa magia aumenta em 1d6 quando você alcança o 5° nível (2d6), 11° nível (3d6) e 17° nível (4d6).",
+    "descricao": "Você lança uma série de notas dissonantes atadas com encantamentos sutis numa criatura que você possa ver, dentro do alcance. Se o alvo puder ouvir você, ele deve ser bem sucedido num teste de resistência de Sabedoria ou sofrerá 1d6 de dano psíquico e terá desvantagem na próxima jogada de ataque que ele fizer antes do final do próximo turno dele.\n\tO dano dessa magia aumenta em 1d6 quando você alcança o 5° nível (2d6), 11° nível (3d6) e 17° nível (4d6).",
     "source": "LDJ"
 }

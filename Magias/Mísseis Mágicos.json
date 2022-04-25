@@ -36,6 +36,6 @@
     "tags": [
         "dano"
     ],
-    "descricao": "Você cria três dardos elementais. Cada dardo atinge uma criatura, à sua escolha, que você possa ver, dentro do alcance. Um dardo causa 1d4 + 1 de dano elemental ao alvo. Todos os dardos atingem simultaneamente e você pode direciona-los para atingir uma criatura ou várias. **Melhorar Magia**. Para cada 500 de mana adicionais, você adiciona mais um dardo à magia, até um máximo de 10 dardos totais.",
+    "descricao": "Você cria três dardos elementais. Cada dardo atinge uma criatura, à sua escolha, que você possa ver, dentro do alcance. Um dardo causa 1d4 + 1 de dano elemental ao alvo. Todos os dardos atingem simultaneamente e você pode direciona-los para atingir uma criatura ou várias.\n\t**Melhorar Magia**. Para cada 500 de mana adicionais, você adiciona mais um dardo à magia, até um máximo de 10 dardos totais.",
     "source": "LDJ"
 }
