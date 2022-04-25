@@ -28,8 +28,7 @@
         "monge"
     ],
     "tags": [
-        "dano",
-        "combate"
+        "dano"
     ],
     "descricao": "Você arremessa um cisco elemental em uma criatura ou objeto dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofre 1d10 de dano de elemental.\n\t[Fogo|Sombras] Um objeto inflamável atingido por essa magia, incendeia se não estiver sendo vestido ou carregado.\n\tO dano dessa magia aumenta em 1d10 quando você alcança o 5° nível (2d10), 11° nível (3d10) e 17° nível (4d10).",
     "source": "LDJ"

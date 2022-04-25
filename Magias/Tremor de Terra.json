@@ -29,8 +29,7 @@
     ],
     "tags": [
         "dano",
-        "controle",
-        "combate"
+        "controle"
     ],
     "descricao": "Você causa um tremor no solo dentro do alcance. Toda criatura além de você deve fazer um Teste de Resistência de Destreza. Se falhar, a criatura recebe 1d6 de dano de concussão e cai no chão. Se o terreno for de terra solta ou pedra, ele se torna terreno difícil.\n\t**Melhorar Magia.** Você pode adicionar mais 500 de mana para adicionar mais 1d6 de dano até um máximo de 5d6 adicionais. Você pode adicionar mais 600 de mana para aumentar o alcance da magia em 1,5m até um máximo de 4,5m adicionais.",
     "source": "Custom"

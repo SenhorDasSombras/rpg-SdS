@@ -25,7 +25,6 @@ G_TAGS = [
     "buff",
     "debuff",
     "controle",
-    "combate",
     "utilidade",
     "dano",
     "defesa",
