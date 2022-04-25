@@ -27,8 +27,7 @@
         "bruxo"
     ],
     "tags": [
-        "dano",
-        "distância"
+        "dano"
     ],
     "descricao": "Radiação similar a uma chama desce sobre uma criatura que você possa ver, dentro do alcance. O alvo deve ser bem sucedido num teste de resistência de Destreza ou sofrerá 1d8 de dano radiante. O alvo não recebe qualquer benefício de cobertura contra esse teste de resistência.\n\tO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
     "source": "LDJ"

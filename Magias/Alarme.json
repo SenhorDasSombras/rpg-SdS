@@ -2,7 +2,7 @@
     "nome": "Alarme",
     "name": "Alarm",
     "nivel": 1,
-    "escola": "musical",
+    "escola": ["musical", "ilusionista"],
     "ritual": true,
     "elementos": [],
     "tempo_conjuracao": "1 minuto",

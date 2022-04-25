@@ -10,6 +10,7 @@
     "alcance_area": "pessoal",
     "componentes": "SM (uma pequena quantidade de maquiagem)",
     "mana": 100,
+    "mana_adicional": "10 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "N/A",
     "dmg_effect": "N/A",

@@ -27,6 +27,6 @@
         "dano",
         "controle"
     ],
-    "descricao": "Você extrai a vitalidade de uma criatura que você possa ver dentro do alcance. O alvo deve ter sucesso em uma salvaguarda de Constituição ou toma 1d4 de dano necrótico e cai no chão.\n\t[Monge] Se fizer o ataque corpo-a-corpo, o alvo toma o dano completo.",
+    "descricao": "Você extrai a vitalidade de uma criatura que você possa ver dentro do alcance. O alvo deve ter sucesso em uma salvaguarda de Constituição ou toma 1d4 de dano necrótico e cai no chão.",
     "source": "Wildemount"
 }
