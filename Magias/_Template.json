@@ -35,7 +35,21 @@
         "bruxo"
     ],
     "tags": [
-        "dano"
+        "buff",
+        "debuff",
+        "controle",
+        "utilidade",
+        "dano",
+        "defesa",
+        "cura",
+        "distância",
+        "corpo-a-corpo",
+        "toque",
+        "arma",
+        "comunicação",
+        "social",
+        "detecção",
+        "exploração"
     ],
     "descricao": "Um texto longo pra k7 aqui",
     "source": "LDJ"
