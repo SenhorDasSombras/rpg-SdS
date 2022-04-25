@@ -229,3 +229,14 @@ def print_spells_for_df(spells_df):
     for _, row in spells_df.iterrows():
         print_spell(row)
         print()
+
+
+def print_spells_by_name(spells_df, name):
+    """Receives a Pandas DataFrame of spells and a name and prints the spell
+    with that name.
+    """
+    spells_df = spells_df[
+        (spells_df["nome"].str.contains(name, case=False))
+        | (spells_df["name"].str.contains(name, case=False))
+    ]
+    print_spells_for_df(spells_df)
