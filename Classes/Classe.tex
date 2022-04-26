@@ -44,19 +44,19 @@ A tabela a seguir define a quantidade de mana por nível de personagem:
     \textbf{Nível} & \textbf{Mana} \\
     \hline
     \hline
-    1 & 1000 \\
+    1 & 500 \\
     \hline
-    2 & 2500 \\
+    2 & 1000 \\
     \hline
-    3 & 4000 \\
+    3 & 2000 \\
     \hline
-    4 & 6000 \\
+    4 & 3000 \\
     \hline
-    5 & 8000 \\
+    5 & 5000 \\
     \hline
-    6 & 10000 \\
+    6 & 6000 \\
     \hline
-    7 & 12500 \\
+    7 & 9000 \\
     \hline
     8 &  ??? \\
     \hline
@@ -278,7 +278,7 @@ que possa ver.
 Magos do Metal transformam a expressão ``perceba a lâmina como uma extensão do
 seu corpo'' em algo ultrapassado.
 
-\subsection*{Escolas e Ordens disponíveis}%
+\subsection*{Escolas e Ordens Disponíveis}%
 \label{sub:escolas_e_ordens_disponiveis}
 
 Independente da classe escolhida pelo jogador, as ordens da Água, Fogo, Terra,
@@ -295,19 +295,54 @@ ordens, o personagem deve fazer alguma missão especial.
 Todas as classes conhecem truques desde o 1º nível. Já os outros ciclos de magia
 estão determinados em cada classe a partir de que nível aquela classe o conhece.
 
-\subsection*{Mana e conjuração}%
+\subsection*{Mana e Conjuração}%
 \label{sub:mana_e_conjuracao}
 
-Independente da classe, se um conjurador possui apenas $20\%$ de sua mana restante,
-então ele começa a fazer testes de Constituição sempre que utiliza mais mana
-para qualquer coisa. O teste é 10 + (20\% - porcentagem atual de mana restante).
-Cada falha acarreta em um nível de exaustão.
+A menos que se diga o contrário, se um conjurador possui apenas $20\%$ de sua
+mana restante, então ele começa a fazer testes de Constituição sempre que
+utiliza mais mana para qualquer coisa. O teste é 10 + (20\% - porcentagem atual
+de mana restante).  Cada falha acarreta em um nível de exaustão.
 
 Caso o conjurador possua apenas $5\%$ de mana restante, então uma falha no teste
 acarreta em dois níveis de exaustão.
 
 Independe do nível de exaustão, se um personagem chega em $0$ de mana, ele
 morre imediatamente.
+
+\subsection*{Conjuração Armada}%
+\label{sub:conjuracao_armada}
+
+Para conjurar magias, o conjurador deve ter um foco em canalizar sua mana pelo
+corpo e expressa-la no Mundo Material em forma de magias. Portanto, conjurar
+magias com as duas mãos ocupadas (seja por duas armas ou seja por uma arma e um
+escudo) ou utilizando uma armadura pesada é muito mais difícil.
+
+A menos que se diga o contrário, conjuradores possem certas desvantagens ao
+conjurar magias quando estão com as duas mãos ocupadas ou utilizando armada.
+
+Se uma magia possui dados que devem ser rolados (por qualquer motivo), então você
+deve rolar o dobro dos dados citados na magia e pegar os menores dados (por
+exemplo, se a magia pede para rolar 3d6, então role 6d6 e pegue os 3 menores).
+
+Se a magia diz que um inimigo deve fazer uma salvaguarda, então o inimigo o faz
+com vantagem. Se a magia é qualquer tipo de buff ou debuff (por exemplo,
+armaduras e escudos mágicos, magias que impõem desvantagem ao inimigo sem que ele
+tenha que passar em salvaguardas, magias que adicionam dados a salvaguardas de
+aliados...), então você deve passar em um teste CD 12 menos seu modificador de
+conjuração para que a magia realmente seja efetiva.
+
+Se o conjurador está utilizando um foco de conjuração (cajado, varinha ou
+similares), então essa mão é considerada como mão livre (por exemplo, ele pode
+utilizar cajado e adaga e essa regra não se aplica).
+
+\subsection*{Conjuração de Monstros}%
+\label{sub:conjuracao_de_monstros}
+
+Os monstros e inimigos em geral sempre possem a regra Conjuração Armada aplicada
+a eles. Podem existir exceções a essa regra, mas provavelmente serão inimigos
+mais marcantes (por exemplo, inimigos que possuem uma magia característica que
+usa sempre ou então inimigos que possuem fichas de personagens jogáveis).
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -327,7 +362,7 @@ morre imediatamente.
 \section*{Características de Classe\t\t}%
 \label{sec:caracteristicas_de_classe}
 
-Como um mago, você adquire as seguintes características de classe.
+Como um conjurador, você adquire as seguintes características de classe.
 
 \subsubsection{Pontos de Vida}%
 \label{ssub:pontos_de_vida}
