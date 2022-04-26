@@ -49,10 +49,9 @@ def export_tex_file(spells_df: DataFrame, filename: str, verbose: bool = False):
     """
     if verbose:
         print(f"Exporting {filename}.tex")
+
     with open(f"{filename}.tex", "w") as f:
         latex_text = get_latex_spells(spells_df)
-        if verbose:
-            print(latex_text)
         latex_text = latex_tamplate % latex_text
         f.write(latex_text)
 
