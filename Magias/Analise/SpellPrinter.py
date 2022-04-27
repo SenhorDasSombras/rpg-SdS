@@ -1,3 +1,6 @@
+"""This module converts a spell series into a markdown string that can be
+printed also using this module."""
+
 import re
 
 from IPython.display import Markdown, display

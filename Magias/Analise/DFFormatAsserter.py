@@ -1,3 +1,10 @@
+"""This module asserts the schema of the spell dataframe. Making sure it has
+the right columns and right values inside each of the columns.
+
+    Note: right now there are many things hardcoded that could and should be
+    put into a config file.
+"""
+
 import re
 from functools import reduce
 

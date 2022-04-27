@@ -1,4 +1,4 @@
-"""This module converts the Markdown format into LaTeX format."""
+"""This module converts the spell Markdown format into LaTeX format."""
 
 import re
 from functools import reduce

@@ -1,3 +1,9 @@
+"""This module reads the spells from the .json files inside a particular folder
+and returns a DataFrame with the spells.
+
+It has two main functions, one to return the raw DataFrame and another to
+return the DataFrame with the schema asserted."""
+
 import glob
 import json
 from typing import List

@@ -1,5 +1,6 @@
+"""Module to filter any DataFrame using different filters."""
+
 import json
-import sys
 from typing import Any, Dict
 
 from pandas import DataFrame
