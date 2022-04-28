@@ -9,7 +9,7 @@
     "tempo_conjuracao": "1 minuto",
     "alcance_area": "toque",
     "componentes": "VSM (uma perola valendo, no mínimo, 100 po e uma pena de coruja)",
-    "mana": 200,
+    "mana": 500,
     "duracao": "instantânea",
     "classes": [
         "clérigo",

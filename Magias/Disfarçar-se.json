@@ -8,7 +8,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "pessoal",
     "componentes": "VS",
-    "mana": 200,
+    "mana": 250,
     "mana_adicional": "20 a cada 10 minutos",
     "duracao": "1 hora",
     "attack_save": "INT Test",

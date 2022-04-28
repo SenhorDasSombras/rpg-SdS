@@ -9,7 +9,8 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "18 metros",
     "componentes": "VSM (um pouco de lã)",
-    "mana": 200,
+    "mana": 250,
+    "mana_adicional": "10 por turno",
     "duracao": "concentração, até 10 minutos",
     "attack_save": "INT Save",
     "classes": [

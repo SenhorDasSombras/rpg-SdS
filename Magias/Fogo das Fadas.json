@@ -10,7 +10,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "18 metros",
     "componentes": "V",
-    "mana": 200,
+    "mana": 300,
     "mana_adicional": "10 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "DEX Save",

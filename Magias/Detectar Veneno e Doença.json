@@ -8,7 +8,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "9 metros",
     "componentes": "VS",
-    "mana": 200,
+    "mana": 300,
     "mana_adicional": "10 por minuto",
     "duracao": "concentração, até 10 minutos",
     "attack_save": "N/A",
