@@ -1,0 +1,38 @@
+{
+    "nome": "Ataque Elemental",
+    "name": "Custom",
+    "nivel": 0,
+    "escola": ["elemental", "musical", "ilusionista", "necromancia", "psíquica"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "S",
+    "mana": 0,
+    "duracao": "instantânea",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Essa é a magia mais básica de dano que qualquer mago sabe utilizar e utiliza uma quantidade de mana praticamente nula (se sua mana estiver abaixo do limite, você ainda deve fazer testes de exaustão).\n\tVocê utiliza sua escola e elemento para causa 1d6 de dano no inimigo.\n\tO dano dessa magia aumenta em 1d6 quando você alcança o 5° nível (2d6), 11° nível (3d6) e 17° nível (4d6).",
+    "source": "Custom"
+}
