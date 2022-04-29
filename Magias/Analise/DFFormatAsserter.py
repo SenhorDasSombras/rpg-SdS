@@ -187,8 +187,9 @@ def assert_df_column_types(df):
     mask = get_mask_from_list(df, "classes", G_CLASSES)
     assert_column_using_mask(df, "classes", mask)
 
+    # TODO: pass possible names to global variables
     source_regex = re.compile(
-        r"(LDJ|Xanathar|Tasha|Wildemount|IcewindDale|Custom)"
+        r"(LDJ|Xanathar|Tasha|Etc.|Custom)"
     )
     mask = df.source.str.fullmatch(source_regex)
     assert_column_using_mask(df, "source", mask)
