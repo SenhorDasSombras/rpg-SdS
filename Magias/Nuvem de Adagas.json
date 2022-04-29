@@ -1,0 +1,40 @@
+{
+    "nome": "Nuvem de Adagas",
+    "name": "Cloud of Daggers",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (uma lasca de vidro)",
+    "mana": 700,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "elemental",
+    "dmg": "4d4",
+    "classes": [
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "dano"
+    ],
+    "descricao": "Você preenche o ar com adagas giratórias num cubo de 1,5 metro quadrado, centrado em m ponto, à sua escolha, dentro do alcance. Uma criatura sofre 4d4 de dano cortante quando entra na área da magia pela primeira vez no turno dela ou começa seu turno na área.\n\t**Melhorar Magia**. Para cada 650 de pontos de mana adicionais gastos, adicione mais 2d4 ao dano, até um máximo de 10d4 adicionais.",
+    "source": "LDJ"
+}

@@ -1,0 +1,33 @@
+{
+    "nome": "Sentido Bestial",
+    "name": "Beast Sense",
+    "nivel": 2,
+    "escola": ["elemental", "musical", "invocação"],
+    "ritual": false,
+    "elementos": [
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "S",
+    "mana": 500,
+    "mana_adicional": "20 a cada 5 minutos",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "exploração"
+    ],
+    "descricao": "Você toca uma besta voluntária. Pela duração da magia, você pode usar sua ação para ver através dos olhos e ouvir através dos ouvidos da besta e continua a fazê-lo até você usar sua ação para retornar aos seus sentidos normais.\n\tEnquanto estiver utilizando os sentidos da besta, você ganha os benefícios de qualquer sentido especial possuído pela criatura, no entanto, você estará cego e surdo em relação aos seus próprios sentidos.",
+    "source": "LDJ"
+}

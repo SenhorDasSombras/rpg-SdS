@@ -1,0 +1,34 @@
+{
+    "nome": "Pele de Árvore",
+    "name": "Barkskin",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (um pedaço de casca de carvalho)",
+    "mana": 700,
+    "mana_adicional": "10 a cada 5 minutos",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "defesa"
+    ],
+    "descricao": "Você toca uma criatura voluntária. Até o fim da magia, a pele da criatura fica rígida e a CA agora é no mínimo 16, independentemente do tipo de armadura que ela esteja vestindo.",
+    "source": "LDJ"
+}

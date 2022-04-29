@@ -1,0 +1,38 @@
+{
+    "nome": "Marca Reveladora",
+    "name": "Branding Smite",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 650,
+    "mana_adicional": "10 de mana a cada turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "luz",
+    "dmg": "2d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "dano",
+        "corpo-a-corpo",
+        "arma"
+    ],
+    "descricao": "Da próxima vez que você atingir uma criatura com um ataque com arma, antes do fim da magia, a arma cintilará com radiação astral quando você golpear. O ataque causa 2d6 de dano radiante extra ao alvo, que se torna visível, se estava invisível, e o alvo emite penumbra em um raio de 1,5 metro e não pode ficar invisível até a magia acabar.\n\t**Melhorar Magia**. Para cada 500 de mana adicionais gastos, você pode adicionar mais 1d6 ao dano até o máximo de 5d6 adicionais.",
+    "source": "LDJ"
+}
