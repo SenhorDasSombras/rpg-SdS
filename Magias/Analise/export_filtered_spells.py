@@ -19,9 +19,9 @@ import argparse
 
 from pandas import DataFrame
 
-from DFFilter import filter_spells_df_using_json
-from DFReader import get_asserted_spells_df
-from SpellExporter import export_spells
+from dfs.DFFilter import filter_spells_df_using_json
+from dfs.DFReader import get_asserted_spells_df
+from spell.SpellExporter import export_spells
 
 
 def parse_input_args():

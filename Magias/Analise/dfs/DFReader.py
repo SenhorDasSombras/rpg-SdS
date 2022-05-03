@@ -11,7 +11,7 @@ from typing import List
 import pandas as pd
 from tqdm import tqdm
 
-from DFFormatAsserter import (
+from .DFFormatAsserter import (
     assert_columns_not_null,
     assert_df_schema,
     convert_and_assert_column_to_list,

@@ -5,7 +5,7 @@ from functools import reduce
 
 from pandas import DataFrame, Series
 
-import SpellPrinter as spell_printer
+import spell.SpellPrinter as spell_printer
 
 
 def _sub_all(pattern: str, repl: str, string: str) -> str:

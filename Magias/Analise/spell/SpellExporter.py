@@ -5,7 +5,7 @@ import os
 from IPython.display import clear_output
 from pandas import DataFrame
 
-from SpellFormatConverter import get_latex_spells
+from .SpellFormatConverter import get_latex_spells
 
 
 def export_tex_file(spells_df: DataFrame, filename: str, verbose: bool = False):

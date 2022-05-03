@@ -5,7 +5,7 @@ from typing import Any, Dict
 
 from pandas import DataFrame
 
-from DFReader import get_asserted_spells_df
+from .DFReader import get_asserted_spells_df
 
 
 def filter_value_column(
