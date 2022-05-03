@@ -6,7 +6,7 @@ return the DataFrame with the schema asserted."""
 
 import glob
 import json
-from typing import List
+from typing import List, Union
 
 import pandas as pd
 from tqdm import tqdm
@@ -20,7 +20,9 @@ from .DFFormatAsserter import (
 
 
 def get_spells_df(
-    path_prefix: str = "../", sort_by: List[str] = None, verbose: bool = False
+    path_prefix: str = "../",
+    sort_by: Union[List[str], None] = None,
+    verbose: bool = False,
 ):
     """This function returns the spells DataFrame from the .json files.
 
