@@ -15,19 +15,19 @@ def get_styled_str(string, color=None, size=None):
 
 
 # === ATTRIBUTE STRINGS ===
-def get_lvl_str(spell_series):
+def _get_lvl_str(spell_series):
     lvl_str = (
         f" lvl {spell_series.nivel}" if spell_series.nivel > 0 else " - truque"
     )
     return lvl_str
 
 
-def get_ritual_str(spell_series):
+def _get_ritual_str(spell_series):
     ritual_str = " - ritual" if spell_series.ritual else ""
     return ritual_str
 
 
-def get_escola_str(spell_series):
+def _get_escola_str(spell_series):
     escola_str = ""
     for escola in spell_series.escola[:-1]:
         escola_str += f"{escola}, "
@@ -46,7 +46,7 @@ def get_escola_str(spell_series):
     return escola_str
 
 
-def get_componentes_str(spell_series):
+def _get_componentes_str(spell_series):
     componentes_str: str
     regex_match = re.search(r"\(.+\)", spell_series.componentes)
     if regex_match is None:
@@ -58,7 +58,7 @@ def get_componentes_str(spell_series):
     return componentes_str
 
 
-def get_mana_str(spell_series):
+def _get_mana_str(spell_series):
     mana_str: str
     if spell_series["mana_adicional"] == "N/A":
         mana_str = f"{spell_series.mana}"
@@ -67,7 +67,7 @@ def get_mana_str(spell_series):
     return mana_str
 
 
-def get_tags_str(spell_series):
+def _get_tags_str(spell_series):
     tags_str = ""
     tags = sorted(spell_series.tags)
     for tag in tags[:-1]:
@@ -77,7 +77,7 @@ def get_tags_str(spell_series):
     return tags_str
 
 
-def get_classes_str(spell_series):
+def _get_classes_str(spell_series):
     classes_str = ""
     classes = sorted(spell_series.classes)
     for _class in classes[:-1]:
@@ -87,10 +87,10 @@ def get_classes_str(spell_series):
     return classes_str
 
 
-# === PRINT STRINGS FUNCTIONS ===
-def _get_name_str(spell_series, styled=True):
-    lvl_str = get_lvl_str(spell_series)
-    ritual_str = get_ritual_str(spell_series)
+# === SPELL PARTS STRINGS FUNCTIONS ===
+def _get_name_part_str(spell_series, styled=True):
+    lvl_str = _get_lvl_str(spell_series)
+    ritual_str = _get_ritual_str(spell_series)
 
     name_str = f"**{spell_series['nome']} _({spell_series['name']})_**{lvl_str}{ritual_str}\n"
     if styled:
@@ -98,10 +98,10 @@ def _get_name_str(spell_series, styled=True):
     return name_str
 
 
-def _get_header_str(spell_series, styled=True):
-    escola_str = get_escola_str(spell_series)
-    componentes_str = get_componentes_str(spell_series)
-    mana_str = get_mana_str(spell_series)
+def _get_header_part_str(spell_series, styled=True):
+    escola_str = _get_escola_str(spell_series)
+    componentes_str = _get_componentes_str(spell_series)
+    mana_str = _get_mana_str(spell_series)
 
     header_str = f"\t**Escola(s):** {escola_str}\n"
     header_str += f"\t**Tempo conjuração:** {spell_series.tempo_conjuracao}\n"
@@ -122,28 +122,28 @@ def _get_header_str(spell_series, styled=True):
     return header_str
 
 
-def _get_desc_str(spell_series, styled=True):
+def _get_desc_part_str(spell_series, styled=True):
     desc_str = f"{spell_series.descricao}\n"
     if styled:
         desc_str = get_styled_str(desc_str)
     return desc_str
 
 
-def _get_tags_str(spell_series, styled=True):
-    tags_str = get_tags_str(spell_series)
+def _get_tags_part_str(spell_series, styled=True):
+    tags_str = _get_tags_str(spell_series)
     if styled:
         tags_str = get_styled_str(tags_str, color="gray", size="11px")
     return tags_str
 
 
-def _get_classes_str(spell_series, styled=True):
-    classes_str = get_classes_str(spell_series)
+def _get_classes_part_str(spell_series, styled=True):
+    classes_str = _get_classes_str(spell_series)
     if styled:
         classes_str = get_styled_str(classes_str, color="gray", size="11px")
     return classes_str
 
 
-def _get_source_str(spell_series, styled=True):
+def _get_source_part_str(spell_series, styled=True):
     source_str = f"_{spell_series.source}_"
 
     if styled:
@@ -151,7 +151,7 @@ def _get_source_str(spell_series, styled=True):
     return source_str
 
 
-# === PRINT FUNCTIONS ===
+# === PUBLIC PRINT FUNCTIONS ===
 def print_markdown(string):
     """Receives a string and print it using IPython Markdown style."""
     display(Markdown(string))
@@ -181,22 +181,22 @@ def get_spell_parts_str(
     """
     str_list = list()
     if name:
-        name_str = _get_name_str(spell_series)
+        name_str = _get_name_part_str(spell_series)
         str_list.append(name_str)
     if header:
-        header_str = _get_header_str(spell_series)
+        header_str = _get_header_part_str(spell_series)
         str_list.append(header_str)
     if desc:
-        desc_str = _get_desc_str(spell_series)
+        desc_str = _get_desc_part_str(spell_series)
         str_list.append(desc_str)
     if tags:
-        tags_str = _get_tags_str(spell_series)
+        tags_str = _get_tags_part_str(spell_series)
         str_list.append(tags_str)
     if classes:
-        classes_str = _get_classes_str(spell_series)
+        classes_str = _get_classes_part_str(spell_series)
         str_list.append(classes_str)
     if source:
-        source_str = _get_source_str(spell_series)
+        source_str = _get_source_part_str(spell_series)
         str_list.append(source_str)
 
     return str_list
