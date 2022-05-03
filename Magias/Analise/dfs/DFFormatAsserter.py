@@ -8,7 +8,10 @@ the right columns and right values inside each of the columns.
 import re
 from functools import reduce
 
-from global_var import *
+from utils.utils import get_global_vars_from_json
+
+global_vars_path = "./dfs/global_vars.json"
+global_vars = get_global_vars_from_json(global_vars_path)
 
 
 def fill_na_by_column(df):
@@ -90,7 +93,7 @@ def assert_no_extra_columns(df):
     """
     extra_columns = list()
     for column in df.columns:
-        if column not in G_COLUMNS:
+        if column not in global_vars["G_COLUMNS"]:
             extra_columns.append(column)
 
     return extra_columns, _get_non_null_rows_of_columns(df, extra_columns)
@@ -98,7 +101,7 @@ def assert_no_extra_columns(df):
 
 def assert_no_missing_columns(df):
     missing_columns = list()
-    for column in G_COLUMNS:
+    for column in global_vars["G_COLUMNS"]:
         if column not in df.columns:
             missing_columns.append(column)
 
@@ -150,10 +153,10 @@ def assert_column_using_mask(df, column, mask):
 
 
 def assert_df_column_types(df):
-    mask = get_mask_from_list(df, "escola", G_ESCOLAS)
+    mask = get_mask_from_list(df, "escola", global_vars["G_ESCOLAS"])
     assert_column_using_mask(df, "escola", mask)
 
-    mask = get_mask_from_list(df, "elementos", G_ELEMENTOS)
+    mask = get_mask_from_list(df, "elementos", global_vars["G_ELEMENTOS"])
     assert_column_using_mask(df, "elementos", mask)
 
     tempo_conjuracao_regex = re.compile(
@@ -181,10 +184,10 @@ def assert_df_column_types(df):
     mask = df.attack_save.str.fullmatch(attack_save_regex)
     assert_column_using_mask(df, "attack_save", mask)
 
-    mask = get_mask_from_list(df, "tags", G_TAGS)
+    mask = get_mask_from_list(df, "tags", global_vars["G_TAGS"])
     assert_column_using_mask(df, "tags", mask)
 
-    mask = get_mask_from_list(df, "classes", G_CLASSES)
+    mask = get_mask_from_list(df, "classes", global_vars["G_CLASSES"])
     assert_column_using_mask(df, "classes", mask)
 
     source_regex = re.compile(

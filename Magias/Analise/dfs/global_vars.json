@@ -1,4 +1,5 @@
-G_ESCOLAS = [
+{
+  "G_ESCOLAS": [
     "elemental",
     "necromancia",
     "psíquica",
@@ -8,9 +9,9 @@ G_ESCOLAS = [
     "atrativa",
     "musical",
     "pura",
-    "receita",
-]
-G_ELEMENTOS = [
+    "receita"
+  ],
+  "G_ELEMENTOS": [
     "ar",
     "fogo",
     "luz",
@@ -19,9 +20,9 @@ G_ELEMENTOS = [
     "sombras",
     "terra",
     "veneno",
-    "água",
-]
-G_TAGS = [
+    "água"
+  ],
+  "G_TAGS": [
     "buff",
     "debuff",
     "controle",
@@ -36,9 +37,9 @@ G_TAGS = [
     "comunicação",
     "social",
     "detecção",
-    "exploração",
-]
-G_CLASSES = [
+    "exploração"
+  ],
+  "G_CLASSES": [
     "bardo",
     "monge",
     "clérigo",
@@ -47,9 +48,9 @@ G_CLASSES = [
     "guerreiro",
     "mago",
     "bruxo",
-    "feiticeiro",
-]
-G_COLUMNS = [
+    "feiticeiro"
+  ],
+  "G_COLUMNS": [
     "nome",
     "name",
     "nivel",
@@ -68,5 +69,6 @@ G_COLUMNS = [
     "tags",
     "descricao",
     "source",
-    "mana_adicional",
-]
+    "mana_adicional"
+  ]
+}
