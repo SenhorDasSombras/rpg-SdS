@@ -59,6 +59,9 @@ def _replace_span(markdown_text: str) -> str:
 
     match_obj = re.match(pattern, markdown_text)
 
+    if match_obj is None:
+        raise ValueError("No string matched the pattern.")
+
     string = match_obj.group("str")
     color = match_obj.group("color")
     font_size = match_obj.group("fontsize")
