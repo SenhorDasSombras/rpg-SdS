@@ -1,0 +1,43 @@
+{
+    "nome": "Esfera Elemental",
+    "name": "Flaming Sphere",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (uma pitada de enxofre e uma camada de pó de ferro)",
+    "mana": 750,
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "2d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "dano"
+    ],
+    "descricao": "Uma esfera elemental, com 1,5 metro de diâmetro, aparece em um espaço desocupado, à sua escolha, dentro do alcance e permanece pela duração. Qualquer criatura que terminar seu turno a até 1,5 metro da esfera, deve realizar um teste de resistência de Destreza. A criatura sofre 2d6 de dano elemental se falhar na resistência, ou metade desse dano se obtiver sucesso.\n\tCom uma ação bônus, você pode mover a esfera até 9 metros. Se você arremessar a esfera contra uma criatura, essa criatura deve realizar o teste de resistência contra o dano da esfera e a esfera para de se mover esse turno.\n\tQuando você move a esfera, você pode direciona-la para barreira de até 1,5 metro de altura e ela salta sobre fossos de até 3 metros de distância. A esfera incendeia objetos inflamáveis que não estejam sendo vestidos ou carregados e emite luz plena a 6 metros de raio e penumbra por mais 6 metros adicionais.\n\t**Melhorar Magia**. Para cada 550 pontos de mana gastos adicionalmente, adicione 1d6 ao dano da esfera até um máximo de 6d6 extras.",
+    "source": "LDJ"
+}

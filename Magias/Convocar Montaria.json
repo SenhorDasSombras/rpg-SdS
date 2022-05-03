@@ -1,0 +1,32 @@
+{
+    "nome": "Convocar Montaria",
+    "name": "Find Steed",
+    "nivel": 2,
+    "escola": ["invocação", "necromancia", "espiritual"],
+    "magia_rara": true,
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "10 minutos",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 1400,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "guerreiro",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "dano",
+        "comunicação",
+        "exploração"
+    ],
+    "descricao": "**Requisitos:** Para utilizar essa magia, você deve ser da escola de invocação e ou um necromante ou um espiritualista.\n\tVocê convoca um espírito que assume a forma de uma montaria excepcionalmente inteligente, forte e leal, criando uma ligação duradoura com ela. Aparecendo em um espaço desocupado dentro do alcance, a montaria adquire a forma que você escolher, como um cavalo de guerra, um pônei, um camelo, um alce ou um mastim.  (Seu Mestre pode permitir outros animais para serem convocados como montarias.) A montaria tem as estatísticas da forma escolhida, no entanto, ele é um celestial, corruptor ou fada (à sua escolha) ao invés do seu tipo normal. Além disso, se sua montaria tiver Inteligência 5 ou menor, a Inteligência dela se torna 6 e ela ganha a capacidade de compreender um idioma, à sua escolha, que você fala.\n\tSua montaria serve tanto para cavalgar quando para o combate e você tem uma ligação instintiva com ela que permite a vocês lutarem como uma unidade singular.  Enquanto estiver montado na sua montaria, você pode fazer com que qualquer magia que você conjure que tenha alcance pessoal, também afete a sua montaria.\n\tQuando a montaria cair a 0 pontos de vida, ela desaparece, não deixando qualquer corpo físico para trás.  Você também pode dispensar sua montaria a qualquer momento, com uma ação, fazendo-a desaparecer. Em ambos os casos, conjurar essa magia novamente convocará a mesma montaria, restaurando-a ao seu máximo de pontos de vida.\n\tEnquanto sua montaria estiver a até 1,5 quilômetro de você, você pode se comunicar telepaticamente com ela.\n\tVocê não pode ter mais de uma montaria ligado por essa magia por vez. Com uma ação, você pode liberar a montaria da ligação a qualquer momento, fazendo-a desaparecer.",
+    "source": "LDJ"
+}

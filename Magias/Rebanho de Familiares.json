@@ -1,0 +1,34 @@
+{
+    "nome": "Rebanho de Familiares",
+    "name": "Flock of Familiars",
+    "nivel": 2,
+    "escola": "invocação",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 1400,
+    "mana_adicional": "50 a cada 5 minutos",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "comunicação",
+        "detecção",
+        "exploração"
+    ],
+    "descricao": "Você temporariamente invoca três familiares - espíritos que tomam formas animais a sua escolha. Cada familiar usa as mesmas regras e opções de familiar invocado pela magia _Conjurar Familiar_.\n\tFamiliares invocador por essa magia podem se comunicar telepaticamente com você e compartilhar sua visão e audição enquanto eles estão a até 1,6 quilômetros de você.\n\tQuando você conjura uma magia com alcance de Toque, um dos familiares pode transmitir essa magia normalmente. Entretanto, você só pode usar apenas um familiar por turno para conjurar uma magia de Toque.\n\t**Melhorar Magia**. Para cada 1000 pontos de mana adicionais, você pode convocar mais um familiar, até um máximo de 5 familiares.",
+    "source": "Etc."
+}
