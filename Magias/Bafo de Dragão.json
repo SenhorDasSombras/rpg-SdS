@@ -1,0 +1,44 @@
+{
+    "nome": "Bafo de Dragão",
+    "name": "Dragon's Breath",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "toque",
+    "componentes": "VSM (uma pimenta ardida)",
+    "mana": 700,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "3d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "dano"
+    ],
+    "descricao": "Você toca uma criatura voluntária e a imbui com o poder de cuspir energia elemental de sua boca, desde que tenha uma. Até a magia terminar, a criatura pode usar uma ação para exalar energia do seu elemento em um cone de 4,5 metros. Cada criatura nessa área deve fazer um teste de resistência de Destreza, tomando um dano de 3d6 elemental em uma falha, ou metade de dano em um bem sucedido.\n\t**Melhorar Magia**. Para cada 500 de mana adicionais gastos, adicione mais 1d6 até um máximo de 7d6 adicionais.",
+    "source": "LDJ"
+}

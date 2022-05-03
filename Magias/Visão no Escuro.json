@@ -1,0 +1,34 @@
+{
+    "nome": "Visão no Escuro",
+    "name": "Darkvision",
+    "nivel": 2,
+    "escola": ["elemental", "necromancia", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "luz",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (ou um pedaço de cenoura seca ou uma ágata)",
+    "mana": 700,
+    "duracao": "8 horas",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "utilidade",
+        "exploração"
+    ],
+    "descricao": "Você toca uma criatura voluntária para conceder a ela a habilidade de ver nas trevas. Pela duração, a criatura terá visão no escuro com alcance de 18 metros.",
+    "source": "LDJ"
+}

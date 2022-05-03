@@ -1,0 +1,43 @@
+{
+    "nome": "Invocar Lâmina Elemental (Lâmina Flamejante)",
+    "name": "Flame Blade",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (folha de sumagre)",
+    "mana": 800,
+    "duracao": "concentração, até 10 minutos",
+    "attack_save": "corpo-a-corpo",
+    "dmg_effect": "elemental",
+    "dmg": "3d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "corpo-a-corpo"
+    ],
+    "descricao": "Você evoca uma lâmina elemental ardente em sua mão livre. A lâmina é similar em tamanho e formato a uma cimitarra e ela permanece pela duração. Se você soltar a lâmina, ela desaparece, mas você pode evocar a lâmina novamente com uma ação bônus e gastando apenas mais 50 de mana.\n\tVocê pode usar sua ação para realizar ataques corpo-a-corpo com magia com a lâmina ardente. Se atingir, o alvo sofrerá 3d6 de dano elemental.\n\tVocê pode gastar mais 500 de mana para fazer que, no seu próximo ataque, a lâmina exploda no alvo, causa mais 2d6 de dano elemental extra e some. Se você usar essa opção e errar, o alvo recebe apenas 2d6 de dano e a lâmina explode, desaparecendo.\n\t[Fogo|Luz|Relâmpago] A lâmina elemental emite luz plena a 3 metros de raio e penumbra por mais 3 metros adicionais.\n\t**Melhorar Magia**. Para cada 550 pontos de mana adicionais gastos, adicione 1d6 ao dano até um máximo de 6d6 adicionais.",
+    "source": "LDJ"
+}
