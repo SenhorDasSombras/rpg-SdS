@@ -1,0 +1,34 @@
+{
+    "nome": "Ajuda",
+    "name": "Aid",
+    "nivel": 2,
+    "escola": ["elemental", "musical"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (uma pequena fita de tecido branco)",
+    "mana": 700,
+    "duracao": "8 horas",
+    "dmg": "5",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "cura"
+    ],
+    "descricao": "Sua magia inspira seus aliados com vigor e determinação.\n\tEscolha até três criaturas dentro do alcance. O máximo de pontos de vida e os pontos de vida atuais de cada alvo aumentam em 5, pela duração.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais gastos, você aumenta em 5 o total de pontos de vida até um máximo de 25 totais.",
+    "source": "LDJ"
+}

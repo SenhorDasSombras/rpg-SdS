@@ -1,0 +1,32 @@
+{
+    "nome": "Nublar",
+    "name": "Blur",
+    "nivel": 2,
+    "escola": "ilusionista",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 600,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "defesa"
+    ],
+    "descricao": "Seu corpo se torna turvo, mudando e oscilando para todos que puderem ver você. Pela duração, qualquer criatura terá desvantagem nas jogadas de ataque contra você. Um atacante é imune a esse efeito se não depender de visão, como os que tenham percepção às cegas ou os que puderem ver através de ilusões, como os com visão verdadeira. **Melhorar Magia**. Gastando mais 1000 de mana e mais 20 por turno, você pode escolher uma criatura amigável que não seja você para ser o alvo da magia.",
+    "source": "LDJ"
+}

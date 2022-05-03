@@ -1,0 +1,30 @@
+{
+    "nome": "Emprestar Conhecimento",
+    "name": "Borrowed Knowledge",
+    "nivel": 2,
+    "escola": "espiritual",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (um livro que custe pelo menos 25 po)",
+    "mana": 1000,
+    "duracao": "1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Você recebe conhecimento de espíritos do passado. Você escolhe uma proficiência na qual não seja proficiente. Pela duração da magia, você é proficiente na proficiência. A magia termina antecipadamente se você conjurá-la novamente.",
+    "source": "Etc."
+}

@@ -1,0 +1,42 @@
+{
+    "nome": "Mensageiro Animal",
+    "name": "Animal Messenger",
+    "nivel": 2,
+    "escola": ["elemental", "invocação", "musical"],
+    "ritual": true,
+    "elementos": [
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um punhado de comida)",
+    "mana": 650,
+    "duracao": "24 horas",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago"
+    ],
+    "tags": [
+        "buff",
+        "debuff",
+        "controle",
+        "utilidade",
+        "dano",
+        "defesa",
+        "cura",
+        "distância",
+        "corpo-a-corpo",
+        "toque",
+        "arma",
+        "comunicação",
+        "social",
+        "detecção",
+        "exploração"
+    ],
+    "descricao": "Através dessa magia, você usa um animal para entregar uma mensagem. Escolha uma besta Miúda que você possa ver dentro do alcance, como um esquilo, um gaio-azul ou um morcego. Você especifica um local, que você já deve ter visitado, e um remetente com uma descrição geral, como “um homem ou mulher vestido em um uniforme da guarda da cidade” ou “um anão ruivo vestindo um chapéu pontudo”. Você também fala uma mensagem com até vinte e cindo palavras. A besta alvo viaja pela duração da magia para o local especifico, cobrindo 75 quilômetros em 24 horas para um mensageiro voador ou 37,5 quilômetros para outros animais.\n\tQuando o mensageiro chegar, ele entrega sua mensagem para a criatura que você descreveu, repetindo o som da sua voz. O mensageiro fala apenas para uma criatura que tenha uma descrição compatível com a que ele recebeu. Se o mensageiro não alcançar o destino antes do fim da magia, a mensagem é perdida e a besta faz seu caminho de volta para onde você conjurou a magia.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais gastos, a duração da magia aumenta em 48 horas.",
+    "source": "LDJ"
+}
