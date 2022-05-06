@@ -1,0 +1,37 @@
+{
+    "nome": "Esquentar Metal",
+    "name": "Heat Metal",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (um pedaço de ferro e uma chama)",
+    "mana": 700,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "CON Save",
+    "dmg_effect": "fogo",
+    "dmg": "2d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "dano"
+    ],
+    "descricao": "Escolha uma objeto manufaturado de metal, como uma arma de metal ou uma armadura pesada ou média de metal, que você possa ver dentro do alcance. Você faz com que o objeto brilhe vermelho-incandescente. Qualquer criatura em contato físico com o objeto sofrerá 2d8 de dano de fogo quando você conjurar a magia. Até a magia acabar, você pode usar uma ação bônus, em cada um dos seus turnos subsequentes, para causar esse dano novamente.\n\tSe uma criatura estiver segurando ou vestindo o objeto e sofrer o dano dele, a criatura deve ser bem sucedida num teste de resistência de Constituição ou largará o objeto se ela puder. Se ela não largar o objeto, ela terá desvantagem em jogadas de ataque e testes de habilidade até o início do seu próximo turno.\n\t**Melhorar Magia**. Para cada 1000 pontos de mana adicionais gastos, adicione mais 1d8 ao dano, até um máximo de 4d8 adicionais.",
+    "source": "LDJ"
+}

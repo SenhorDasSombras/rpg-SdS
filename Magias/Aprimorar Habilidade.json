@@ -1,0 +1,52 @@
+{
+    "nome": "Aprimorar Habilidade",
+    "name": "Enhance Ability",
+    "nivel": 2,
+    "escola": ["elemental", "necromancia", "espiritual", "musical", "psíquica"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "luz",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (pelo ou penas de uma besta)",
+    "mana": 750,
+    "mana_adicional": "10 a cada 10 minutos",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "debuff",
+        "controle",
+        "utilidade",
+        "dano",
+        "defesa",
+        "cura",
+        "distância",
+        "corpo-a-corpo",
+        "toque",
+        "arma",
+        "comunicação",
+        "social",
+        "detecção",
+        "exploração"
+    ],
+    "descricao": "Você toca uma criatura e a agracia com aprimoramento mágico (ladinos e guerreiros podem escolher apenas si próprios). Escolha um dos efeitos a seguir; o alvo ganha esse efeito até o fim da magia.\n\t[Ar|Relâmpago] **_Agilidade do Gato._** O alvo tem vantagem em testes de Destreza. Ele também não sofre dano ao cair de 6 metros ou menos, se não estiver incapacitado.\n\t[Psíquica|Água|Luz] **_Esperteza da Raposa._** O alvo tem vantagem em testes de Inteligência.\n\t[Psíquica|Água|Luz] **_Esplendor da Águia._** O alvo tem vantagem em testes de Carisma.\n\t[Terra|Metal] **_Força do Touro._** O alvo tem vantagem em testes de Força e sua capacidade de carga é dobrada.  \n\t[Psíquica|Água|Luz] **_Sabedoria da Coruja._** O alvo tem vantagem em testes de Sabedoria.\n\t[Terra|Metal|Veneno] **_Vigor do Urso._** O alvo tem vantagem em testes de Constituição.\n\t **_Resistência do Leão_** [Necrótico|Espiritual] O alvo recebe 2d6 pontos de vida temporários, que são perdidos quando a magia termina.",
+    "source": "LDJ"
+}

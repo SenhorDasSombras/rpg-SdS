@@ -1,0 +1,35 @@
+{
+    "nome": "Detectar Pensamentos",
+    "name": "Detect Thoughts",
+    "nivel": 2,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (um pedaço de cobre)",
+    "mana": 600,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "WIS Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "social",
+        "detecção",
+        "exploração"
+    ],
+    "descricao": "Pela duração, você pode ler os pensamentos de certas criaturas. Quando você conjura essa magia e, com sua ação e 10 de mana a cada turno até o fim da magia, você pode focar sua mente em qualquer criatura que você puder ver a até 9 metros de você. Se a criatura escolhida possuir Inteligência 3 ou inferior ou não falar nenhum tipo de idioma, a criatura não poderá ser afetada.\n\tVocê, inicialmente, descobre os pensamentos superficiais da criatura – o que está mais presente na sua mente no momento. Com uma ação e 10 de mana, você pode tanto mudar sua atenção para os pensamentos de outra criatura, como tentar sondar mais profundamente na mente da mesma criatura. Se você resolver sondar profundamente, a criatura deve realizar um teste de resistência de Sabedoria. Se falhar, você ganha ciência do seu raciocínio (se possuir), seu estado emocional e algo que tome grande parte da sua mente (como algo que ele se preocupe, amores ou ódios). Se ele for bem sucedido, a magia termina. Em ambas situações, o alvo saberá que você está sondando a mente dele e, a não ser que você mude sua atenção para os pensamentos de outra criatura, a criatura pode usar a ação dela, no turno dela, para realizar um teste de Inteligência resistido por seu teste de Inteligência; se ela for bem sucedida, a magia termina.\n\tPerguntas feitas diretamente para a criatura alvo, normalmente moldarão o curso dos seus pensamentos, portanto, essa magia é particularmente eficiente como parte de um interrogatório.\n\tVocê pode, também, usar essa magia para detectar a presença que criaturas pensantes que você não possa ver.  Quando você conjura essa magia ou, com sua ação e 20 de mana enquanto ela durar, você pode procurar por pensamentos a até 9 metros de você. A magia pode penetrar a maioria das barreiras, mas é bloqueada por 30 centímetros de rocha, 2,5 centímetros de metal comum, uma fina camada de chumbo, ou 90 centímetros de madeira ou terra. Você não pode detectar uma criatura com Inteligência 3 ou inferior ou uma que não fale qualquer idioma.\n\tUma vez que você tenha detectado a presença de uma criatura dessa forma, você pode ler os pensamentos dela pelo resto da duração, como descrito acima, mesmo que você não possa vê-la, mas ela ainda precisa estar dentro do alcance.",
+    "source": "LDJ"
+}

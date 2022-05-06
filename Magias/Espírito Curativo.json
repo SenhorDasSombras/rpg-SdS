@@ -1,0 +1,33 @@
+{
+    "nome": "Espírito Curativo",
+    "name": "Healing Spirits",
+    "nivel": 2,
+    "escola": ["elemental", "invocação", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 700,
+    "mana_adicional": "15 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "cura"
+    ],
+    "descricao": "Você invoca um espírito de natureza para confortar os feridos. O espírito intangível aparece em um espaço que é um cubo de 1,5 metros você pode ver dentro do alcance. O espírito parece uma besta ou fada transparente (sua escolha).\n\tAté que a magia termine, sempre que você ou uma criatura que você pode ver se move para o espaço do espírito pela primeira vez em um turno, ou começa seu turno lá, você pode fazer com que o espírito restaure 1d6 pontos de vida dessa criatura (não é necessária nenhuma ação) . O espírito não pode curar construtos ou mortos-vivos. Como uma ação bônus na sua vez, você pode mover o espírito até 9 metros para um espaço dentro do alcance que você pode ver.\n\t**Melhorar Magia**. Para cada 1000 pontos de mana adicionais gastos, você pode adicionar mais 1d6 à cura do espírito, até um máximo de 3d6 adicionais.",
+    "source": "LDJ"
+}
