@@ -1,0 +1,33 @@
+{
+    "nome": "Arrombar",
+    "name": "Knock",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "V",
+    "mana": 800,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "exploração"
+    ],
+    "descricao": "Escolha um objeto que você possa ver, dentro do alcance. O objeto pode ser uma porta, uma caixa, um baú ou um par de algemas, um cadeado ou outro objeto que contenha um meio mundano ou mágico que previne o acesso.\n\tUm alvo que esteja fechado por uma fechadura mundana ou preso ou barrado torna-se destrancado, destravado ou desbloqueado. Se o objeto tiver múltiplas fechaduras, apenas uma delas é destrancada.\n\tSe você escolher um alvo que esteja travado pela magia _tranca arcana_, essa magia será suprimida por 10 minutos, durante esse período o alvo pode ser aberto e fechado normalmente.\n\tQuando você conjurar essa magia, uma batida forte, audível a até 90 metros de distância, emana do objeto alvo.",
+    "source": "LDJ"
+}

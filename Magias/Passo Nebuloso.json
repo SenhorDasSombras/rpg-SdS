@@ -1,0 +1,34 @@
+{
+    "nome": "Passo Nebuloso",
+    "name": "Misty Step",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "luz",
+        "sombras",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 700,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "exploração"
+    ],
+    "descricao": "Você se teletransporta a até 9 metro para um espaço desocupado que você possa ver.",
+    "source": "LDJ"
+}

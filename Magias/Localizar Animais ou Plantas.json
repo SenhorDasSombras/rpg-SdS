@@ -1,0 +1,32 @@
+{
+    "nome": "Localizar Animais ou Plantas",
+    "name": "Locate Animals or Plants",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (um pouco de pelo de um cão de caça)",
+    "mana": 750,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "utilidade",
+        "detecção"
+    ],
+    "descricao": "Descreva ou nomeia um tipo específico de besta ou planta. Concentra-se na voz da natureza ao seu redor, você descobre a direção e distância da criatura ou plana mais próxima desse tipo dentro de 7,5 quilômetros, se houver alguma presente.",
+    "source": "LDJ"
+}

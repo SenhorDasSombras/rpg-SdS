@@ -1,0 +1,33 @@
+{
+    "nome": "Restauração Menor",
+    "name": "Lesser Restoration",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "luz",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 800,
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "defesa"
+    ],
+    "descricao": "Você toca uma criatura e pode ou acabar com uma doença ou uma condição que a esteja afligindo. A condição pode ser cega, surda, paralisada ou envenenada.",
+    "source": "LDJ"
+}

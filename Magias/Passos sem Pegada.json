@@ -1,0 +1,33 @@
+{
+    "nome": "Passos sem Pegadas",
+    "name": "Pass without Trace",
+    "nivel": 2,
+    "escola": ["elemental", "ilusionista"],
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (cinzas de uma folha de visco queimada e um ramo de pinheiro)",
+    "mana": 700,
+    "mana_adicional": "10 a cada 10 minutos",
+    "duracao": "instantânea",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "exploração"
+    ],
+    "descricao": "Um véu de sombras e silencia irradia de você, encobrindo você e seus companheiros contra detecção. Pela duração, cada criatura, à sua escolha, a até 9 metros de você (incluindo você) recebe +10 de bônus em testes de Destreza (Furtividade) e não pode ser rastreada, exceto por meio mágicos. Uma criatura que receber esse bônus não deixa quaisquer pegadas ou outros vestígios da sua passagem",
+    "source": "LDJ"
+}

@@ -1,0 +1,34 @@
+{
+    "nome": "Passeio Cinético",
+    "name": "Kinetic Jaunt",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar",
+        "luz",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "S",
+    "mana": 750,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "Você magicamente empodera seu movimento com passos leves como de uma dança, dando a você mesmo os seguintes benefícios:\n\t- Seu movimento de caminhada aumenta em 3 metros;\n\t- Você não provoca ataques de oportunidade;\n\t- Você pode mover pelo espaço de outra criatura e ele não isso não conta como terreno difícil.",
+    "source": "Etc."
+}

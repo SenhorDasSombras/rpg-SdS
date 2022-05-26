@@ -1,0 +1,32 @@
+{
+    "nome": "Imobilizar Pessoa",
+    "name": "Hold Person",
+    "nivel": 2,
+    "escola": ["psíquica", "musical"],
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (uma pequena peça de ferro reta)",
+    "mana": 700,
+    "mana_adicional": "10 por turno",
+    "duracao": "Concentração, até 1 minuto",
+    "attack_save": "WIS Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle"
+    ],
+    "descricao": "Escolha um humanoide que você possa ver, dentro do alcance. O alvo deve ser bem sucedido num teste de resistência de Sabedoria ou ficará paralisado pela duração. Essa magia não tem efeito em mortos-vivos. No final de cada um dos turnos dele, o alvo pode realizar outro teste de resistência de Sabedoria. Se obtiver sucesso, a magia termina no alvo.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais e mais 10 por turno, você pode ter mais um humanoide como alvo da magia até um máximo de 5. Os humanoides devem estar a 9 metros entre si para serem afetados.",
+    "source": "LDJ"
+}

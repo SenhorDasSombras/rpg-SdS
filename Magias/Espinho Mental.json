@@ -1,0 +1,36 @@
+{
+    "nome": "Espinho Mental",
+    "name": "Mind Spike",
+    "nivel": 2,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "S",
+    "mana": 800,
+    "mana_adicional": "10 a cada 10 minutos",
+    "duracao": "concentração, até 1 hora",
+    "attack_save": "WIS Save",
+    "dmg_effect": "psíquico",
+    "dmg": "3d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "dano",
+        "detecção"
+    ],
+    "descricao": "Você alcança a mente de uma criatura que você pode ver dentro do alcance. O alvo deve fazer um teste de resistência de Sabedoria, sofrendo 3d8 de dano psíquico em um teste falho, ou metade do dano em um sucesso. Em uma falha do teste de resistência, você também sempre conhece a localização do alvo até a magia terminar, mas somente enquanto vocês dois estiverem no mesmo plano de existência. Enquanto você tiver esse conhecimento, o alvo não pode se esconder de você, e se for invisível, não ganha nenhum beneficio dessa condição contra você.\n\t**Melhorar Magia**. Para cada 500 de mana adicionais, você adiciona mais 1d8 ao dano, até um máximo de 5d8 adicionais.",
+    "source": "Xanathar"
+}

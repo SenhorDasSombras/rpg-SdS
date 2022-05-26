@@ -1,0 +1,35 @@
+{
+    "nome": "Garra Terrestre",
+    "name": "Maximilian's Earthen Grasp",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "sombras",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VSM (uma mão em miniatura de argila)",
+    "mana": 750,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "STR Save",
+    "dmg_effect": "concussão",
+    "dmg": "2d6",
+    "classes": [
+        "clérigo",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "dano"
+    ],
+    "descricao": "Você escolhe um quadrado de 1,5 metros desocupado no solo que você possa ver dentro do alcance. Uma mão Média elemental surge do solo e ataca uma criatura que você possa ver a até 1,5 metros dela. O alvo deve fazer uma salvaguarda de Força. Se falhar, ele recebe 2d6 de dano de concussão e fica agarrado pela duração da magia.\n\tComo uma ação, você pode fazer a mão esmagar o algo agarrado, que deve fazer uma salvaguarda de Força. O alvo recebe 2d6 de dano se falhar ou metade se obtiver sucesso.\n\tPara sair, o alvo pode utilizar a sua ação para fazer um teste de Força contra a CD da magia. Se obtiver sucesso, o alvo escapa e não está mais agarrado pela mão.\n\tComo uma ação, você pode fazer a mão atacar outra criatura ou mover para uma área desocupada dentro do alcance. A mão solta um alvo agarrado por ela se você fizer qualquer uma dessas ações.",
+    "source": "Etc."
+}
