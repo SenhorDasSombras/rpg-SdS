@@ -26,6 +26,7 @@ def fill_na_by_column(df):
     df.dmg.fillna("N/A", inplace=True)
     df.ritual.fillna(False, inplace=True)
     df.mana_adicional.fillna("N/A", inplace=True)
+    df.magia_rara.fillna(False, inplace=True)
     return df
 
 

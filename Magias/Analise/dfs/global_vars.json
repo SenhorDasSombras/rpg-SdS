@@ -69,6 +69,7 @@
     "tags",
     "descricao",
     "source",
-    "mana_adicional"
+    "mana_adicional",
+    "magia_rara"
   ]
 }
