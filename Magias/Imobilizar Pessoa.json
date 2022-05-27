@@ -11,7 +11,7 @@
     "componentes": "VSM (uma pequena peça de ferro reta)",
     "mana": 700,
     "mana_adicional": "10 por turno",
-    "duracao": "Concentração, até 1 minuto",
+    "duracao": "concentração, até 1 minuto",
     "attack_save": "WIS Save",
     "classes": [
         "clérigo",
