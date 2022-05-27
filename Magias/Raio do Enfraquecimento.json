@@ -1,0 +1,31 @@
+{
+    "nome": "Raio do Enfraquecimento",
+    "name": "Ray of Enfeeblement",
+    "nivel": 2,
+    "escola": ["elemental", "necromancia", "musical"],
+    "ritual": false,
+    "elementos": [
+        "sombras",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 750,
+    "mana_adicional": "10 de mana por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "CON Save",
+    "classes": [
+        "clérigo",
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff"
+    ],
+    "descricao": "Um raio negro de energia enervante parte em direção de uma criatura, dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo causará metade do dano com ataques com armas que usem Força, até a magia acabar.\n\tNo final de cada um dos turnos do alvo, ele pode realizar um teste de resistência de Constituição contra a magia. Se obtiver sucesso, a magia acaba.",
+    "source": "LDJ"
+}

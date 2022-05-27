@@ -1,0 +1,36 @@
+{
+    "nome": "Despedaçar",
+    "name": "Shatter",
+    "nivel": 2,
+    "escola": ["elemental", "musical"],
+    "ritual": false,
+    "elementos": [
+        "ar",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (uma lasca de mica)",
+    "mana": 800,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "elemental",
+    "dmg": "3d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Um alto som estridente, dolorosamente intenso, emerge de um ponto, à sua escolha, dentro do alcance. Cada criatura, numa esfera de 3 metros de raio, centrada no ponto deve fazer um teste de resistência de Constituição.\n\tUma criatura sofre 3d8 de dano elemental se falhar na resistência ou metade desse dano se obtiver sucesso.\n\t[Relâmpago|Metal|Veneno] Uma criatura feita de material orgânico tem desvantagem nesse teste de resistência.\n\t[Sombras] Uma criatura feita de material inorgânico como pedra, cristal ou metal, tem desvantagem nesse teste de resistência.\n\tUm objeto não-mágico que não esteja sendo vestido ou carregado, também sofre o dano, se estiver na área da magia.\n\t**Melhorar Magia**. Para cada 1000 de mana adicionais, adicione 1d8 ao dano da magia.",
+    "source": "LDJ"
+}

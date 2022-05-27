@@ -1,0 +1,40 @@
+{
+    "nome": "Raio Elemental",
+    "name": "Scorching Ray",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VS",
+    "mana": 800,
+    "duracao": "instantânea",
+    "dmg": "6d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você cria três raios elementais e os arremessa em alvos dentro do alcance. Você pode arremessa-los em um alvo ou em vários.\n\tRealize um ataque à distância com magia para cada raio. Se atingir, o alvo sofrerá 2d6 de dano elemental.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais gastos, adicione mais 1d6 ao dano de cada raio.",
+    "source": "LDJ"
+}

@@ -1,0 +1,51 @@
+{
+    "nome": "Patas de Aranha",
+    "name": "Spider Climb",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (uma gota de betume e uma aranha)",
+    "mana": 700,
+    "mana_adicional": "10 a cada 10 minutos",
+    "duracao": "concentração, até 1 hora",
+    "attack_save": "DEX Save",
+    "dmg_effect": "fogo",
+    "dmg": "1d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "debuff",
+        "controle",
+        "utilidade",
+        "dano",
+        "defesa",
+        "cura",
+        "distância",
+        "corpo-a-corpo",
+        "toque",
+        "arma",
+        "comunicação",
+        "social",
+        "detecção",
+        "exploração"
+    ],
+    "descricao": "Um texto longo pra k7 aqui",
+    "source": "LDJ"
+}

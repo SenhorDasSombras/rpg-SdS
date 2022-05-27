@@ -1,0 +1,34 @@
+{
+    "nome": "Chuva de Bolas de Neve",
+    "name": "Snilloc's Snowball Swarm",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "27 metros",
+    "componentes": "VSM (um pedaço de gelo ou um pequena lasca de pedra branca)",
+    "mana": 750,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "frio",
+    "dmg": "3d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Uma rajada de bolas de neve mágicas emerge de um ponto que você escolher, dentro do alcance. Cada criatura numa esfera de 1,5 metro de raio centrada no ponto deve realizar um teste de resistência de Destreza. Uma criatura sofre 3d6 de dano de frio se falhar na resistência, ou metade desse dano se obtiver sucesso.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais, adicione 1d6 ao dano até o máximo de 5d6 extras.",
+    "source": "Xanathar"
+}

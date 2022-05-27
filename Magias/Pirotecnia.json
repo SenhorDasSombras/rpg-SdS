@@ -1,0 +1,33 @@
+{
+    "nome": "Pirotecnia",
+    "name": "Pyrotechnics",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "fogo"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 750,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "controle"
+    ],
+    "descricao": "Escolha uma área de chamas que você possa ver e que caiba num cubo de 1,5 metros, dentro do alcance. Você pode extinguir o fogo na área e criar tanto fogos de artificio quanto fumaça.\n\t**_Fogos de Artifício_**. O alvo explode em uma apresentação incrível de cores. Cada criatura a até 3 metros do alvo deve ser bem sucedida num teste de resistência de Constituição ou ficará cega até o final do seu próximo turno.\n\t**_Fumaça_**. Uma fumaça negra e espessa se espalha do alvo num raio de 6 metros, dobrando esquinas. A área da fumaça é de escuridão densa.  A fumaça persiste por 1 minuto ou até um vento forte dispersa-la.",
+    "source": "Xanathar"
+}
