@@ -1,0 +1,41 @@
+{
+    "nome": "Arma Espiritual",
+    "name": "Spiritual Weapon",
+    "nivel": 2,
+    "escola": ["elemental", "necromancia", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 800,
+    "duracao": "1 minuto",
+    "dmg_effect": "elemental",
+    "dmg": "1d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você cria uma arma espectral flutuante, dentro do alcance, que permanece pela duração ou até você conjurar essa magia novamente. Quando você conjura essa magia, você pode realizar um ataque corpo-a-corpo com magia contra uma criatura a 1,5 metro da arma. Se atingir, o alvo sofre dano de elemental igual a 1d8 + seu modificador de habilidade de conjuração.\n\tCom uma ação bônus, no seu turno, você pode mover a arma até 6 metros e repetir o ataque contra uma criatura a 1,5 metro dela.\n\tA arma pode ter a forma que você desejar. **Melhorar Magia**. Para cada 600 de mana extras gastos, aumente o dano da magia em 1d8 até um máximo de 4d8 adicionais.",
+    "source": "LDJ"
+}

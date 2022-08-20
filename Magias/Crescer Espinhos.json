@@ -1,0 +1,37 @@
+{
+    "nome": "Crescer Espinhos",
+    "name": "Spike Growth",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "45 metros",
+    "componentes": "VSM (sete espinhos afiados ou sete gravetos, todos com uma ponta afiada)",
+    "mana": 600,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 10 minutos",
+    "attack_save": "WIS Save",
+    "dmg_effect": "perfurante",
+    "dmg": "4d4",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle",
+        "dano"
+    ],
+    "descricao": "O solo em 6 metros quadrados, centrado num ponto dentro do alcance, se retorce e brotam cavilhas rígidas e espinhos. A área se torna terreno difícil pela duração. Quando uma criatura entrar ou se mover dentro da área, ela sofrerá 4d4 de dano perfurante para cada 1,5 metro que ela atravessar.\n\tA transformação do terreno é camuflada para parecer natural. Qualquer criatura que não puder ver a área no momento que a magia for conjurada, deve realizar um teste de Sabedoria (Percepção) contra a CD da magia para reconhecer o terreno como perigoso, antes de adentra-lo.\n\t**Melhorar Magia**. Para cada 550 de mana extras gastos, adicione mais 2d4 de dano até um máximo de 8d4 adicionais.",
+    "source": "LDJ"
+}

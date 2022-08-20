@@ -1,0 +1,30 @@
+{
+    "nome": "Torção Espacial",
+    "name": "Vortex Twist",
+    "nivel": 2,
+    "escola": ["elemental", "espiritual", "necromancia", "pura"],
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "27 metros",
+    "componentes": "VS",
+    "mana": 800,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "controle"
+    ],
+    "descricao": "Você magicamente torce o espaço ao redor de outra criatura que você possa ver dentro do alcance. O alvo deve ser bem sucedido em um teste de Constituição ou o alvo é teleportado para um espaço desocupado de sua escolha que você possa ver dentro do alcance. O espaço escolhido deve estar em uma superfície ou em um líquido que possa suportar o alvo sem que o alvo precise se espremer.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais, você pode aumentar o alcance da magia em 9 metros.",
+    "source": "Etc."
+}

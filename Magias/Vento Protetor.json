@@ -1,0 +1,33 @@
+{
+    "nome": "Vento Protetor",
+    "name": "Warding Wind",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 500,
+    "mana_adicional": "5 por minuto",
+    "duracao": "concentração, até 10 minutos",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "defesa"
+    ],
+    "descricao": "Um vento forte (30 quilômetros por hora) sopra a sua volta num raio de 3 metros e se move com você, permanecendo centrado em você. O vento permanece pela duração da magia.\n\tO vento tem os seguintes efeitos:\n\t• Ele ensurdece você e outras criaturas na área.\n\t• Ele extingue chamas desprotegidas na área que tenham o tamanho de tochas ou menores.\n\t• A área é de terreno difícil para outras criaturas diferentes de você.\n\t• As jogadas de ataque à distância com armas tem desvantagem se passarem para dentro ou para fora do vento.\n\t• Ele afasta vapor, gás e névoa que possa ser dissipado por um vento forte.",
+    "source": "LDJ"
+}

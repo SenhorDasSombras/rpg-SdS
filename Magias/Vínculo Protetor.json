@@ -1,0 +1,36 @@
+{
+    "nome": "Vínculo Protetor",
+    "name": "Warding Bond",
+    "nivel": 2,
+    "escola": ["elemental", "musical", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "ar",
+        "luz",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (um par de anéis de platina valendo, no mínimo, 50 po cada, que você e o alvo devem usar pela duração)",
+    "mana": 750,
+    "duracao": "1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "guerreiro",
+        "ladino",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "defesa"
+    ],
+    "descricao": "Essa magia protege uma criatura voluntária que você tocar e cria uma conexão mística entre você e o alvo até a magia acabar. Enquanto o alvo estiver a até 18 metros de você, ele recebe +1 de bônus na CA, nos testes de resistência e terá resistência a todos os danos. No entanto, a cada vez que ele sofrer dano, você sofrerá a mesma quantidade de dano.\n\tA magia acaba se você cair a 0 pontos de vida ou se você e o alvo ficarem separados a mais de 18 metros. Ela também termina se a magia for conjurada novamente em quaisquer das criaturas conectadas. Você também pode dissipar a magia com uma ação.",
+    "source": "LDJ"
+}

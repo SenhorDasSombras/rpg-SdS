@@ -1,0 +1,32 @@
+{
+    "nome": "Ver o Invisível",
+    "name": "See Invisibility",
+    "nivel": 2,
+    "escola": ["espiritual", "necromancia", "pura", "elemental"],
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (um pouco de talco e um pó de prata polvilhado)",
+    "mana": 700,
+    "duracao": "1 hora",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "buff",
+        "detecção"
+    ],
+    "descricao": "Pela duração, você vê criaturas e objetos invisíveis como se eles fossem visíveis e você pode ver no Plano Etéreo. Criaturas e objetos etéreos parecem espectrais e translúcidos.",
+    "source": "LDJ"
+}

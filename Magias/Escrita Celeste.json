@@ -2,7 +2,7 @@
     "nome": "Escrita Celeste",
     "name": "Skywrite",
     "nivel": 2,
-    "escola": ["elemental", "ilusória"],
+    "escola": ["elemental", "ilusionista"],
     "ritual": false,
     "elementos": [
         "ar"

@@ -1,0 +1,40 @@
+{
+    "nome": "Zona da Verdade",
+    "name": "Zone of Truth",
+    "nivel": 2,
+    "escola": ["elemental", "espiritual", "necromancia", "ilusionista"],
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "ar",
+        "luz",
+        "sombras",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 750,
+    "duracao": "10 minutos",
+    "attack_save": "CHA Save",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "comunicação",
+        "social",
+        "detecção"
+    ],
+    "descricao": "Você cria uma zona mágica protegida contra enganação, numa esfera com 4,5 metros de raio, centrada num ponto, à sua escolha, dentro do alcance. Até a magia acabar, uma criatura que entrar na área da magia pela primeira vez num turno ou começar seu turno nela, deve realizar um teste de resistência de Carisma. Se falhar na resistência, a criatura não poderá mentir deliberadamente enquanto estiver no raio. Você saberá cada criatura que passou ou falhou nesse teste de resistência.\n\tUma criatura afetada está ciente da magia e pode, portanto, evitar responder perguntas as quais ela normalmente responderia com uma mentira. Tais criaturas podem ser evasivas em suas respostas, contanto que permaneçam dentro dos limites da verdade.",
+    "source": "LDJ"
+}

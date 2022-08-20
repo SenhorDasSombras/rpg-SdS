@@ -1,0 +1,36 @@
+{
+    "nome": "Lâmina Sombria",
+    "name": "Shadow Blade",
+    "nivel": 2,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 650,
+    "mana_adicional": "10 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "sombras",
+    "dmg": "2d8",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "corpo-a-corpo",
+        "arma"
+    ],
+    "descricao": "Você entrelaça fios de sombras para criar uma espada de trevas solidas em sua mão. Esta espada mágica dura até a magia terminar. Ele conta como uma arma simples de combate corpo-a-corpo com a qual você é proficiente. Ela provoca um dano sombrio de 2d8 em um golpe e possui propriedades sutileza, leve e arremessável (alcance 6/ 18). Além disso, quando você usa a espada para atacar um alvo que está em luz fraca ou na escuridão, você faz a rolagem de ataque com vantagem.\n\tSe você soltar a arma ou arremessá-la, ela se dissipa no final do turno. Posteriormente, enquanto a magia persistir, você pode usar uma ação bônus para que a espada reapareça na sua mão.\n\t**Em Níveis Superiores**. Gastando 1000 de mana extras e mais 10 por turno, o dano aumenta para 3d8. Gastando mais 5000 de mana e mais 30 por turno, o dano aumenta para 4d8. Gastando mais 15000 de mana e mais 50 por turno, o dano aumenta para 5d8.",
+    "source": "LDJ"
+}

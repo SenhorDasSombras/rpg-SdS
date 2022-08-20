@@ -1,0 +1,30 @@
+{
+    "nome": "Invocar Fera",
+    "name": "Summon Beast",
+    "nivel": 2,
+    "escola": ["elemental", "invocação"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "V",
+    "mana": 800,
+    "duracao": "1 hora",
+    "classes": [
+        "bardo",
+        "mago",
+        "feiticeiro",
+        "bruxo",
+        "xamã"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Você convoca um espírito feral. Ele se manifesta em um espaço desocupado a sua vista dentro do alcance. Essa forma corpórea utiliza o bloco de estatísticas do Espírito Feral. Quando você conjura a magia, escolha um tipo de ambiente: Ar, Terra ou Água. A criatura se assemelha a um animal a sua escolha que vive nesse tipo de habitat, o que determina algumas características no bloco de estatísticas.  A criatura desaparece se chegar a 0 pontos de vida ou quando a magia se encerra. A criatura é uma aliada para você e seus companheiros.  Em combate, a criatura compartilha sua contagem de iniciativa, mas realiza o turno dela imediatamente após o seu. Ela obedece a seus comandos verbais (nenhuma ação é exigida de você). Se não indicar nenhuma ação, ela realiza a ação de Esquiva e usa seu deslocamento para evitar o perigo.  Em círculos superiores. Quando você conjura essa magia usando um espaço de magia de 3° círculo ou superior, utilize o nível mais alto sempre que o bloco de estatísticas indicar o círculo da magia. (MAGIA INCOMPLETA. SERÁ REVISADA DEPOIS DE CRIAR O XAMÃ)",
+    "source": "Tasha"
+}

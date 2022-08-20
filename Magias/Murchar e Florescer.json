@@ -1,0 +1,34 @@
+{
+    "nome": "Murchar e Florescer",
+    "name": "Wither and Bloom",
+    "nivel": 2,
+    "escola": "necromancia",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (uma vinha murcha torcida em um loop)",
+    "mana": 700,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "necrótico",
+    "dmg": "2d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "dano",
+        "cura"
+    ],
+    "descricao": "Você invoca ambos vida e morte em uma esfera de até 3 metros centrada em um ponto dentro do alcance. Cada criatura a sua escolha na área deve fazer uma salvaguarda de Constituição, recebendo 2d6 de dano necrótico em uma falha ou metade em um sucesso. Vegetação não mágica na área murcha.\n\tAlém disso, uma criatura da sua escolha pode gastar um Dado de Vida não gasto e recuperar o valor rolado mais seu modificador de conjuração.\n\t**Melhorar Magia**. Para cada 800 de mana adicionais, você adiciona mais 1d6 ao dano e permite a criatura gastar um dado de vida a mais até um máximo de 3600 pontos adicionais de mana gastos.",
+    "source": "LDJ"
+}

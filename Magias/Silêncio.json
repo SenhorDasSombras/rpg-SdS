@@ -2,7 +2,7 @@
     "nome": "Silêncio",
     "name": "Silence",
     "nivel": 2,
-    "escola": ["ilusão", "musical"],
+    "escola": ["ilusionista", "musical"],
     "ritual": false,
     "elementos": [
     ],

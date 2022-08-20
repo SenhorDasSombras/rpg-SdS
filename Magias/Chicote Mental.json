@@ -1,0 +1,35 @@
+{
+    "nome": "Chicote Mental (de Tasha)",
+    "name": "Tasha's Mind Whip",
+    "nivel": 2,
+    "escola": ["ilusionista", "musical"],
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "27 metros",
+    "componentes": "V",
+    "mana": 900,
+    "duracao": "1 rodada",
+    "attack_save": "INT Save",
+    "dmg_effect": "psíquico",
+    "dmg": "3d6",
+    "classes": [
+        "clérigo",
+        "paladino",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "feiticeiro",
+        "bruxo"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "dano"
+    ],
+    "descricao": "Você enlaça psiquicamente uma criatura a sua vista dentro do alcance. O alvo deve ser bem-sucedido em uma salvaguarda de Inteligência. Em caso de falha, O alvo sofre 3d6 de dano psíquico, e não pode realizar reações até o final do próximo turno dele. Além disso, no próximo turno dele, ele deve escolher entre se mover, realizar uma ação, ou realizar uma ação bônus; ele pode fazer apenas uma das três coisas. Caso passe na salvaguarda, o alvo recebe metade do dano e não sofre os outros efeitos da magia. **Melhorar Magia**. Para cada 1200 de mana adicionais gastos, você pode adicionar mais uma criatura como alvo da magia até um total de 5 criaturas. Elas devem estar até 9m de distância umas das outras quando você as marcar como alvo.",
+    "source": "Tasha"
+}
