@@ -32,6 +32,6 @@
     "tags": [
         "dano"
     ],
-    "descricao": "Você arremessa uma esfera de energia elemental de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance. Você realiza um ataque à distância com magia. Se o ataque atingir, a criatura sofre 3d8 de dano elemental. **Melhorar Magia.** Para cada 500 de mana adicional gasto, você pode adicionar 1d8 no dano até um máximo de 5d8 extras.",
+    "descricao": "Você arremessa uma esfera de energia elemental de 12 centímetros de diâmetro numa criatura que você possa ver dentro do alcance. Você realiza um ataque à distância com magia. Se o ataque atingir, a criatura sofre 3d8 de dano elemental.\n\t**Melhorar Magia.** Para cada 500 de mana adicional gasto, você pode adicionar 1d8 no dano até um máximo de 5d8 extras.",
     "source": "LDJ"
 }

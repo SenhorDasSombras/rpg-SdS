@@ -33,6 +33,6 @@
     "tags": [
         "buff", "defesa"
     ],
-    "descricao": "Um campo cintilante aparece ao redor de uma criatura, à sua escolha, dentro do alcance, concedendo +1 de bônus na CA pela duração.\n\tEsta magia não pode ser utilizada se a criatura já estiver sob efeito de outros escudos mágicos.\n\t**Melhorar Magia**. Você pode gastar mais 500 mana para transformar o efeito em +2 ou então mais 2000 de mana para transformar o efeito em +3.",
+    "descricao": "Um campo cintilante aparece ao redor de uma criatura, à sua escolha, dentro do alcance, concedendo +1 de bônus na CA pela duração.\n\tEsta magia não pode ser utilizada se a criatura já estiver sob efeito de outros escudos mágicos.\n\t**Melhorar Magia**. Você pode gastar mais 2000 mana para transformar o efeito em +2 ou então mais 5000 de mana para transformar o efeito em +3.",
     "source": "LDJ"
 }

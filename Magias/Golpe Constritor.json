@@ -15,6 +15,7 @@
     "alcance_area": "pessoal",
     "componentes": "V",
     "mana": 400,
+    "mana_adicional": "20 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "STR Save",
     "dmg_effect": "perfurante",

@@ -36,6 +36,6 @@
         "defesa",
         "dano"
     ],
-    "descricao": "Uma força magica protetora envolve você, manifestando-se de acordo com o seu elemento. Você ganha 5 pontos de vida temporários pela duração. Se uma criatura atingir você com um ataque corpo-a-corpo enquanto estiver com esses pontos de vida, a criatura sofrerá 5 de dano elemental.\n\t**Melhorar Magia**. Para cada 500 de mana adicional gasto, tanto os pontos de vida temporários quanto o dano aumentam em 5.",
+    "descricao": "Uma força mágica protetora envolve você, manifestando-se de acordo com o seu elemento. Você ganha 5 pontos de vida temporários pela duração. Se uma criatura atingir você com um ataque corpo-a-corpo enquanto estiver com esses pontos de vida, a criatura sofrerá 5 de dano elemental.\n\t**Melhorar Magia**. Para cada 500 de mana adicional gasto, tanto os pontos de vida temporários quanto o dano aumentam em 5.",
     "source": "LDJ"
 }

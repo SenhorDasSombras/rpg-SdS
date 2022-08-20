@@ -13,7 +13,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "toque",
     "componentes": "VSM (água benta ou pó de prata e ferro, consumidos pela magia)",
-    "mana": 250,
+    "mana": 350,
     "mana_adicional": "10 de mana por minuto",
     "duracao": "concentração, até 10 minutos",
     "classes": [

@@ -10,7 +10,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "36 metros",
     "componentes": "VSM (folha de ruibarbo em pó eo estômago de uma víbora)",
-    "mana": 700,
+    "mana": 650,
     "duracao": "instantânea",
     "attack_save": "distância",
     "dmg_effect": "ácido",

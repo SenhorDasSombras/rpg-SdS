@@ -34,6 +34,6 @@
     "tags": [
         "defesa"
     ],
-    "descricao": "Uma barreira de energia aparece e protege você.\n\tAté o final do turno da criatura que fez a magia contra você, você recebe +3 de bônus na CA, incluindo contra o ataque que desencadeou a magia, e você não sofre dado de mísseis mágicos.\n\tVocê não pode usar essa magia junto com outros escudos mágicos. **Melhorar Magia**. Você pode gastar mais 500 mana para transformar o efeito em +4 ou então mais 2000 de mana para transformar o efeito em +5.",
+    "descricao": "Uma barreira de energia aparece e protege você.\n\tAté o final do turno da criatura que fez a magia contra você, você recebe +3 de bônus na CA, incluindo contra o ataque que desencadeou a magia, e você não sofre dado de mísseis mágicos.\n\tVocê não pode usar essa magia junto com outros escudos mágicos.\n\t**Melhorar Magia**. Você pode gastar mais 500 mana para transformar o efeito em +4 ou então mais 2000 de mana para transformar o efeito em +5.",
     "source": "LDJ"
 }
