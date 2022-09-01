@@ -12,7 +12,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "36 metros",
     "componentes": "VS",
-    "mana": 400,
+    "mana": 550,
     "duracao": "1 rodada",
     "dmg_effect": "elemental",
     "dmg": "4d6",
@@ -31,6 +31,6 @@
         "dano",
         "buff"
     ],
-    "descricao": "Um lampejo de luz se lança em direção de uma criatura, à sua escolha, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, o alvo sofre 4d6 de dano radiante e, a próxima jogada de ataque contra esse alvo, antes do final do seu próximo turno, terá vantagem, graças a penumbra mística cintilando no alvo, até então.\n\t**Melhorar Magia.** Para cada 500 de mana adicionais gastos, você pode adicionar 2d6 ao dano até um máximo de 6d6 adicionais. Você pode gastar mais mana para reforçar a penumbra mística e adicionais mais uma jogada de ataque a cada 300 de mana adicionais gastos, até um máximo de 3000 de mana.",
+    "descricao": "Um lampejo de luz se lança em direção de uma criatura, à sua escolha, dentro do alcance. Realize um ataque à distância com magia contra o alvo. Se atingir, o alvo sofre 4d6 de dano radiante e, a próxima jogada de ataque contra esse alvo, antes do final do seu próximo turno, terá vantagem, graças a penumbra mística cintilando no alvo, até então.\n\t**Melhorar Magia.** Para cada 600 de mana adicionais gastos, você pode adicionar 2d6 ao dano até um máximo de 6d6 adicionais. Você pode gastar mais mana para reforçar a penumbra mística e adicionais mais uma jogada de ataque a cada 300 de mana adicionais gastos, até um máximo de 3000 de mana.",
     "source": "LDJ"
 }

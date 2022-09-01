@@ -2,7 +2,7 @@
     "nome": "Palavra Curativa",
     "name": "Healing Word",
     "nivel": 1,
-    "escola": "elemental",
+    "escola": ["elemental", "musical"],
     "ritual": false,
     "elementos": [
         "água",

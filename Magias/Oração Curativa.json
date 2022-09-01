@@ -2,7 +2,7 @@
     "nome": "Oração Curativa",
     "name": "Prayer of Healing",
     "nivel": 2,
-    "escola": ["elemental", "espiritual"],
+    "escola": ["elemental", "espiritual", "musical"],
     "ritual": false,
     "elementos": [
         "água",
