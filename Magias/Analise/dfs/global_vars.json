@@ -48,7 +48,8 @@
     "guerreiro",
     "mago",
     "bruxo",
-    "feiticeiro"
+    "feiticeiro",
+    "xamã"
   ],
   "G_COLUMNS": [
     "nome",
