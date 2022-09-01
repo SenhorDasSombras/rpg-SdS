@@ -25,7 +25,6 @@
     "tags": [
         "dano",
         "toque",
-        "utilidade",
         "distância"
     ],
     "descricao": "Você toca de uma a três pedrinhas e as imbui com mágica. Você ou mais alguém pode realizar um ataque à distância com magia com uma dessas pedrinhas ao arremessa-las ou dispara-las com uma funda. Se for arremessada, ela tem um alcance de 18 metros. Se mais alguém atacar com a pedrinha, esse atacante adiciona seu modificador de habilidade de conjuração, não o do atacante, à jogada de ataque. Se atingir, o alvo sofre dano de concussão igual a 1d6 + seu modificador de habilidade de conjuração. Atingindo ou errando, a magia então termina na pedra.\n\tSe você conjurar essa magia novamente, ela acaba prematuramente em quaisquer pedrinhas que ainda estivessem sendo afetadas por ela.",

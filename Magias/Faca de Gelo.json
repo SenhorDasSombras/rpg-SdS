@@ -27,7 +27,9 @@
         "bruxo"
     ],
     "tags": [
-        "dano", "corpo-a-corpo"
+        "arma",
+        "dano",
+        "corpo-a-corpo"
     ],
     "descricao": "Você congela a lâmina de uma arma que estiver empunhando e faz um ataque contra uma criatura que esteja no alcance da arma. Em um acerto, o ataque causa 1d10 a mais de dano congelante e a criatura deve fazer um teste de resistência de Força ou terá seu movimento reduzido pela metade no seu próximo turno.\n\t**Melhorar Magia**. A cada 550 de mana adicionais gastos, você adiciona 1d10 ao dano.",
     "source": "LDJ"

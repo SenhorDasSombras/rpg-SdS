@@ -35,7 +35,8 @@
     "tags": [
         "buff",
         "dano",
-        "arma"
+        "arma",
+        "toque"
     ],
     "descricao": "Você toca uma arma não-magica. Até a magia acabar, a arma se torna uma arma mágica com +1 de bônus nas jogadas de ataque e jogadas de dano.\n\t**Melhorar Magia** Gastando um total de 5000 de mana e 50 de mana a cada 5 minutos, você torna a arma em uma arma +2. Gastando um total de 50000 de mana e 500 de mana a cada 5 minutos, você torna a arma em uma arma +3.",
     "source": "LDJ"

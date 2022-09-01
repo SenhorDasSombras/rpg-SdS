@@ -25,7 +25,6 @@
         "buff",
         "debuff",
         "controle",
-        "utilidade",
         "exploração"
     ],
     "descricao": "Uma criatura ou objeto, à sua escolha, que você possa ver, dentro do alcance, ergue-se verticalmente, até 6 metros e permanece suspenso lá pela duração. A magia pode levitar um alvo pesando até 250 quilos. Uma criatura involuntária que for bem sucedida num teste de resistência de Constituição não é afetada. Além disso, se o alvo for uma criatura involuntária, você deve gastar 20 de mana por minuto ao invés de 10.\n\tO alvo pode se mover apenas ao puxar ou empurrar um objeto fixo ou superfície ao seu alcance (como um muro ou teto), permitindo que ele se mova como se estivesse escalando. Você pode mudar a altitude do alvo em até 6 metros em ambas as direções no seu turno. Se você for o alvo, você pode se mover para cima ou para baixo como parte do seu movimento. Do contrário, você precisa usar sua ação para mover o alvo, que deve permanecer dentro do alcance da magia.  \n\tQuando a magia acaba, o alvo flutua suavemente até o chão, se ele ainda estiver no ar.",

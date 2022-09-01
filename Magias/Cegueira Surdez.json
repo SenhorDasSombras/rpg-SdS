@@ -26,8 +26,7 @@
     ],
     "tags": [
         "debuff",
-        "controle",
-        "utilidade"
+        "controle"
     ],
     "descricao": "Você pode cegar ou ensurdecer um oponente. Escolha uma criatura que você possa ver dentro do alcance para fazer um teste de resistência de Constituição. Se ela falhar, ficará ou cega ou surda (à sua escolha) pela duração. No final de cada um dos turnos dele, o alvo pode realizar um teste de resistência de Constituição. Se obtiver sucesso, a magia termina.\n\t[Musical] Você pode apenas utilizar essa magia para deixar uma criatura surda.\n\t[Luz|Ilusão] Você pode apenas cegar um oponente.\n\t[Necromancia] Você não pode utilizar essa magia em corruptores, mortos-vivos ou aberrações.\n\t[Espiritual] Você não pode utilizar essa magia em celestiais ou fadas.\n\t**Melhorar Magia**. Para cada 1000 pontos de mana adicionais gastos, adicione mais um alvo para a magia até um total de 5 alvos máximos.",
     "source": "LDJ"

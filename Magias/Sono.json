@@ -26,7 +26,6 @@
         "bruxo"
     ],
     "tags": [
-        "utilidade",
         "debuff"
     ],
     "descricao": "Essa magia coloca as criaturas num entorpecimento mágico. Jogue 5d8, o total é a quantidade de pontos de vida de criaturas afetados pela magia. As criaturas numa área de 6 metros de raio, centrada no ponto escolhido, dentro do alcance, são afetadas em ordem ascendente dos pontos de vida atuais delas (ignorando criaturas inconscientes).\n\tComeçando com as criaturas com menos pontos de vida atuais, cada criatura afetada por essa magia cai inconsciente até a magia acabar, sofrer dano ou alguém usar sua ação para sacudi-la ou esbofeteá-la até acordar.\n\tSubtraia os pontos de vida de cada criatura do total antes de seguir para a próxima criatura com menos pontos de vida atuais. Os pontos de vida atuais da criatura devem ser iguais ou menores que o valor restante para que a criatura possa ser afetada.\n\tMortos-vivos e criaturas imunes a serem enfeitiçadas não são afetadas por essa magia.\n\t**Melhorar Magia**. Para cada 500 de mana adicionais, adicione mais 2d8 até um máximo de 10d8 adicionais.",

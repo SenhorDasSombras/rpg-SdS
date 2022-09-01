@@ -26,8 +26,8 @@
         "bruxo"
     ],
     "tags": [
+        "toque",
         "buff",
-        "utilidade",
         "exploração"
     ],
     "descricao": "Uma criatura que você tocar, se torna invisível até a magia acabar. Qualquer coisa que o alvo esteja vestindo ou carregando fica invisível enquanto estiver de posse do alvo. A magia termina para o alvo caso ele ataque ou conjure uma magia.\n\t[Sombras] O efeito só funciona se a criatura estiver em um ambiente sem nenhuma luz.\n\t**Melhorar Magia**. Gastando mais 600 e 20 de mana a cada 10 minutos, você pode adicionar mais uma criatura como alvo da magia, até um máximo de 6 criaturas no total.",

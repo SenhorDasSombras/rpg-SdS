@@ -26,7 +26,7 @@
         "bruxo"
     ],
     "tags": [
-        "utilidade",
+        "exploração",
         "detecção"
     ],
     "descricao": "Descreva ou nomeie um objeto que seja familiar a você. Você sente a direção da localização do objeto, contanto que o objeto esteja a até 300 metros de você. Se o objeto estiver em movimento, você saberá a direção do movimento dele.\n\tA magia pode localizar um objeto especifico que você, desde que você já tenha o visto de perto – a até 9 metros – pelo menos uma vez. Alternativamente, a magia pode localizar o objeto de um tipo em particular mais próximo, como certo tipo de vestuário, joia, móvel, ferramenta ou arma.\n\tEssa magia não pode localizar um objeto se qualquer espessura de chumbo, até mesmo uma folha fina, bloquear o caminho direto entre você e o objeto.\n\t[Metal] Você pode detectar apenas objetos de metal.\n\t[Terra] Você pode detectar apenas objetos de madeira.\n\t[Receita] Você pode colocar uma receita de _Localizar Objeto_ em qualquer objeto.",

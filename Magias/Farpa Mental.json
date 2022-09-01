@@ -25,8 +25,7 @@
         "bruxo"
     ],
     "tags": [
-        "dano",
-        "distância"
+        "dano"
     ],
     "descricao": "Você direciona um espinho desorientador feito de energia psíquica para dentro da mente de uma criatura que você possa ver dentro do alcance da magia. O alvo deve ser bem sucedido em uma salvaguarda de Inteligência ou sofre 1d6 de dano psíquico e subtrai 1d4 da próxima salvaguarda que realizar antes do final do seu próximo turno.\n\tO dano dessa magia aumenta em 1d6 quando você alcança certos níveis: 5º nível (2d6), 11° nível (3d6), e 17º nível (4d6).",
     "source": "Tasha"
