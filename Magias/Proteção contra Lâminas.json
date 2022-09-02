@@ -25,6 +25,6 @@
     "tags": [
         "defesa"
     ],
-    "descricao": "[Ar] Você estende sua mão e traça uma parede de vento que te protege.\n[Água] Você cria um fluxo de água ao seu redor, protegendo sua pele de lâminas.\n[Terra] Você torna sua pele mais resistente, como uma rocha.\n[Metal] Você torna sua pele mais resistente, como metal.\n\n\tAté seu próximo turno, você tem resistência contra dano de concussão, cortante e perfurante de ataques com armas não-mágicas.",
+    "descricao": "[Ar] Você estende sua mão e traça uma parede de vento que te protege.\n[Água] Você cria um fluxo de água ao seu redor, protegendo sua pele de lâminas.\n[Terra] Você torna sua pele mais resistente, como uma rocha.\n[Metal] Você torna sua pele mais resistente, como metal.\n\n\tAté seu próximo turno, você tem resistência contra dano de concussão, cortante e perfurante de ataques com armas não-mágicas.\n\t[Metal] Como conjurador de metal, você pode usar esse truque independentemente da sua classe.",
     "source": "LDJ"
 }

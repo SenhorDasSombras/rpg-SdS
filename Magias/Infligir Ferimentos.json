@@ -2,9 +2,11 @@
     "nome": "Infligir Ferimentos",
     "name": "Inflict Wounds",
     "nivel": 1,
-    "escola": "necromancia",
+    "escola": ["necromancia", "elemental"],
     "ritual": false,
     "elementos": [
+        "sombras",
+        "veneno"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "toque",
