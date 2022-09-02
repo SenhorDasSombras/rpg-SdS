@@ -24,7 +24,9 @@
         "monge"
     ],
     "tags": [
-        "dano", "buff"
+        "dano",
+        "buff",
+        "arma"
     ],
     "descricao": "Você se move como o vento. Até o fim da magia, seu movimento não provoca ataques de oportunidade.\n\tUma vez até o fim da magia, você pode se dar vantagem em uma rolagem de ataque com arma no seu turno. Esse ataque infringe 1d8 de dano de ar extra caso acerte. Não importa se acertar ou errar, sua velocidade de deslocamento aumenta em 9 metros até o final desse turno.",
     "source": "Xanathar"

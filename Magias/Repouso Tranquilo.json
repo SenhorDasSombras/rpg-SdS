@@ -24,7 +24,8 @@
         "bruxo"
     ],
     "tags": [
-        "defesa"
+        "defesa",
+        "toque"
     ],
     "descricao": "Você toca um corpo ou outros restos mortais. Pela duração, o alvo estará protegido de decomposição e não pode se tornar um morto-vivo.\n\tA magia também estende, efetivamente, o limite de tempo para que o alvo seja trazido de volta a vida, já que os dias passados sob a influência dessa magia não contam no tempo limite de tais magias, como _reviver os mortos_.",
     "source": "LDJ"

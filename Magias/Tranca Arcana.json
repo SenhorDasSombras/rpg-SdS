@@ -26,7 +26,8 @@
     ],
     "tags": [
         "defesa",
-        "controle"
+        "controle",
+        "toque"
     ],
     "descricao": "Você toca uma porta, janela, portão, baú ou outra entrada fechada e ela ficará trancada pela duração. Você e as criaturas que você designar, quando você conjurar essa magia, podem abrir o objeto normalmente. Você também pode definir uma senha que, quando falada a 1,5 metro do objeto, suprime a magia por 1 minuto. De outra forma, ele é intransponível até ser quebrado ou a magia seja dissipada ou suprimida. Conjurar _arrombar_ no objeto suprime a _tranca arcana_ por 10 minutos.\n\tEnquanto estiver sob efeito dessa magia, o objeto é mais difícil de quebrar ou de forçar para abrir; a CD para quebra-lo ou de arromba-lo aumenta em 10.",
     "source": "LDJ"

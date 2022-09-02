@@ -35,7 +35,9 @@
         "bruxo"
     ],
     "tags": [
-        "dano", "buff"
+        "dano",
+        "buff",
+        "arma"
     ],
     "descricao": "Você envolve sua arma com seu elemento. Até o final da magia, seus ataques com aruma causa 1d4 de dano elemento extra ao atingirem.\n\t**Melhorar Magia**. Você pode gastar mais 500 de mana e mais 30 de mana por turno para transformar o d4 em d6. Você pode gastar mais 1500 de mana e mais 50 de mana por turno para transformar o d6 em d8. Você pode gastar mais 5000 de mana e mais 100 de mana por turno para transformar o d8 em d10.",
     "source": "LDJ"

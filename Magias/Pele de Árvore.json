@@ -16,18 +16,16 @@
     "duracao": "concentração, até 1 hora",
     "classes": [
         "clérigo",
-        "paladino",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "buff",
-        "defesa"
+        "defesa",
+        "toque"
     ],
     "descricao": "Você toca uma criatura voluntária. Até o fim da magia, a pele da criatura fica rígida e a CA agora é no mínimo 16, independentemente do tipo de armadura que ela esteja vestindo.",
     "source": "LDJ"

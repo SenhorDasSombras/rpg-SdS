@@ -27,7 +27,8 @@
         "bruxo"
     ],
     "tags": [
-        "dano"
+        "dano",
+        "distância"
     ],
     "descricao": "Você cospe uma flecha esverdeada cintilante que voa em direção de um alvo dentro do alcance e explode em um jato de ácido.\n\tFaça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofre 4d4 de dano de ácido imediatamente e 2d4 de dano de ácido no final do próximo turno dele. Se errar, a flecha salpica o alvo com ácido, causando metade do dano inicial e nenhum dano no final do próximo turno dele.\n\t**Melhorar Magia**. Para cada 550 de mana gastos adicionalmente, você pode adicionar mais 1d4 ao dano inicial e final.",
     "source": "LDJ"

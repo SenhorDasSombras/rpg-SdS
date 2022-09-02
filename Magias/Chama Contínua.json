@@ -24,7 +24,8 @@
     ],
     "tags": [
         "utilidade",
-        "defesa"
+        "defesa",
+        "toque"
     ],
     "descricao": "Uma chama, que produz iluminação equivalente a uma tocha, surge de um objeto que você tocar. O efeito é parecido com o de uma chama normal, mas ele não produz calor e não consome oxigênio. Uma chama continua pode ser coberta ou escondida, mas não sufocada ou extinta.",
     "source": "LDJ"

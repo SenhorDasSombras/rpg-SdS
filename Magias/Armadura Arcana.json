@@ -26,7 +26,8 @@
     ],
     "tags": [
         "buff",
-        "defesa"
+        "defesa",
+        "toque"
     ],
     "descricao": "Você toca uma criatura voluntária que não esteja vestindo armadura e uma energia mágica protetora a envolve até a magia acabar. A CA base do alvo se torna 13 ([Metal] 15) + o modificador de Destreza dele. A magia acaba se o alvo colocar uma armadura ou se você dissipa-la usando uma ação.",
     "source": "LDJ"

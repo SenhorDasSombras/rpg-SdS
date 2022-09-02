@@ -17,10 +17,16 @@
     "dmg": "1d6",
     "classes": [
         "clérigo",
-        "paladino"
+        "paladino",
+        "mago",
+        "guerreiro",
+        "bardo",
+        "guerreiro",
+        "ladino"
     ],
     "tags": [
         "dano",
+        "corpo-a-corpo",
         "defesa"
     ],
     "descricao": "A magia reverte parte da energia recebida, minimizando seu efeito em você e armazenando-a no seu próximo ataque corpo-a-corpo. Se você recebe um dano elemental, você pode usar sua reação para diminuir o dano pela metade. Além disso, da primeira vez que você atingir um ataque corpo-a-corpo no seu próximo turno, o alvo sofre 1d6 de dano extra do tipo relacionado e a magia termina.\n\t**Melhorar Magia**. A cada 500 de mana que você gasta a mais para conjurar essa magia, você adiciona 1d6 a mais (máximo de 5).",

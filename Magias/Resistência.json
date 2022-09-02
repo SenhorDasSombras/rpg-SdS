@@ -26,6 +26,7 @@
         "mago"
     ],
     "tags": [
+        "toque",
         "buff"
     ],
     "descricao": "Você toca uma criatura voluntária e uma aura elemental envolve ela, desaparecendo após alguns segundos. Uma vez, antes da magia acabar, o alvo pode rolar 1d4 e adicionar o número rolado a um teste de resistência de sua escolha. Ele pode rolar o dado antes ou depois de realizar o teste de resistência. Após isso, a magia termina. Você gasta 50 de mana por turno até o final da magia.",

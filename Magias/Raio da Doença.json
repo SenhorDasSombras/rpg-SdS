@@ -29,7 +29,9 @@
         "bruxo"
     ],
     "tags": [
-        "dano", "debuff"
+        "dano",
+        "debuff",
+        "distância"
     ],
     "descricao": "Um raio adoecente de energia esverdeada chicoteia na direção de uma criatura dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo sofrerá 2d8 de dano de veneno e deve realizar um teste de resistência de Constituição. Se falhar na resistência, ele também ficará envenenado até o final do seu próximo turno.\n\t**Melhorar Magia**. Para cada 550 de mana adicionais gastos, adicione 1d8 até um máximo de 5d8.",
     "source": "LDJ"

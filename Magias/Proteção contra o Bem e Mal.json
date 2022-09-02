@@ -28,7 +28,10 @@
         "bruxo"
     ],
     "tags": [
-        "buff", "debuff", "defesa"
+        "buff",
+        "debuff",
+        "defesa",
+        "toque"
     ],
     "descricao": "Até a magia acabar, uma criatura voluntária que você tocar estará protegida contra certos tipos de criaturas: aberrações, celestiais, corruptores, elementais, fadas e mortos-vivos.\n\tA proteção garante diversos benefícios. As criaturas desse tipo tem desvantagem nas jogadas de ataque contra o alvo. O alvo não pode ser enfeitiçado, amedrontado ou possuído por elas. Se o alvo já estiver enfeitiçado, amedrontado ou possuído por uma dessas criaturas, o alvo terá vantagem em qualquer novo teste de resistência contra o efeito relevante.",
     "source": "LDJ"

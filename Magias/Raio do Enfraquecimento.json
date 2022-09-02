@@ -24,6 +24,7 @@
         "bruxo"
     ],
     "tags": [
+        "distância",
         "debuff"
     ],
     "descricao": "Um raio negro de energia enervante parte em direção de uma criatura, dentro do alcance. Faça um ataque à distância com magia contra o alvo. Se atingir, o alvo causará metade do dano com ataques com armas que usem Força, até a magia acabar.\n\tNo final de cada um dos turnos do alvo, ele pode realizar um teste de resistência de Constituição contra a magia. Se obtiver sucesso, a magia acaba.",
