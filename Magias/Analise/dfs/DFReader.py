@@ -38,7 +38,11 @@ def get_spells_df(
     result = list()
     for file_name in files:
         with open(f"{path_prefix}{file_name}", "r") as file:
-            result.append(json.load(file))
+            try:
+                result.append(json.load(file))
+            except json.JSONDecodeError as e:
+                print(f"{file_name} is not a valid json file.")
+                print(e)
 
     if sort_by is None:
         sort_by = ["nivel", "name"]
