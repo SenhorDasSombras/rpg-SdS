@@ -8,7 +8,7 @@
     ],
     "tempo_conjuracao": "1 minuto",
     "alcance_area": "toque",
-    "componentes": "SM (uma tina à base de chumbo valendo, no mínimo, 10 po, que é consumida pela magia)",
+    "componentes": "SM (uma tinta à base de chumbo valendo, no mínimo, 10 po, que é consumida pela magia)",
     "mana": 300,
     "duracao": "10 dias",
     "classes": [
