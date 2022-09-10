@@ -45,7 +45,7 @@ def get_spells_df(
                 print(e)
 
     if sort_by is None:
-        sort_by = ["nivel", "name"]
+        sort_by = ["nivel", "nome"]
 
     result = pd.DataFrame(result).sort_values(by=sort_by).reset_index(drop=True)
     return result

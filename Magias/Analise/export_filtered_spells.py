@@ -43,8 +43,8 @@ def parse_input_args():
     parser.add_argument(
         "--sort_by",
         type=str,
-        default="nivel,name",
-        help="The list of columns to sort the DataFrame by. The default is ['nivel', 'name'].",
+        default="nivel,nome",
+        help="The list of columns to sort the DataFrame by. The default is ['nivel', 'nome'].",
     )
     parser.add_argument(
         "--verbose",
