@@ -3,7 +3,7 @@
 \ProvidesClass{RPG_Adventure}[2021/10/20 RPG Adventure Book]
 
 % Defining the main style
-\LoadClass[11pt, a4paper, oneside, twocolumn]{book}
+\LoadClass[11pt, a4paper, oneside]{book}
 
 % Importing packages
 \usepackage{mdframed}
