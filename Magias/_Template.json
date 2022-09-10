@@ -24,15 +24,11 @@
     "dmg_effect": "fogo",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
-        "monge",
+        "guerreiro",
+        "ladino",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "monge"
     ],
     "tags": [
         "buff",
