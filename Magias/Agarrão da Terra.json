@@ -27,6 +27,6 @@
     "tags": [
         "controle"
     ],
-    "descricao": "Escolha uma criatura que você possa ver, dentro do alcance. Laços de energia mágica rodeiam a criatura. O alvo deve ser bem sucedido num teste de resistência de Força ou seu deslocamento de voo (se possuir) será reduzido para O metros pela duração da magia. Uma criatura voadora afetada por essa magia desce 18 metros por turno até aterrissar no solo ou a magia acabar.",
+    "descricao": "Escolha uma criatura que você possa ver, dentro do alcance. Laços de energia mágica rodeiam a criatura. O alvo deve ser bem sucedido num teste de resistência de Força ou seu deslocamento de voo (se possuir) será reduzido para 0 metros pela duração da magia. Uma criatura voadora afetada por essa magia desce 18 metros por turno até aterrissar no solo ou a magia acabar.",
     "source": "LDJ"
 }

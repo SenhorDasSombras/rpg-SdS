@@ -25,11 +25,8 @@
     "dmg": "4d4",
     "classes": [
         "ladino",
-        "guerreiro",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle",

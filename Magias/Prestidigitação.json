@@ -26,7 +26,6 @@
         "clérigo",
         "paladino",
         "monge",
-        "bardo",
         "ladino",
         "guerreiro",
         "mago",
@@ -36,6 +35,6 @@
     "tags": [
         "utilidade"
     ],
-    "descricao": "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance:\n\t• Você cria, instantaneamente, um efeito sensorial inofensivo, como uma [relâmpago] chuva de faíscas, [ar] um sopro de vento, [bardo] notas musicais suaves ou [veneno] um odor estranho.\n\t•[Fogo] Você, instantaneamente, acende ou apaga uma vela, uma tocha ou uma pequena fogueira.\n\t•[Terra] Você, instantaneamente, limpa ou suja um objeto de até 1 metro cúbico. Você pode limpar ou sujar uma parte de uma roupa com lama.\n\t•[Água] Você seca ou molha uma porção de tecido, madeira ou algo do tipo.\n\t•[Fogo] Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria orgânica não viva por 1 hora.\n\t•[Metal] Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície metálica por 1 hora.\n\t•[Ilusão] Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão e que dura até o final do seu próximo turno.\n\tSe você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não-instantâneos ativos, ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação.",
+    "descricao": "Essa magia é um truque mágico simples que conjuradores iniciantes usam para praticar. Você cria um dos seguintes efeitos mágicos dentro do alcance:\n\t• Você cria, instantaneamente, um efeito sensorial inofensivo, como uma [relâmpago] chuva de faíscas, [ar] um sopro de vento, ou [veneno] um odor estranho.\n\t•[Fogo] Você, instantaneamente, acende ou apaga uma vela, uma tocha ou uma pequena fogueira.\n\t•[Terra] Você, instantaneamente, limpa ou suja um objeto de até 1 metro cúbico. Você pode limpar ou sujar uma parte de uma roupa com lama.\n\t•[Água] Você seca ou molha uma porção de tecido, madeira ou algo do tipo.\n\t•[Fogo] Você esfria, esquenta ou melhora o sabor de até 1 metro cubico de matéria orgânica não viva por 1 hora.\n\t•[Metal] Você faz uma cor, uma pequena marca ou um símbolo aparecer em um objeto ou superfície metálica por 1 hora.\n\t•[Ilusão] Você cria uma bugiganga não-mágica ou uma imagem ilusória que caiba na sua mão e que dura até o final do seu próximo turno.\n\tSe você conjurar essa magia diversas vezes, você pode ter até três dos seus efeitos não-instantâneos ativos, ao mesmo tempo, e você pode dissipar um desses efeitos com uma ação.",
     "source": "LDJ"
 }

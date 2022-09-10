@@ -15,15 +15,8 @@
     "mana_adicional": "20 a cada 10 minutos",
     "duracao": "concentração, até 1 hora",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
-        "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "toque",

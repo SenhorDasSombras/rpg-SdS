@@ -17,13 +17,11 @@
     "dmg_effect": "N/A",
     "dmg": "1d8 + mod",
     "classes": [
-        "clérigo",
-        "paladino",
+        "ladino",
+        "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "cura",
