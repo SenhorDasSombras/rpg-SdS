@@ -2,7 +2,7 @@
     "nome": "Mãos Mágicas",
     "name": "Mage Hand",
     "nivel": 0,
-    "escola": "necromancia",
+    "escola": ["necromancia", "invocação"],
     "ritual": false,
     "elementos": [],
     "tempo_conjuracao": "1 ação",

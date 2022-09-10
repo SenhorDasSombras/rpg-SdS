@@ -1,6 +1,6 @@
 {
     "nome": "Lâmina Elemental",
-    "name": "Green-Flame Blade",
+    "name": "Custom",
     "nivel": 0,
     "escola": "elemental",
     "ritual": false,
@@ -15,29 +15,23 @@
         "metal",
         "veneno"
     ],
-    "tempo_conjuracao": "1 ação",
+    "tempo_conjuracao": "1 ação bônus",
     "alcance_area": "pessoal",
     "componentes": "SM (uma arma marcial corpo-a-corpo)",
     "mana": 150,
     "duracao": "instantânea",
     "attack_save": "corpo-a-corpo",
     "dmg_effect": "elemental",
-    "dmg": "mod",
+    "dmg": "1d4",
     "classes": [
-        "clérigo",
-        "paladino",
-        "mago",
-        "bruxo",
-        "feiticeiro",
         "ladino",
-        "guerreiro",
-        "monge"
+        "guerreiro"
     ],
     "tags": [
         "dano",
         "corpo-a-corpo",
         "arma"
     ],
-    "descricao": "Você brande a arma utilizada na conjuração dessa magia e faz um ataque corpo a corpo contra uma criatura até 1,5m de você. Em um acerto, o alvo sofre os efeitos normais do ataque da arma e você faz com que uma rajada elemental salte do alvo para uma criatura diferente a sua escolha que você possa ver a até 1,5m do primeiro alvo. A segunda criatura sofre dano elemental igual ao seu modificador de atributo de conjuração.\n\tO dano dessa magia aumenta quando você alcança certos níveis. No 5º nível, o ataque corpo a corpo provoca 1d8 de dano elemental adicional se acertar, e o dano elemental que a segunda criatura recebe aumenta para 1d8 + o modificador de seu atributo de conjuração. Ambos os danos aumentam em 1d8 no 11º nível (2d8 e 2d8) e novamente no 17º nível (3d8 e 3d8).",
-    "source": "Tasha"
+    "descricao": "Você transmite sua mana pela lâmina de uma arma, encobrindo-a com seu elemento. Faça um ataque corpo-a-corpo contra uma criatura até 1,5m de você. Em um acerto, o alvo sofre os efeitos normais do ataque da arma e mais 1d4 de dano elemental.\n\tO dano dessa magia aumenta quando você alcança certos níveis. No 5º nível, o dano aumenta para 1d6, no 11º nível aumenta para 1d8 e no 17º nível aumenta para 1d10.",
+    "source": "Custom"
 }

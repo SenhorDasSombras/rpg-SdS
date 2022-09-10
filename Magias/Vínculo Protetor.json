@@ -17,15 +17,9 @@
     "mana": 750,
     "duracao": "1 hora",
     "classes": [
-        "clérigo",
-        "paladino",
         "guerreiro",
-        "ladino",
         "bardo",
-        "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "monge"
     ],
     "tags": [
         "buff",

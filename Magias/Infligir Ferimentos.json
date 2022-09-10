@@ -17,20 +17,17 @@
     "dmg_effect": "necrótico",
     "dmg": "3d10",
     "classes": [
-        "clérigo",
-        "paladino",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",
-        "corpo-a-corpo"
+        "corpo-a-corpo",
+        "arma"
     ],
-    "descricao": "Faça um ataque corpo-a-corpo com magia contra uma criatura dentro do alcance. Se atingir, o alvo sofre 3d10 de dano necrótico.\n\t**Melhorar Magia**. Para cada 700 de mana adicionais, adicione 1d10 ao dano até um máximo de 3d10. Você pode gastar 5000 de mana adicional e adicionar 1d4 total para acertar.",
+    "descricao": "Faça um ataque corpo-a-corpo com magia contra uma criatura dentro do alcance. Se atingir, o alvo sofre 3d10 de dano necrótico.\n\tAlternativamente, você pode escolher fazer um ataque com uma arma corpo-a-corpo, mas o dano era o mesmo de 3d10.\n\t**Melhorar Magia**. Para cada 700 de mana adicionais, adicione 1d10 ao dano até um máximo de 3d10. Você pode gastar 5000 de mana adicional e adicionar 1d4 total para acertar.",
     "source": "LDJ"
 }

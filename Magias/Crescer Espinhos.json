@@ -18,15 +18,9 @@
     "dmg_effect": "perfurante",
     "dmg": "4d4",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle",

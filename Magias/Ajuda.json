@@ -15,15 +15,10 @@
     "duracao": "8 horas",
     "dmg": "5",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "buff",

@@ -13,15 +13,9 @@
     "mana_adicional": "20 por turno",
     "duracao": "concentração, até 1 minuto",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "buff",

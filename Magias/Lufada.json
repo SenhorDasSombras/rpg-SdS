@@ -14,7 +14,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "9 metros",
     "componentes": "VS",
-    "mana": 50,
+    "mana": 150,
     "duracao": "instantânea",
     "attack_save": "STR Save",
     "dmg_effect": "N/A",

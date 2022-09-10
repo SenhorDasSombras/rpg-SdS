@@ -18,15 +18,9 @@
     "dmg_effect": "radiante",
     "dmg": "2d10",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle",

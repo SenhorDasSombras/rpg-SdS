@@ -2,7 +2,7 @@
     "nome": "Infestação",
     "name": "Infestation",
     "nivel": 0,
-    "escola": "invocação",
+    "escola": ["invocação", "necromancia"],
     "ritual": false,
     "elementos": [],
     "tempo_conjuracao": "1 ação",
@@ -24,6 +24,6 @@
         "dano",
         "controle"
     ],
-    "descricao": "Você provoca uma nuvem de ácaros, pulgas e outros parasitas a aparecer momentaneamente sobre uma criatura que você pode ver dentro alcance. O alvo deve ser bem-sucedido em teste de resistência de  Constituição, ou sofre 1d6 de dano de veneno e se move 1,5 metros em uma direção aleatória, se ele pode se mover e sua velocidade é de pelo menos 1,5 metros. Role 1d4 pela direção: 1, norte; 2, sul; 3, leste; ou 4, oeste. Este movimento não provoca ataques de oportunidade, e se a direção rolada estiver bloqueada, o alvo não se move. O dano da magia aumenta em 1d6 quando você alcança 5º nível (2d6), 11º nível (3d6) e 17º nível (4d6).",
+    "descricao": "Você provoca uma nuvem de ácaros, pulgas e outros parasitas a aparecer momentaneamente sobre uma criatura que você pode ver dentro alcance. O alvo deve ser bem-sucedido em teste de resistência de  Constituição, ou sofre 1d6 de dano de veneno e se move 1,5 metros em uma direção aleatória, se ele pode se mover e sua velocidade é de pelo menos 1,5 metros. Role 1d4 pela direção: 1, norte; 2, sul; 3, leste; ou 4, oeste. Este movimento não provoca ataques de oportunidade, e se a direção rolada estiver bloqueada, o alvo não se move.\n\tO dano da magia aumenta em 1d6 quando você alcança 5º nível (2d6), 11º nível (3d6) e 17º nível (4d6).",
     "source": "Xanathar"
 }

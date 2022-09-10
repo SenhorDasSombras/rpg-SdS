@@ -9,7 +9,7 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "36 metros",
     "componentes": "VS",
-    "mana": 800,
+    "mana": 700,
     "duracao": "instantânea",
     "classes": [
         "clérigo",

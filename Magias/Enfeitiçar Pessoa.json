@@ -14,15 +14,9 @@
     "dmg_effect": "enfeitiçado",
     "dmg": "N/A",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle",
