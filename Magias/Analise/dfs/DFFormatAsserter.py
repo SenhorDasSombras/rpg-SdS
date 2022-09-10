@@ -18,9 +18,7 @@ def fill_na_by_column(df):
     """Receives a spell df and fil its NA values using the default for each
     column."""
     df = df.copy()
-    df.elementos = df.elementos.apply(
-        lambda x: x if isinstance(x, list) else []
-    )
+    df.elementos = df.elementos.apply(lambda x: x if isinstance(x, list) else [])
     df.attack_save.fillna("N/A", inplace=True)
     df.dmg_effect.fillna("N/A", inplace=True)
     df.dmg.fillna("N/A", inplace=True)
@@ -116,14 +114,10 @@ def assert_df_columns(df):
     error_str = ""
     if len(extra_columns) > 0:
         error_str += f"Extra columns: {extra_columns}\n"
-        error_str += (
-            f'{df.iloc[extra_col_rows][["nome", "name"] + extra_columns]}'
-        )
+        error_str += f'{df.iloc[extra_col_rows][["nome", "name"] + extra_columns]}'
     if len(missing_columns) > 0:
         error_str += f"Missing columns: {missing_columns}\n"
-        error_str += (
-            f'{df.iloc[missing_col_rows][["nome", "name"] + missing_columns]}'
-        )
+        error_str += f'{df.iloc[missing_col_rows][["nome", "name"] + missing_columns]}'
     if len(error_str) > 0:
         raise TypeError(error_str)
 
@@ -192,9 +186,7 @@ def assert_df_column_types(df):
     assert_column_using_mask(df, "classes", mask)
 
     # TODO: pass possible names to global variables
-    source_regex = re.compile(
-        r"(LDJ|Xanathar|Tasha|Etc.|Custom)"
-    )
+    source_regex = re.compile(r"(LDJ|Xanathar|Tasha|Etc.|Custom)")
     mask = df.source.str.fullmatch(source_regex)
     assert_column_using_mask(df, "source", mask)
 

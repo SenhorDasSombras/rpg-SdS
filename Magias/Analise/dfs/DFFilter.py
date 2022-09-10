@@ -8,18 +8,14 @@ from pandas import DataFrame
 from .DFReader import get_asserted_spells_df
 
 
-def filter_value_column(
-    df: DataFrame, column: str, filter_value: Any
-) -> DataFrame:
+def filter_value_column(df: DataFrame, column: str, filter_value: Any) -> DataFrame:
     """Receives a DataFrame, a column to filter and a filter value to filter by
     and return a view of the DataFrame filtered by that value.
     """
     return df[df[column] == filter_value]
 
 
-def filter_list_column(
-    df: DataFrame, column: str, filter_value: Any
-) -> DataFrame:
+def filter_list_column(df: DataFrame, column: str, filter_value: Any) -> DataFrame:
     """Receives a DataFrame, a column which type is a list and a filter value to
     filter by. Then, returns all the rows where list of that column contains the filter_value.
     """
