@@ -24,11 +24,13 @@
     "dmg_effect": "fogo",
     "dmg": "1d6",
     "classes": [
+        "arqueiro",
         "bardo",
         "guerreiro",
         "ladino",
         "mago",
-        "monge"
+        "monge",
+        "xamã"
     ],
     "tags": [
         "buff",
