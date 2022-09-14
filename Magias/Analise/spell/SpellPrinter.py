@@ -16,13 +16,20 @@ def get_styled_str(string, color=None, size=None):
 
 # === ATTRIBUTE STRINGS ===
 def _get_lvl_str(spell_series):
-    lvl_str = f" lvl {spell_series.nivel}" if spell_series.nivel > 0 else " - truque"
+    lvl_str = (
+        f" lvl {spell_series.nivel}" if spell_series.nivel > 0 else " - truque"
+    )
     return lvl_str
 
 
 def _get_ritual_str(spell_series):
     ritual_str = " - ritual" if spell_series.ritual else ""
     return ritual_str
+
+
+def _get_rare_str(spell_series):
+    rare_str = r" (Rara)" if spell_series.magia_rara else ""
+    return rare_str
 
 
 def _get_escola_str(spell_series):
@@ -89,10 +96,9 @@ def _get_classes_str(spell_series):
 def _get_name_part_str(spell_series, styled=True):
     lvl_str = _get_lvl_str(spell_series)
     ritual_str = _get_ritual_str(spell_series)
+    rare_str = _get_rare_str(spell_series)
 
-    name_str = (
-        f"**{spell_series['nome']} _({spell_series['name']})_**{lvl_str}{ritual_str}\n"
-    )
+    name_str = f"**{spell_series['nome']} _({spell_series['name']})_**{lvl_str}{ritual_str}{rare_str}\n"
     if styled:
         name_str = get_styled_str(name_str)
     return name_str
