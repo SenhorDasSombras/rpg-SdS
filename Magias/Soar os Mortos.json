@@ -13,11 +13,8 @@
     "dmg_effect": "necrótico",
     "dmg": "1d8 ou 1d12",
     "classes": [
-        "clérigo",
-        "paladino",
+        "bardo",
         "mago",
-        "feiticeiro",
-        "bruxo",
         "monge"
     ],
     "tags": [

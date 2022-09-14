@@ -2,7 +2,7 @@
     "nome": "Armadura Arcana",
     "name": "Mage Armor",
     "nivel": 1,
-    "escola": ["elemental", "musical", "psíquica"],
+    "escola": ["elemental", "psíquica"],
     "ritual": false,
     "elementos": [
         "água",
@@ -21,7 +21,6 @@
     "mana": 350,
     "duracao": "8 horas",
     "classes": [
-        "clérigo",
         "mago"
     ],
     "tags": [

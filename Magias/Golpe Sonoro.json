@@ -13,11 +13,8 @@
     "dmg_effect": "energia",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
-        "paladino",
+        "bardo",
         "mago",
-        "feiticeiro",
-        "bruxo",
         "monge"
     ],
     "tags": [
