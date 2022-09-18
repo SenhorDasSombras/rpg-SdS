@@ -1,0 +1,31 @@
+{
+    "nome": "Flecha Luminosa",
+    "name": "Custom",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "fogo",
+        "luz",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (uma pata de vagalume)",
+    "mana": 350,
+    "duracao": "instantânea",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "guerreiro"
+    ],
+    "tags": [
+        "dano",
+        "distância",
+        "arma",
+        "detecção"
+    ],
+    "descricao": "Você encanta uma munição de arma à distância e faz uma jogada de ataque contra um alvo dentro do alcance normal da arma. Independente de acertar ou errar, você cria uma explosão luminosa que cria uma esfera de 3m de luz plena e 3m de penumbra com foco no alvo. Em um acerto, você dá 1d4 de dano perfurante extra.",
+    "source": "Custom"
+}
