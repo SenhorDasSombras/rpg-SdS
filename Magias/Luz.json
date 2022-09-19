@@ -17,13 +17,10 @@
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "mago",
-        "bruxo",
-        "feiticeiro",
         "monge",
         "bardo"
     ],

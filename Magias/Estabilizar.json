@@ -14,8 +14,8 @@
     "mana": 100,
     "duracao": "instantânea",
     "classes": [
-        "clérigo",
-        "paladino"
+        "mago",
+        "bardo"
     ],
     "tags": [
         "toque",

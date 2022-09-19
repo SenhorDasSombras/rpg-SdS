@@ -10,12 +10,9 @@
     "mana": 100,
     "duracao": "1 rodada",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "guerreiro",
         "ladino",
-        "feiticeiro",
-        "bruxo",
         "mago",
         "monge"
     ],

@@ -2,7 +2,7 @@
     "nome": "Ferroada do Enfraquecimento",
     "name": "Sapping Sting",
     "nivel": 0,
-    "escola": "elemental",
+    "escola": ["elemental", "necromancia"],
     "ritual": false,
     "elementos": [
         "sombras"
@@ -16,11 +16,11 @@
     "dmg_effect": "necrótico",
     "dmg": "1d4",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
+        "bardo",
+        "ladino",
+        "guerreiro",
         "mago",
-        "bruxo",
-        "feiticeiro",
         "monge"
     ],
     "tags": [

@@ -17,9 +17,11 @@
     "attack_save": "N/A",
     "dmg_effect": "N/A",
     "classes": [
+        "arqueiro",
+        "guerreiro",
+        "ladino",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "bardo"
     ],
     "tags": [
         "utilidade",

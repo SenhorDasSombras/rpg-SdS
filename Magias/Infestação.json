@@ -14,9 +14,8 @@
     "dmg_effect": "veneno",
     "dmg": "1d6",
     "classes": [
+        "arqueiro",
         "mago",
-        "feiticeiro",
-        "bruxo",
         "bardo",
         "ladino"
     ],

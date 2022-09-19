@@ -24,6 +24,7 @@
     "dmg_effect": "elemental",
     "dmg": "1d4",
     "classes": [
+        "arqueiro",
         "ladino",
         "guerreiro"
     ],

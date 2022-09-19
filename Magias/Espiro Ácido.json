@@ -15,7 +15,8 @@
     "dmg": "1d6",
     "classes": [
         "mago",
-        "ladino"
+        "ladino",
+        "arqueiro"
     ],
     "tags": [
         "dano"
