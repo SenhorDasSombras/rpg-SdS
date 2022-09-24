@@ -14,15 +14,12 @@
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "comunicação",

@@ -16,15 +16,12 @@
     "mana": 300,
     "duracao": "instantânea",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
+        "bardo",
         "ladino",
         "guerreiro",
-        "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "defesa",

@@ -13,13 +13,10 @@
     "mana": 1400,
     "duracao": "instantânea",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "guerreiro",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

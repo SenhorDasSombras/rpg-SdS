@@ -14,15 +14,12 @@
     "duracao": "instantânea",
     "attack_save": "CON Save",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "debuff",

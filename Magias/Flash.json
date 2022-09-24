@@ -16,15 +16,12 @@
     "dmg_effect": "cego",
     "dmg": "N/A",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle",

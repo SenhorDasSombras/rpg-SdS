@@ -15,13 +15,9 @@
     "mana": 1000,
     "duracao": "10 dias",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "defesa",

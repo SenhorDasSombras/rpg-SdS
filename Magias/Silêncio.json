@@ -13,13 +13,10 @@
     "mana_adicional": "15 por minuto",
     "duracao": "concentração, até 10 minutos",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "debuff",

@@ -14,6 +14,7 @@
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [
+        "arqueiro",
         "mago",
         "ladino",
         "monge",

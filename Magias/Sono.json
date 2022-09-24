@@ -15,15 +15,8 @@
     "attack_save": "DEX Save",
     "dmg_effect": "inconsciente",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
-        "guerreiro",
         "bardo",
-        "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "debuff"

@@ -15,15 +15,12 @@
     "dmg_effect": "necrótico",
     "dmg": "2d6",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

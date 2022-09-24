@@ -11,10 +11,8 @@
     "mana_adicional": "25 por turno",
     "duracao": "até 1 minuto",
     "classes": [
-        "clérigo",
-        "paladino",
-        "bruxo",
-        "feiticeiro",
+        "arqueiro",
+        "bardo",
         "mago",
         "ladino",
         "guerreiro",

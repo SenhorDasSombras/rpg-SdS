@@ -17,8 +17,7 @@
     "dmg_effect": "trovejante",
     "dmg": "2d6",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "monge"

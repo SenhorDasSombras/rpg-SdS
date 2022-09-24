@@ -15,12 +15,9 @@
     "mana": 1500,
     "duracao": "até ser dissipada",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "utilidade",

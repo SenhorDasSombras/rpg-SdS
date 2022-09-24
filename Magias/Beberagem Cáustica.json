@@ -17,18 +17,16 @@
     "dmg_effect": "ácido",
     "dmg": "2d4",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
-        "dano", "controle"
+        "dano",
+        "controle"
     ],
     "descricao": "Um jorro de ácido emana de você em uma linha de 9m de comprimento e 1,5m de largura em uma direção a sua escolha. Cada criatura na linha deve ser bem-sucedida em uma salvaguarda de Destreza ou fica coberta de ácido pela duração da magia ou até que use sua ação para tirar ou lavar o ácido de si ou de outra criatura. Uma criatura coberta pelo ácido sofre 2d4 de dano ácido no começo de cada um dos turnos dela.\n\t**Melhorar Magia**. Você pode gastar mais 500 de mana para adicionar 2d4 até um máximo de 10d4 adicionais.",
     "source": "Tasha"

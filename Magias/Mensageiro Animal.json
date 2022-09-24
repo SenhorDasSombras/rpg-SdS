@@ -13,8 +13,7 @@
     "mana": 650,
     "duracao": "24 horas",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "guerreiro",
         "bardo",
         "monge",

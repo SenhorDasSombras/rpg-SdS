@@ -22,12 +22,8 @@
     "dmg_effect": "elemental",
     "dmg": "3d8",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano"

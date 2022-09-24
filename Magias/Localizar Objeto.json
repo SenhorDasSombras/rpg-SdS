@@ -15,15 +15,12 @@
     "mana_adicional": "10 por minuto",
     "duracao": "concentração, até 10 minutos",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "exploração",

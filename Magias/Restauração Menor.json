@@ -16,13 +16,10 @@
     "mana": 800,
     "duracao": "instantânea",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "buff",

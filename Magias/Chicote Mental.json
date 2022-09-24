@@ -15,15 +15,12 @@
     "dmg_effect": "psíquico",
     "dmg": "3d6",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "debuff",

@@ -24,10 +24,9 @@
     "dmg_effect": "elemental",
     "dmg": "3d8",
     "classes": [
+        "arqueiro",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

@@ -23,6 +23,7 @@
     "dmg_effect": "elemental",
     "dmg": "1d4 + 1",
     "classes": [
+        "arqueiro",
         "bardo",
         "monge",
         "mago"

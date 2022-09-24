@@ -17,6 +17,7 @@
     "dmg_effect": "N/A",
     "dmg": "1d8 + mod",
     "classes": [
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",

@@ -21,6 +21,7 @@
     "dmg_effect": "perfurante",
     "dmg": "1d6",
     "classes": [
+        "arqueiro",
         "paladino",
         "ladino",
         "monge"

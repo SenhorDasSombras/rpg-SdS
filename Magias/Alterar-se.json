@@ -22,15 +22,12 @@
     "mana_adicional": "15 a cada 5 minutos",
     "duracao": "concentração, até 1 hora",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "buff",

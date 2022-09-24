@@ -19,11 +19,9 @@
     "dmg_effect": "concussão",
     "dmg": "3d8",
     "classes": [
-        "clérigo",
+        "arqueiro",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

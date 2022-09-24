@@ -20,13 +20,10 @@
     "dmg_effect": "elemental",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "mago",
-        "bruxo",
-        "feiticeiro",
         "monge"
     ],
     "tags": [

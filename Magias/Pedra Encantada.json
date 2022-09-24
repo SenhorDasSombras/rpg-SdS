@@ -16,11 +16,10 @@
     "dmg_effect": "concussão",
     "dmg": "1d6 + mod",
     "classes": [
+        "arqueiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

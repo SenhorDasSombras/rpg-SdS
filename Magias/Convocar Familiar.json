@@ -11,6 +11,7 @@
     "mana": 700,
     "duracao": "instantânea",
     "classes": [
+        "arqueiro",
         "mago",
         "feiticeiro",
         "bruxo"

@@ -17,11 +17,9 @@
     "duracao": "concentração, até 1 minuto",
     "attack_save": "CON Save",
     "classes": [
-        "clérigo",
+        "arqueiro",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "distância",

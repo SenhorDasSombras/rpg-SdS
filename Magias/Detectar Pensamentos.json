@@ -14,15 +14,12 @@
     "duracao": "concentração, até 1 minuto",
     "attack_save": "WIS Save",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "social",

@@ -13,6 +13,7 @@
     "mana": 400,
     "duracao": "1 turno",
     "classes": [
+        "arqueiro",
         "bardo",
         "guerreiro",
         "ladino",
@@ -22,6 +23,6 @@
     "tags": [
         "defesa"
     ],
-    "descricao": "Você conjura uma parede de vento de 1,5m de largura em um quadrado desocupado a 1,5m de você.\n\tSe uma criatura tentar fazer qualquer tipo de ataque à distância que passe pela parede, então você deve gastar 50 vezes o nível da magia utilizada (mínimo 50 caso não seja magia ou seja um truque) e você anula completamente a magia. Você pode escolhe não gastar a quantidade de mana necessária para defender o ataque, nesse caso, ele passará pela parede normalmente.\n\tOs quadrados ocupados pela parede se tornam terreno difícil, exceto para você.\n\t**Melhorar Magia** Você pode gastar mais 500 de mana e aumentar o multiplicador para 100 vezes o nível da magia utilizada para aumentar a largura da parede para 3m. Ou você pode gastar mais 2000 de mana e aumentar o multiplicador para 250 vezes o nível da magia utilizada para aumentar a largura da parede para 4,5m.",
+    "descricao": "Você conjura uma parede de vento de 1,5m de largura em um quadrado desocupado a 1,5m de você.\n\tSe uma criatura tentar fazer qualquer tipo de ataque à distância que passe pela parede, então você deve gastar 50 vezes o nível da magia utilizada (mínimo 50 caso não seja magia ou seja um truque) e você anula completamente a magia. Você pode escolhe não gastar a quantidade de mana necessária para defender o ataque, nesse caso, ele passará pela parede normalmente.\n\tOs quadrados ocupados pela parede se tornam terreno difícil, exceto para você.\n\t**Melhorar Magia.** Você pode gastar mais 500 de mana e aumentar o multiplicador para 100 vezes o nível da magia utilizada para aumentar a largura da parede para 3m. Ou você pode gastar mais 2000 de mana e aumentar o multiplicador para 250 vezes o nível da magia utilizada para aumentar a largura da parede para 4,5m.",
     "source": "Custom"
 }
