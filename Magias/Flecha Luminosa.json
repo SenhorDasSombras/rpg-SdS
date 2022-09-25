@@ -14,8 +14,8 @@
     "componentes": "VSM (uma pata de vagalume)",
     "mana": 350,
     "duracao": "instantânea",
-    "dmg_effect": "elemental",
-    "dmg": "1d6",
+    "dmg_effect": "perfurante",
+    "dmg": "1d4",
     "classes": [
         "arqueiro",
         "guerreiro"

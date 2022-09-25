@@ -20,9 +20,9 @@
     "componentes": "VSM (um pouco de pó de prata)",
     "mana": 650,
     "duracao": "instantânea",
-    "attack_save": "DEX Save",
+    "attack_save": "STR Save",
     "dmg_effect": "elemental",
-    "dmg": "1d6",
+    "dmg": "2d8",
     "classes": [
         "arqueiro",
         "bardo",
