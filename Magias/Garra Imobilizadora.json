@@ -1,0 +1,36 @@
+{
+    "nome": "Garra Imobilizadora",
+    "name": "Custom",
+    "nivel": 1,
+    "escola": ["elemental", "necromancia", "psíquica"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "sombras",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "4,5m",
+    "componentes": "VS",
+    "mana": 450,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "controle",
+        "dano"
+    ],
+    "descricao": "Você cria uma garra de sua mão lançando-a na direção de uma criatura Média ou menor a até 4,5m de distância de você. Ela deve ser bem sucedida em um teste de resistência de Destreza ou será acertada pela garra e receberá 1d6 de dano elemental. Após isso, se houver uma outra criatura a 1,5m dela, você pode lançar o primeiro alvo contra o segundo. Ambos devem fazer um teste de resistência de Força. Em uma falha, o alvo recebe 1d6 de dano de concussão e fica atordoado até o final de sua próxima rodada.",
+    "source": "Custom"
+}
