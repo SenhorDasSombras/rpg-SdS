@@ -20,7 +20,6 @@ def export_tex_file(spells_df: DataFrame, filename: str, verbose: bool = False):
     verbose : bool, default=False
         If True, prints the commands used.
     """
-
     latex_tamplate = r"""
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

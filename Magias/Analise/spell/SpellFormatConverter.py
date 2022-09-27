@@ -99,15 +99,47 @@ def get_latex_str_for_parts(parts_str: list) -> str:
     return latex_text
 
 
-def get_latex_spell(spell_series: Series) -> str:
+def get_latex_spell_description(spell_series: Series) -> str:
     parts_str = spell_printer.get_spell_parts_str(spell_series)
     latex_text = get_latex_str_for_parts(parts_str)
+    latex_text = r"\noindent" + latex_text
+    return latex_text
+
+
+def get_latex_spell_resume(spell_series: Series) -> str:
+    rare_str = spell_printer._get_rare_str(spell_series)
+    part_str = f"{spell_series['nome']} _({spell_series['name']})_{rare_str}\n "
+    part_str = spell_printer.get_styled_str(part_str)
+
+    latex_text = get_latex_str_for_parts([part_str])
+    return latex_text
+
+
+def get_latex_spells_resume(spells_df: DataFrame) -> str:
+    latex_text = r"\chapter{Sumário}\n\n"
+    for level, group_df in spells_df.groupby("nivel"):
+        level = "Truques" if level == "0" else f"Ciclo {level}"
+        header = r"\noindent\textbf{%s}\jump" % level
+        latex_text += header
+        for _, spell_series in group_df.iterrows():
+            latex_spell = get_latex_spell_resume(spell_series)
+            latex_text += f"{latex_spell}\n"
+        latex_text += r"\jump"
+    return latex_text
+
+
+def get_latex_spells_description(spells_df: DataFrame) -> str:
+    latex_text = r"\chapter{Magias}\n\n"
+    for _, spell_series in spells_df.iterrows():
+        latex_spell = get_latex_spell_description(spell_series)
+        latex_text += f"{latex_spell}\jump"
     return latex_text
 
 
 def get_latex_spells(spells_df: DataFrame) -> str:
     latex_text = ""
-    for _, spell_series in spells_df.iterrows():
-        latex_spell = get_latex_spell(spell_series)
-        latex_text += f"{latex_spell}\jump"
+
+    latex_text += get_latex_spells_resume(spells_df)
+    latex_text += get_latex_spells_description(spells_df)
+
     return latex_text
