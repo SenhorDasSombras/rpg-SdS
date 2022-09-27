@@ -11,7 +11,8 @@
         "fogo",
         "luz",
         "sombras",
-        "relâmpago"
+        "relâmpago",
+        "veneno"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "36 metros",
