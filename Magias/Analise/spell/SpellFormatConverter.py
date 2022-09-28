@@ -118,7 +118,7 @@ def get_latex_spell_resume(spell_series: Series) -> str:
 def get_latex_spells_resume(spells_df: DataFrame) -> str:
     latex_text = r"\chapter{Sumário}\n\n"
     for level, group_df in spells_df.groupby("nivel"):
-        level = "Truques" if level == "0" else f"Ciclo {level}"
+        level = "Truques" if level == 0 else f"Ciclo {level}"
         header = r"\noindent\textbf{%s}\jump" % level
         latex_text += header
         for _, spell_series in group_df.iterrows():
