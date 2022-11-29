@@ -1,9 +1,24 @@
+# Editor files
 **/.vscode/*
-.vscode/*
 .vim/*
+
+# Python files
 **/*.pyc
+
+# LaTeX files
 **/*.synctex.gz
+**/*.aux
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.out
+**/*.toc
+**/*.synctex(busy)
+
+# Windows files
+desktop.ini
+
+# Extra excluded files
 Magias/Analise/latex_compilation/*.pdf
 Magias/Analise/latex_compilation/*.tex
 Magias/Analise/*.json
-desktop.ini
