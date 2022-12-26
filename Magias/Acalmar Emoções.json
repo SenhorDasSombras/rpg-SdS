@@ -17,14 +17,11 @@
     "duracao": "concentração, até 1 minuto",
     "attack_save": "CHA Save",
     "classes": [
-        "clérigo",
-        "paladino",
         "guerreiro",
         "bardo",
         "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "buff",

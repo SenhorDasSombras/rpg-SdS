@@ -17,10 +17,10 @@
     "dmg_effect": "fogo",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
-        "monge"
+        "monge",
+        "mago",
+        "xamã"
     ],
     "tags": [
         "cura"

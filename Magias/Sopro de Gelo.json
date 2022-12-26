@@ -16,13 +16,10 @@
     "dmg_effect": "congelante",
     "dmg": "3d8",
     "classes": [
-        "clérigo",
-        "paladino",
         "guerreiro",
         "bardo",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "monge"
     ],
     "tags": [
         "controle",

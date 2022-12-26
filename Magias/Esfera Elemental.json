@@ -25,15 +25,9 @@
     "dmg_effect": "elemental",
     "dmg": "2d6",
     "classes": [
-        "clérigo",
-        "paladino",
-        "ladino",
         "guerreiro",
         "bardo",
-        "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle",

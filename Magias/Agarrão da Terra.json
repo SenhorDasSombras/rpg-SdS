@@ -17,12 +17,8 @@
     "duracao": "concentração, até 1 minuto",
     "attack_save": "STR Save",
     "classes": [
-        "clérigo",
-        "paladino",
         "guerreiro",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "controle"

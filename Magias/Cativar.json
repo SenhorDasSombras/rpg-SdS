@@ -13,15 +13,13 @@
     "duracao": "1 minuto",
     "attack_save": "WIS Save",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
+        "bardo",
         "ladino",
         "guerreiro",
-        "bardo",
         "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "debuff",

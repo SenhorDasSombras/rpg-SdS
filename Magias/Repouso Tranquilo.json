@@ -4,6 +4,7 @@
     "nivel": 2,
     "escola": ["elemental", "necromancia", "espiritual"],
     "ritual": false,
+    "magia_rara": true,
     "elementos": [
         "água",
         "luz",

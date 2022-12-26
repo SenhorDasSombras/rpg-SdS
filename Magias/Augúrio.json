@@ -2,7 +2,7 @@
     "nome": "Augúrio",
     "name": "Augury",
     "nivel": 2,
-    "escola": "espiritual",
+    "escola": ["espiritual", "receita"],
     "ritual": true,
     "elementos": [
     ],
@@ -12,15 +12,13 @@
     "mana": 1000,
     "duracao": "instantânea",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "utilidade",

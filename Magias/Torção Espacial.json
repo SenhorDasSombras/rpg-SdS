@@ -14,13 +14,13 @@
     "duracao": "instantânea",
     "attack_save": "CON Save",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "bardo",
+        "ladino",
+        "guerreiro",
         "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "controle"

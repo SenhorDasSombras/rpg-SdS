@@ -19,7 +19,8 @@
     "attack_save": "CHA Save",
     "classes": [
         "bardo",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "debuff",

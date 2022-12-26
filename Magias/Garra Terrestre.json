@@ -19,11 +19,9 @@
     "dmg_effect": "concussão",
     "dmg": "2d6",
     "classes": [
-        "clérigo",
-        "bardo",
+        "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "debuff",

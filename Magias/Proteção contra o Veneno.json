@@ -16,12 +16,9 @@
     "mana": 1000,
     "duracao": "1 hora",
     "classes": [
-        "arqueiro",
-        "ladino",
-        "guerreiro",
-        "bardo",
         "monge",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "defesa",

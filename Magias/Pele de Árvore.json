@@ -6,6 +6,7 @@
     "ritual": false,
     "elementos": [
         "terra",
+        "sombras",
         "metal"
     ],
     "tempo_conjuracao": "1 ação",
@@ -15,12 +16,12 @@
     "mana_adicional": "10 a cada 5 minutos",
     "duracao": "concentração, até 1 hora",
     "classes": [
-        "clérigo",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "buff",

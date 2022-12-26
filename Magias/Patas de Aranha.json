@@ -5,7 +5,6 @@
     "escola": "elemental",
     "ritual": false,
     "elementos": [
-        "água",
         "terra",
         "metal"
     ],
@@ -28,6 +27,6 @@
         "toque",
         "exploração"
     ],
-    "descricao": "Até a magia acabar, uma criatura voluntária que você tocar, recebe a habilidade de se mover para cima, para baixo e através de superfícies verticais e de cabeça para baixo pelos tetos, enquanto deixa suas mãos livres. O alvo também ganha deslocamento de escalada igual a seu deslocamento de caminhada.",
+    "descricao": "Até a magia acabar, uma criatura voluntária que você tocar recebe a habilidade de se mover para cima, para baixo e através de superfícies verticais e de cabeça para baixo pelos tetos, enquanto deixa suas mãos livres. O alvo também ganha deslocamento de escalada igual a seu deslocamento de caminhada.",
     "source": "LDJ"
 }
