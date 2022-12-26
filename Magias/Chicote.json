@@ -21,11 +21,7 @@
     "dmg_effect": "elemental",
     "dmg": "1d8",
     "classes": [
-        "clérigo",
-        "paladino",
-        "bruxo",
         "mago",
-        "feiticeiro",
         "monge",
         "guerreiro"
     ],

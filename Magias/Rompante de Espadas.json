@@ -22,14 +22,10 @@
     "dmg_effect": "fogo",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
-        "paladino",
         "monge",
         "ladino",
         "guerreiro",
-        "mago",
-        "bruxo",
-        "feiticeiro"
+        "mago"
     ],
     "tags": [
         "dano"

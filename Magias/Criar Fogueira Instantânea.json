@@ -18,9 +18,8 @@
     "dmg": "1d8",
     "classes": [
         "guerreiro",
-        "paladino",
         "ladino",
-        "clérigo"
+        "monge"
     ],
     "tags": [
         "dano"

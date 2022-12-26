@@ -18,12 +18,9 @@
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
-        "bruxo",
-        "feiticeiro",
-        "mago"
+        "monge",
+        "xamã"
     ],
     "tags": [
         "toque",

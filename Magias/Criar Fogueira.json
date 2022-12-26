@@ -19,8 +19,7 @@
     "dmg": "1d8",
     "classes": [
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "bardo"
     ],
     "tags": [
         "dano",

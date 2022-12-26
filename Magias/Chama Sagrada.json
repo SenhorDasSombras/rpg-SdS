@@ -16,15 +16,10 @@
     "dmg_effect": "luz",
     "dmg": "1d8",
     "classes": [
-        "clérigo",
-        "paladino",
-        "monge",
+        "arqueiro",
         "bardo",
-        "ladino",
-        "guerreiro",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "monge"
     ],
     "tags": [
         "dano"

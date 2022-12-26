@@ -10,11 +10,8 @@
     "mana": 150,
     "duracao": "instantânea",
     "classes": [
-        "clérigo",
-        "paladino",
+        "arqueiro",
         "mago",
-        "feiticeiro",
-        "bruxo",
         "ladino",
         "guerreiro",
         "bardo",

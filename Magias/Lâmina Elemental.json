@@ -26,7 +26,8 @@
     "classes": [
         "arqueiro",
         "ladino",
-        "guerreiro"
+        "guerreiro",
+        "monge"
     ],
     "tags": [
         "dano",

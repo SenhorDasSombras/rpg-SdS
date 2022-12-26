@@ -15,7 +15,8 @@
     "duracao": "instantânea",
     "classes": [
         "mago",
-        "bardo"
+        "bardo",
+        "monge"
     ],
     "tags": [
         "toque",

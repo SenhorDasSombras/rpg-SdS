@@ -15,14 +15,10 @@
     "dmg_effect": "relâmpago",
     "dmg": "1d8",
     "classes": [
-        "clérigo",
-        "paladino",
         "ladino",
         "guerreiro",
         "monge",
-        "mago",
-        "bruxo",
-        "feiticeiro"
+        "mago"
     ],
     "tags": [
         "dano",
