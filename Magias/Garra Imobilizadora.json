@@ -5,7 +5,6 @@
     "escola": ["elemental", "necromancia", "psíquica"],
     "ritual": false,
     "elementos": [
-        "água",
         "terra",
         "sombras",
         "metal"

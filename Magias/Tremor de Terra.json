@@ -17,15 +17,10 @@
     "dmg_effect": "concussão",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
-        "paladino",
         "ladino",
         "guerreiro",
-        "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

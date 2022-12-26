@@ -15,12 +15,9 @@
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "debuff"

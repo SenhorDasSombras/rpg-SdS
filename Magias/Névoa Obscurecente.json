@@ -19,11 +19,9 @@
     "dmg_effect": "elemental",
     "dmg": "1d4",
     "classes": [
-        "ladino",
-        "guerreiro",
         "bardo",
-        "monge",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "dano",

@@ -16,12 +16,8 @@
     "dmg_effect": "água",
     "dmg": "2d8",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

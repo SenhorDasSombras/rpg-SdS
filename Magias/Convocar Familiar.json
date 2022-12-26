@@ -12,9 +12,7 @@
     "duracao": "instantânea",
     "classes": [
         "arqueiro",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "dano",

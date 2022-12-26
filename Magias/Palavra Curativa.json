@@ -16,15 +16,12 @@
     "dmg_effect": "cura",
     "dmg": "1d4 + mod",
     "classes": [
-        "clérigo",
-        "paladino",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "cura"

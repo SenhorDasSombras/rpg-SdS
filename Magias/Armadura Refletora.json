@@ -24,13 +24,9 @@
     "dmg_effect": "elemental",
     "dmg": "5",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "defesa",

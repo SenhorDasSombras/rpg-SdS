@@ -16,12 +16,8 @@
     "mana": 300,
     "duracao": "instantânea",
     "classes": [
-        "arqueiro",
         "bardo",
-        "ladino",
-        "guerreiro",
-        "monge",
-        "mago"
+        "xamã"
     ],
     "tags": [
         "defesa",

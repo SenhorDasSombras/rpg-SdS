@@ -22,13 +22,9 @@
     "mana_adicional": "10 a cada minuto",
     "duracao": "concentração, até 10 minuto",
     "classes": [
-        "clérigo",
-        "paladino",
         "bardo",
-        "monge",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "xamã"
     ],
     "tags": [
         "buff", "defesa"

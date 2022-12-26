@@ -15,11 +15,9 @@
     "dmg_effect": "amedrontado",
     "dmg": "1d6",
     "classes": [
-        "clérigo",
         "bardo",
         "mago",
-        "feiticeiro",
-        "bruxo"
+        "monge"
     ],
     "tags": [
         "controle",

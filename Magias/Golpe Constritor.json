@@ -22,7 +22,7 @@
     "dmg": "1d6",
     "classes": [
         "arqueiro",
-        "paladino",
+        "guerreiro",
         "ladino",
         "monge"
     ],
