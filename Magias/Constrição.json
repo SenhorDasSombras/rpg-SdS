@@ -20,7 +20,9 @@
     "attack_save": "STR Save",
     "classes": [
         "bardo",
-        "mago"
+        "mago",
+        "monge",
+        "xamã"
     ],
     "tags": [
         "controle"

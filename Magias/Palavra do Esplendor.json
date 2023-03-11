@@ -20,7 +20,9 @@
     "classes": [
         "arqueiro",
         "bardo",
-        "mago"
+        "mago",
+        "monge",
+        "xamã"
     ],
     "tags": [
         "dano"

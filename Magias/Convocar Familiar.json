@@ -12,7 +12,8 @@
     "duracao": "instantânea",
     "classes": [
         "arqueiro",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "dano",

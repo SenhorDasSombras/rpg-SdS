@@ -15,9 +15,13 @@
     "attack_save": "DEX Save",
     "dmg_effect": "caído",
     "classes": [
+        "arqueiro",
+        "bardo",
+        "ladino",
         "guerreiro",
         "monge",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "controle"

@@ -16,7 +16,8 @@
     "dmg_effect": "inconsciente",
     "classes": [
         "bardo",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "debuff"

@@ -17,7 +17,8 @@
     "attack_save": "CON Save",
     "classes": [
         "bardo",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "buff",

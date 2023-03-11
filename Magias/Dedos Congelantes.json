@@ -16,8 +16,13 @@
     "dmg_effect": "água",
     "dmg": "2d8",
     "classes": [
+        "arqueiro",
         "bardo",
-        "mago"
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
     ],
     "tags": [
         "dano",

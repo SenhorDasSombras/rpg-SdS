@@ -22,10 +22,13 @@
     "dmg_effect": "fogo",
     "dmg": "1d6",
     "classes": [
+        "arqueiro",
         "monge",
         "ladino",
         "guerreiro",
-        "mago"
+        "mago",
+        "bardo",
+        "xamã"
     ],
     "tags": [
         "dano"

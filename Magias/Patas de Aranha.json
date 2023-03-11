@@ -15,12 +15,11 @@
     "mana_adicional": "10 a cada 10 minutos",
     "duracao": "concentração, até 1 hora",
     "classes": [
-        "arqueiro",
         "ladino",
-        "guerreiro",
         "bardo",
         "monge",
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "buff",

@@ -19,7 +19,8 @@
     "classes": [
         "guerreiro",
         "bardo",
-        "monge"
+        "monge",
+        "xamã"
     ],
     "tags": [
         "buff",

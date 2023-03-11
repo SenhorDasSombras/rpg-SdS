@@ -14,11 +14,13 @@
     "dmg_effect": "necrótico",
     "dmg": "1d8",
     "classes": [
+        "arqueiro",
+        "bard",
         "mago",
-        "bruxo",
-        "feiticeiro",
         "guerreiro",
-        "ladino"
+        "ladino",
+        "monge",
+        "xamã"
     ],
     "tags": [
         "dano",

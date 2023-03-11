@@ -21,7 +21,8 @@
     "mana": 350,
     "duracao": "8 horas",
     "classes": [
-        "mago"
+        "mago",
+        "xamã"
     ],
     "tags": [
         "buff",
