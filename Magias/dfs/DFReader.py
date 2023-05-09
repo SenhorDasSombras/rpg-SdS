@@ -1,16 +1,21 @@
-"""This module reads the spells from the .json files inside a particular folder
+"""Read the .json files and return a DataFrame with the spells.
+
+Read the spells from the .json files inside a particular folder
 and returns a DataFrame with the spells.
 
 It has two main functions, one to return the raw DataFrame and another to
-return the DataFrame with the schema asserted."""
+return the DataFrame with the schema asserted.
+"""
 
+# Python Standard Libraries
 import glob
 import json
-from typing import List, Union
 
+# Third Party Libraries
 import pandas as pd
 from tqdm import tqdm
 
+# Local Folder Libraries
 from .DFFormatAsserter import (
     assert_columns_not_null,
     assert_df_schema,
@@ -21,15 +26,16 @@ from .DFFormatAsserter import (
 
 def get_spells_df(
     path_prefix: str = "../",
-    sort_by: Union[List[str], None] = None,
+    sort_by: list[str] | None = None,
     verbose: bool = False,
-):
-    """This function returns the spells DataFrame from the .json files.
+) -> pd.DataFrame:
+    """Return the spells DataFrame from the .json files.
 
     You might specify the path to the json files, the default is '../'.
     """
     files = glob.glob(f"{path_prefix}*.json")
-    files = list(map(lambda x: x[len(path_prefix) :], files))
+    path_prefix_len = len(path_prefix)
+    files = list(map(lambda x: x[path_prefix_len:], files))
     files.remove("_Template.json")
 
     if verbose:
@@ -47,15 +53,18 @@ def get_spells_df(
     if sort_by is None:
         sort_by = ["nivel", "nome"]
 
-    result = pd.DataFrame(result).sort_values(by=sort_by).reset_index(drop=True)
-    return result
+    result_df = (
+        pd.DataFrame(result).sort_values(by=sort_by).reset_index(drop=True)
+    )
+    return result_df
 
 
-def get_asserted_spells_df(*args, **kwargs):
-    """Returns a DataFrame containing the spells from the .json files.
+def get_asserted_spells_df(*args, **kwargs) -> pd.DataFrame:
+    """Return a DataFrame containing the spells from the .json files.
 
     It does the following steps:
-        - Gets the DataFrame using the keyword arguments (see get_spells_df for the list of possible parameters);
+        - Gets the DataFrame using the keyword arguments (see get_spells_df for
+          the list of possible parameters);
         - Fills the NaN values by the column;
         - Asserts the DataFrame don't still have any null values;
         - Convert the "escola" column to a list column;

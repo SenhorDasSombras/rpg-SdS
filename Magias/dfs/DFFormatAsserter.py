@@ -5,20 +5,24 @@ the right columns and right values inside each of the columns.
     put into a config file.
 """
 
-import re
+# Python Standard Libraries
 from functools import reduce
+import re
 
+# Third Party Libraries
 from utils.utils import get_global_vars_from_json
 
-global_vars_path = "./dfs/global_vars.json"
-global_vars = get_global_vars_from_json(global_vars_path)
+GLOBAL_VARS_PATH = "./dfs/global_vars.json"
+GLOBAL_VARS = get_global_vars_from_json(GLOBAL_VARS_PATH)
 
 
 def fill_na_by_column(df):
-    """Receives a spell df and fil its NA values using the default for each
+    """Receives a spell df and fill its NA values using the default for each
     column."""
     df = df.copy()
-    df.elementos = df.elementos.apply(lambda x: x if isinstance(x, list) else [])
+    df.elementos = df.elementos.apply(
+        lambda x: x if isinstance(x, list) else []
+    )
     df.attack_save.fillna("N/A", inplace=True)
     df.dmg_effect.fillna("N/A", inplace=True)
     df.dmg.fillna("N/A", inplace=True)
@@ -92,7 +96,7 @@ def assert_no_extra_columns(df):
     """
     extra_columns = list()
     for column in df.columns:
-        if column not in global_vars["G_COLUMNS"]:
+        if column not in GLOBAL_VARS["G_COLUMNS"]:
             extra_columns.append(column)
 
     return extra_columns, _get_non_null_rows_of_columns(df, extra_columns)
@@ -100,7 +104,7 @@ def assert_no_extra_columns(df):
 
 def assert_no_missing_columns(df):
     missing_columns = list()
-    for column in global_vars["G_COLUMNS"]:
+    for column in GLOBAL_VARS["G_COLUMNS"]:
         if column not in df.columns:
             missing_columns.append(column)
 
@@ -114,10 +118,14 @@ def assert_df_columns(df):
     error_str = ""
     if len(extra_columns) > 0:
         error_str += f"Extra columns: {extra_columns}\n"
-        error_str += f'{df.iloc[extra_col_rows][["nome", "name"] + extra_columns]}'
+        error_str += (
+            f'{df.iloc[extra_col_rows][["nome", "name"] + extra_columns]}'
+        )
     if len(missing_columns) > 0:
         error_str += f"Missing columns: {missing_columns}\n"
-        error_str += f'{df.iloc[missing_col_rows][["nome", "name"] + missing_columns]}'
+        error_str += (
+            f'{df.iloc[missing_col_rows][["nome", "name"] + missing_columns]}'
+        )
     if len(error_str) > 0:
         raise TypeError(error_str)
 
@@ -143,19 +151,23 @@ def get_mask_from_list(df, column, list_of_possible_values):
 
 def assert_column_using_mask(df, column, mask):
     if not mask.all():
-        error_str = f"Column '{column}' have wrong values:\n{return_columns_not_matching_mask(df, column, mask)}"
+        error_str = (
+            f"Column '{column}' have wrong"
+            f" values:\n{return_columns_not_matching_mask(df, column, mask)}"
+        )
         raise ValueError(error_str)
 
 
 def assert_df_column_types(df):
-    mask = get_mask_from_list(df, "escola", global_vars["G_ESCOLAS"])
+    mask = get_mask_from_list(df, "escola", GLOBAL_VARS["G_ESCOLAS"])
     assert_column_using_mask(df, "escola", mask)
 
-    mask = get_mask_from_list(df, "elementos", global_vars["G_ELEMENTOS"])
+    mask = get_mask_from_list(df, "elementos", GLOBAL_VARS["G_ELEMENTOS"])
     assert_column_using_mask(df, "elementos", mask)
 
     tempo_conjuracao_regex = re.compile(
-        r"\d+\ (ação|ações|ação bônus|ações bônus|reação|reações|minuto|minutos|hora|horas)"
+        r"\d+\ (ação|ações|ação bônus|ações"
+        r" bônus|reação|reações|minuto|minutos|hora|horas)"
     )
     mask = df.tempo_conjuracao.str.fullmatch(tempo_conjuracao_regex)
     assert_column_using_mask(df, "tempo_conjuracao", mask)
@@ -179,10 +191,10 @@ def assert_df_column_types(df):
     mask = df.attack_save.str.fullmatch(attack_save_regex)
     assert_column_using_mask(df, "attack_save", mask)
 
-    mask = get_mask_from_list(df, "tags", global_vars["G_TAGS"])
+    mask = get_mask_from_list(df, "tags", GLOBAL_VARS["G_TAGS"])
     assert_column_using_mask(df, "tags", mask)
 
-    mask = get_mask_from_list(df, "classes", global_vars["G_CLASSES"])
+    mask = get_mask_from_list(df, "classes", GLOBAL_VARS["G_CLASSES"])
     assert_column_using_mask(df, "classes", mask)
 
     # TODO: pass possible names to global variables
