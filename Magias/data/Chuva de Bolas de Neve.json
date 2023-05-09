@@ -13,7 +13,7 @@
     "mana": 750,
     "duracao": "instantânea",
     "attack_save": "DEX Save",
-    "dmg_effect": "frio",
+    "dmg_effect": "água",
     "dmg": "3d6",
     "classes": [
         "bardo",

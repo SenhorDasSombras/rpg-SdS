@@ -14,7 +14,7 @@
     "mana_adicional": "10 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "STR Save",
-    "dmg_effect": "trovejante",
+    "dmg_effect": "relâmpago",
     "dmg": "2d6",
     "classes": [
         "arqueiro",

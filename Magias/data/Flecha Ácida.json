@@ -13,7 +13,7 @@
     "mana": 550,
     "duracao": "instantânea",
     "attack_save": "distância",
-    "dmg_effect": "ácido",
+    "dmg_effect": "veneno",
     "dmg": "4d4 + 2d4",
     "classes": [
         "arqueiro",

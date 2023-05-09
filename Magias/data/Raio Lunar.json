@@ -15,7 +15,7 @@
     "mana_adicional": "10 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "CON Save",
-    "dmg_effect": "radiante",
+    "dmg_effect": "elemental",
     "dmg": "2d10",
     "classes": [
         "bardo",

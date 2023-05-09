@@ -10,7 +10,7 @@
     "alcance_area": "9 metros",
     "componentes": "VSM (um pedaço de favo de mel e pó de jade valendo, no mínimo, 10 po, consumidos pela magia)",
     "mana": 850,
-    "duracao": "até ser dissipada",
+    "duracao": "até dissipada",
     "classes": [
         "arqueiro",
         "ladino",

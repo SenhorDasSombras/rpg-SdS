@@ -13,7 +13,7 @@
     "mana": 450,
     "duracao": "instantânea",
     "attack_save": "CON Save",
-    "dmg_effect": "trovejante",
+    "dmg_effect": "relâmpago",
     "dmg": "2d8",
     "classes": [
         "ladino",

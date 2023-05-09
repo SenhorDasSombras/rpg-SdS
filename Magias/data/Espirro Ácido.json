@@ -11,7 +11,7 @@
     "mana": 50,
     "duracao": "instantânea",
     "attack_save": "DEX Save",
-    "dmg_effect": "ácido",
+    "dmg_effect": "veneno",
     "dmg": "1d6",
     "classes": [
         "mago",

@@ -13,7 +13,7 @@
     "mana": 850,
     "duracao": "instantânea",
     "attack_save": "CON Save",
-    "dmg_effect": "congelante",
+    "dmg_effect": "água",
     "dmg": "3d8",
     "classes": [
         "guerreiro",

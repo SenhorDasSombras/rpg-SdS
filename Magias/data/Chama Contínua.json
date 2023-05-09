@@ -13,7 +13,7 @@
     "alcance_area": "toque",
     "componentes": "VSM (pó de rubi no valor de 50 po, consumido pela magia)",
     "mana": 1500,
-    "duracao": "até ser dissipada",
+    "duracao": "até dissipada",
     "classes": [
         "arqueiro",
         "bardo",

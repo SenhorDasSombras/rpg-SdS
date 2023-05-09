@@ -13,7 +13,7 @@
     "mana": 400,
     "duracao": "instantânea",
     "attack_save": "corpo-a-corpo",
-    "dmg_effect": "gelo",
+    "dmg_effect": "água",
     "dmg": "1d6",
     "classes": [
         "arqueiro",

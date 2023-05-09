@@ -14,7 +14,7 @@
     "mana_adicional": "10 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "DEX Save",
-    "dmg_effect": "ácido",
+    "dmg_effect": "veneno",
     "dmg": "2d4",
     "classes": [
         "arqueiro",

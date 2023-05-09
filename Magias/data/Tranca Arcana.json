@@ -12,17 +12,13 @@
     "alcance_area": "toque",
     "componentes": "VSM (pó de ouro valendo, no mínimo, 25 po, consumido pela magia)",
     "mana": 1000,
-    "duracao": "até ser dissipada",
+    "duracao": "até dissipada",
     "classes": [
-        "clérigo",
-        "paladino",
         "ladino",
         "guerreiro",
         "bardo",
         "monge",
-        "mago",
-        "feiticeiro",
-        "bruxo"
+        "mago"
     ],
     "tags": [
         "defesa",
