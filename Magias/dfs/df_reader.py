@@ -13,6 +13,8 @@ import json
 
 # Third Party Libraries
 import pandas as pd
+import pandera
+from pandera.errors import SchemaError
 from tqdm import tqdm
 
 # Local Folder Libraries
@@ -22,10 +24,11 @@ from .DFFormatAsserter import (
     convert_and_assert_column_to_list,
     fill_na_by_column,
 )
+from .inferred_schema import spells_schema
 
 
 def get_spells_df(
-    path_prefix: str = "../",
+    path_prefix: str = "./data/",
     sort_by: list[str] | None = None,
     verbose: bool = False,
 ) -> pd.DataFrame:
@@ -36,7 +39,7 @@ def get_spells_df(
     files = glob.glob(f"{path_prefix}*.json")
     path_prefix_len = len(path_prefix)
     files = list(map(lambda x: x[path_prefix_len:], files))
-    files.remove("_Template.json")
+    files.remove(f"_Template.json")
 
     if verbose:
         files = tqdm(files, desc="Spells")
@@ -73,16 +76,37 @@ def get_asserted_spells_df(*args, **kwargs) -> pd.DataFrame:
     """
     spells_df = get_spells_df(*args, **kwargs)
     spells_df = fill_na_by_column(spells_df)
-    assert_columns_not_null(spells_df)
     spells_df = convert_and_assert_column_to_list(spells_df, "escola")
 
     try:
-        assert_df_schema(spells_df)
-    except ValueError as e:
-        print("Wrong values.")
-        print(e)
-    except TypeError as e:
-        print("Wrong types.")
-        print(e)
+        print("Validating schema...")
+        spells_schema.validate(spells_df)
+        print("Schema validated.")
+    except SchemaError as err:
+        _print_schema_error_message(err, spells_df)
 
     return spells_df
+
+
+def _print_schema_error_message(
+    err: SchemaError, spells_df: pd.DataFrame
+) -> None:
+    assert err.failure_cases is not None  # This is to make mypy happy.
+
+    print(f"Schema errors.")
+    failure_index = list(err.failure_cases["index"])
+    if failure_index[0] is None:
+        print("No failure cases. This library sucks.")
+        return
+
+    failure_spell_names = list(spells_df.iloc[failure_index].nome)
+    failure_cases = list(err.failure_cases["failure_case"])
+
+    failure_report = pd.DataFrame(
+        {
+            "index": failure_index,
+            "spell_name": failure_spell_names,
+            "failure_case": failure_cases,
+        }
+    )
+    print(failure_report)

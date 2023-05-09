@@ -1,0 +1,72 @@
+{
+    "column_names": [
+        "nome",
+        "name",
+        "nivel",
+        "escola",
+        "elementos",
+        "ritual",
+        "tempo_conjuracao",
+        "alcance_area",
+        "componentes",
+        "mana",
+        "duracao",
+        "attack_save",
+        "dmg_effect",
+        "dmg",
+        "classes",
+        "tags",
+        "descricao",
+        "source",
+        "mana_adicional",
+        "magia_rara"
+    ],
+    "mandatory_values": [
+        "nome",
+        "name",
+        "nivel",
+        "escola",
+        "tempo_conjuracao",
+        "alcance_area",
+        "componentes",
+        "mana",
+        "duracao",
+        "classes",
+        "tags",
+        "descricao"
+    ],
+    "column_dtypes": {
+        "nome": "str",
+        "name": "str",
+        "nivel": "int",
+        "escola": "list",
+        "elementos": "list",
+        "ritual": "bool",
+        "tempo_conjuracao": "str",
+        "alcance_area": "str",
+        "componentes": "list",
+        "mana": "int",
+        "duracao": "str",
+        "attack_save": "str",
+        "dmg_effect": "str",
+        "dmg": "str",
+        "classes": "list",
+        "tags": "list",
+        "descricao": "str",
+        "source": "str",
+        "mana_adicional": "str",
+        "magia_rara": "bool"
+    },
+    "columns_default_values": {
+        "elementos": [],
+        "ritual": false,
+        "attack_save": "N/A",
+        "dmg_effect": "N/A",
+        "dmg": "N/A",
+        "mana_adicional": "N/A",
+        "magia_rara": false
+    },
+    "column_possible_values": {
+
+    }
+}
