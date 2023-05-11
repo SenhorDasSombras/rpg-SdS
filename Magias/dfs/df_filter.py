@@ -5,7 +5,7 @@ import json
 from typing import Any
 
 # Third Party Libraries
-import dfs.DFReader as reader
+import dfs.df_reader as reader
 import pandas as pd
 
 

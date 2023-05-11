@@ -10,21 +10,16 @@ return the DataFrame with the schema asserted.
 # Python Standard Libraries
 import glob
 import json
+from pathlib import Path
+from typing import Any
 
 # Third Party Libraries
 import pandas as pd
-import pandera
 from pandera.errors import SchemaError
 from tqdm import tqdm
 
 # Local Folder Libraries
-from .DFFormatAsserter import (
-    assert_columns_not_null,
-    assert_df_schema,
-    convert_and_assert_column_to_list,
-    fill_na_by_column,
-)
-from .inferred_schema import spells_schema
+from .spells_schema import spells_schema
 
 
 def get_spells_df(
@@ -39,7 +34,7 @@ def get_spells_df(
     files = glob.glob(f"{path_prefix}*.json")
     path_prefix_len = len(path_prefix)
     files = list(map(lambda x: x[path_prefix_len:], files))
-    files.remove(f"_Template.json")
+    files.remove("_Template.json")
 
     if verbose:
         files = tqdm(files, desc="Spells")
@@ -62,26 +57,27 @@ def get_spells_df(
     return result_df
 
 
-def get_asserted_spells_df(*args, **kwargs) -> pd.DataFrame:
-    """Return a DataFrame containing the spells from the .json files.
-
-    It does the following steps:
-        - Gets the DataFrame using the keyword arguments (see get_spells_df for
-          the list of possible parameters);
-        - Fills the NaN values by the column;
-        - Asserts the DataFrame don't still have any null values;
-        - Convert the "escola" column to a list column;
-        - Asserts the DataFRame has the expected schema;
-        - Returns the DataFrame;
+def get_asserted_spells_df(
+    *args,
+    config_path: Path = Path("./dfs/schema_config.json"),
+    verbose: bool = False,
+    **kwargs,
+) -> pd.DataFrame:
+    """Return the spells DataFrame from the .json files with the schema
+    asserted.
     """
+    configs = json.load(open(config_path, "r"))
+
     spells_df = get_spells_df(*args, **kwargs)
-    spells_df = fill_na_by_column(spells_df)
-    spells_df = convert_and_assert_column_to_list(spells_df, "escola")
+    spells_df = _fill_columns_with_default_values(spells_df, configs)
+    spells_df = _convert_column_to_list(spells_df, "escola")
 
     try:
-        print("Validating schema...")
+        if verbose:
+            print("Validating schema...")
         spells_schema.validate(spells_df)
-        print("Schema validated.")
+        if verbose:
+            print("Schema validated.")
     except SchemaError as err:
         _print_schema_error_message(err, spells_df)
 
@@ -93,7 +89,7 @@ def _print_schema_error_message(
 ) -> None:
     assert err.failure_cases is not None  # This is to make mypy happy.
 
-    print(f"Schema errors.")
+    print("Schema errors.")
     failure_index = list(err.failure_cases["index"])
     if failure_index[0] is None:
         print("No failure cases. This library sucks.")
@@ -110,3 +106,49 @@ def _print_schema_error_message(
         }
     )
     print(failure_report)
+
+
+def _fill_columns_with_default_values(
+    df: pd.DataFrame, config: dict[str, Any]
+) -> pd.DataFrame:
+    """Fill columns with default values if they are missing.
+
+    Parameters
+    ---------
+    df : pd.DataFrame
+        The data frame to validate.
+    config : dict[str, str]
+        A configuration dictionary. This must contain a key
+        `columns_default_values` which is a dictionary of column names and
+        their expected default values.
+
+    Returns
+    -------
+    df : pd.DataFrame
+        The data frame with missing values filled with default values.
+    """
+    df = df.copy()
+    default_value_per_column = config["columns_default_values"]
+
+    for column_name, default_value in default_value_per_column.items():
+        if isinstance(default_value, list):
+            # replace non-list values by the default list value
+            df[column_name] = df[column_name].apply(
+                lambda x: x if isinstance(x, list) else default_value
+            )
+            continue
+
+        df[column_name] = df[column_name].fillna(default_value)
+
+    return df
+
+
+def _convert_column_to_list(df: pd.DataFrame, column: str) -> pd.DataFrame:
+    """Make sure all column values are lists.
+
+    If value is scalar, it convert it to a list with that value.
+    """
+    df = df.copy()
+    convert_scalars_to_list = lambda x: [x] if type(x) != list else x  # noqa
+    df[column] = df[column].apply(convert_scalars_to_list)
+    return df

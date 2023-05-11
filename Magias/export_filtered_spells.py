@@ -24,8 +24,8 @@ name.
 import argparse
 
 # Third Party Libraries
-import dfs.DFFilter as filter
-import dfs.DFReader as reader
+import dfs.df_filter as filter
+import dfs.df_reader as reader
 import pandas as pd
 import spell.SpellExporter as exporter
 
