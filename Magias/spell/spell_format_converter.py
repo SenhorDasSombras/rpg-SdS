@@ -1,11 +1,12 @@
 """This module converts the spell Markdown format into LaTeX format."""
 
-import re
+# Python Standard Libraries
 from functools import reduce
+import re
 
+# Third Party Libraries
 from pandas import DataFrame, Series
-
-import spell.SpellPrinter as spell_printer
+import spell.spell_printer as spell_printer
 
 
 def _sub_all(pattern: str, repl: str, string: str) -> str:
@@ -50,12 +51,16 @@ def _replace_size(string: str, font_size: str) -> str:
     else:
         font_size = "\\normalsize"
 
-    sized_string = "{%s %s}" % (font_size, string)
+    sized_string = f"{font_size} {string}"
     return sized_string
 
 
 def _replace_span(markdown_text: str) -> str:
-    pattern = r"<span style='color:(?P<color>.*);font-size:(?P<fontsize>.*)'>(?P<str>.*)<\/span>"
+    pattern = (
+        r"<span"
+        r" style='color:(?P<color>.*);font-size:(?P<fontsize>.*)'>(?P<str>.*)"
+        r"<\/span>"
+    )
 
     match_obj = re.match(pattern, markdown_text)
 
@@ -67,7 +72,7 @@ def _replace_span(markdown_text: str) -> str:
     font_size = match_obj.group("fontsize")
 
     if color != "None":
-        colored_string = "\\textcolor{%s}{%s}" % (color, string)
+        colored_string = f"\\textcolor{color}{string}"
     else:
         colored_string = string
     latex_text = _replace_size(colored_string, font_size)

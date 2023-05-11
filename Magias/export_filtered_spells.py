@@ -27,7 +27,7 @@ import argparse
 import dfs.df_filter as filter
 import dfs.df_reader as reader
 import pandas as pd
-import spell.SpellExporter as exporter
+import spell.spell_exporter as exporter
 
 
 def parse_input_args():

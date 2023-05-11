@@ -1,11 +1,14 @@
-"""This module exports a spell dataframe into a LaTeX format (not an entire document, just using LaTeX markup language)."""
+"""This module exports a spell dataframe into a LaTeX format (not an entire
+document, just using LaTeX markup language).
+"""
 
+# Python Standard Libraries
 import os
 
+# Third Party Libraries
 from IPython.display import clear_output
 from pandas import DataFrame
-
-from .SpellFormatConverter import get_latex_spells
+from spell.spell_format_converter import get_latex_spells
 
 
 def export_tex_file(spells_df: DataFrame, filename: str, verbose: bool = False):
@@ -49,16 +52,17 @@ def export_tex_file(spells_df: DataFrame, filename: str, verbose: bool = False):
     if verbose:
         print(f"Exporting {filename}.tex")
 
-    with open(f"{filename}.tex", "w") as f:
+    with open(f"{filename}.tex", "w", encoding="utf-8") as file:
         latex_text = get_latex_spells(spells_df)
         latex_text = latex_tamplate % latex_text
-        f.write(latex_text)
+        file.write(latex_text)
 
 
 def compile_tex_file(filename: str, verbose: bool = False):
     """Compiles a LaTeX file into a PDF file.
 
-    It's important to have the RPG_Adventure.cls file in the same folder as the LaTeX file.
+    It's important to have the RPG_Adventure.cls file in the same folder as the
+    LaTeX file.
 
     Parameters
     ----------
@@ -68,14 +72,17 @@ def compile_tex_file(filename: str, verbose: bool = False):
         If True, prints the commands used.
     """
     base_filename = os.path.basename(filename)
-    dir = os.path.dirname(filename)
+    directory = os.path.dirname(filename)
     cwd = os.getcwd()
 
     try:
-        os.chdir(dir)
+        os.chdir(directory)
 
-        compile_cmd = f"pdflatex -no-file-line-error -interaction nonstopmode {base_filename}.tex > /dev/null 2>&1"
-        rm_cmd = f"rm *.out *.log *.aux"
+        compile_cmd = (
+            "pdflatex -no-file-line-error -interaction nonstopmode"
+            f" {base_filename}.tex > /dev/null 2>&1"
+        )
+        rm_cmd = "rm *.out *.log *.aux"
 
         if verbose:
             print(compile_cmd)
@@ -127,7 +134,8 @@ def export_spells(
 ):
     """The main function of the module.
 
-    It exports the spells contained in the dataframe into a LaTeX file and compiles it into a PDF file.
+    It exports the spells contained in the dataframe into a LaTeX file and
+    compiles it into a PDF file.
 
     Also, it has options to open the PDF file and delete the LaTeX file.
 

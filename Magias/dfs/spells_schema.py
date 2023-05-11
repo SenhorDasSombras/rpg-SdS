@@ -10,7 +10,7 @@ from re import Pattern
 from typing import Any
 
 # Third Party Libraries
-from pandera import Check, Column, DataFrameSchema, Index, MultiIndex
+from pandera import Check, Column, DataFrameSchema
 
 escola_possible_values = [
     "elemental",
@@ -150,17 +150,9 @@ def CheckValidList(  # pylint: disable=invalid-name
     )
 
 
-def check_function(regex, x: Any) -> bool:
-    match = re.fullmatch(duracao_regex, x)
-    if not match:
-        print(f"Failed to match '{x}'")
-    return bool(match)
-
-
 def CheckRegex(regex: str | Pattern) -> Check:  # pylint: disable=invalid-name
     """Check if a string matches a regex."""
     return Check(
-        # lambda x: check_function(regex, x),
         lambda x: bool(re.fullmatch(regex, x)),
         name="regex",
         error="Regex failed.",
