@@ -19,6 +19,6 @@
 desktop.ini
 
 # Extra excluded files
-Magias/Analise/latex_compilation/*.pdf
-Magias/Analise/latex_compilation/*.tex
-Magias/Analise/*.json
+Magias/latex_compilation/*.pdf
+Magias/latex_compilation/*.tex
+Magias/*.json

@@ -1,0 +1,39 @@
+{
+    "nome": "Lâmina Elemental",
+    "name": "Elemental Blade",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "SM (uma arma marcial corpo-a-corpo)",
+    "mana": 150,
+    "duracao": "instantânea",
+    "attack_save": "corpo-a-corpo",
+    "dmg_effect": "elemental",
+    "dmg": "1d4",
+    "classes": [
+        "arqueiro",
+        "ladino",
+        "guerreiro",
+        "monge"
+    ],
+    "tags": [
+        "dano",
+        "corpo-a-corpo",
+        "arma"
+    ],
+    "descricao": "Você transmite sua mana pela lâmina de uma arma, encobrindo-a com seu elemento. Faça um ataque corpo-a-corpo contra uma criatura até 1,5m de você. Em um acerto, o alvo sofre os efeitos normais do ataque da arma e mais 1d4 de dano elemental.\n\tO dano dessa magia aumenta quando você alcança certos níveis. No 5º nível, o dano aumenta para 1d6, no 11º nível aumenta para 1d8 e no 17º nível aumenta para 1d10.",
+    "source": "Homebrew"
+}

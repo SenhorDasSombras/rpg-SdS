@@ -1,0 +1,30 @@
+{
+    "nome": "Flecha Obscurecente",
+    "name": "Obscuring Arrow",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "sombras",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (uma pata de aracnídeo)",
+    "mana": 350,
+    "duracao": "instantânea",
+    "dmg_effect": "elemental",
+    "classes": [
+        "arqueiro",
+        "guerreiro"
+    ],
+    "tags": [
+        "dano",
+        "controle",
+        "distância",
+        "arma"
+    ],
+    "descricao": "Você encanta uma munição de arma à distância e faz uma jogada de ataque contra um alvo dentro do alcance normal da arma. Independente de acertar ou errar, você cria uma explosão de fumaça que cria uma esfera de 4,5m de escuridão total com foco no alvo. Em um acerto, você dá 1d4 de dano perfurante extra.",
+    "source": "Homebrew"
+}

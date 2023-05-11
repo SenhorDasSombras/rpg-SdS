@@ -1,0 +1,29 @@
+{
+    "nome": "Ataque Ilusório",
+    "name": "Illusory Attack",
+    "nivel": 1,
+    "escola": "ilusionista",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 reação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (um pouco de pó de prata)",
+    "mana": 350,
+    "duracao": "instantânea",
+    "attack_save": "INT Save",
+    "classes": [
+        "arqueiro",
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "debuff"
+    ],
+    "descricao": "Quando uma criatura aliada dentro do alcance receber um ataque de uma criatura também dentro do alcance, você pode usar sua reação para distorcer a visão do atacante. Ele deve fazer um teste de resistência de Inteligência. Se ele falhar, então ele faz o ataque com desvantagem.",
+    "source": "Homebrew"
+}

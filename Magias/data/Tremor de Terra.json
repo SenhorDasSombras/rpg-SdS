@@ -1,0 +1,34 @@
+{
+    "nome": "Tremor de Terra",
+    "name": "Earth Tremor",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "3 metros",
+    "componentes": "VS",
+    "mana": 350,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "concussão",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "ladino",
+        "guerreiro",
+        "monge",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "dano",
+        "controle"
+    ],
+    "descricao": "Você causa um tremor no solo dentro do alcance. Toda criatura além de você deve fazer um Teste de Resistência de Destreza. Se falhar, a criatura recebe 1d6 de dano de concussão e cai no chão. Se o terreno for de terra solta ou pedra, ele se torna terreno difícil.\n\t**Melhorar Magia.** Você pode adicionar mais 500 de mana para adicionar mais 1d6 de dano até um máximo de 5d6 adicionais. Você pode adicionar mais 600 de mana para aumentar o alcance da magia em 1,5m até um máximo de 4,5m adicionais.",
+    "source": "Etc."
+}

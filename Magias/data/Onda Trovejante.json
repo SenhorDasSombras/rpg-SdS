@@ -1,0 +1,32 @@
+{
+    "nome": "Onda Trovejante",
+    "name": "Thunderwave",
+    "nivel": 1,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 450,
+    "duracao": "instantânea",
+    "attack_save": "CON Save",
+    "dmg_effect": "relâmpago",
+    "dmg": "2d8",
+    "classes": [
+        "ladino",
+        "guerreiro",
+        "bardo",
+        "monge",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "dano",
+        "controle"
+    ],
+    "descricao": "Uma onda de força trovejante varre tudo a partir de você.\n\tCada criatura num cubo de 4,5 metros originado em você, deve realizar um teste de resistência de Constituição. Se falhar na resistência, uma criatura sofrerá 2d8 de dano trovejante e será empurrada 3 metros para longe de você.\n\tSe obtive sucesso na resistência, a criatura sofrerá metade desse dano e não será empurrada.\n\tAlém disso, objetos soltos que estiverem completamente dentro da área de efeito serão automaticamente empurrados 3 metros para longe de você pelo efeito da magia e a magia emitirá um ressonante barulho de trovão audível a até 90 metros.\n\t**Melhorar Magia**. Você pode gastar 550 de mana adicionais para adicionar 1d8 ao dano, até um máximo de 5d8 adicionais.",
+    "source": "LDJ"
+}

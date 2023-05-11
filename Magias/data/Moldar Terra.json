@@ -1,0 +1,34 @@
+{
+    "nome": "Moldar Terra",
+    "name": "Mold Earth",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "S",
+    "mana": 50,
+    "mana_adicional": "5 a cada 5 minutos",
+    "duracao": "até 1 hora",
+    "attack_save": "N/A",
+    "dmg_effect": "N/A",
+    "dmg": "N/A",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "monge",
+        "ladino",
+        "guerreiro",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "controle",
+        "utilidade"
+    ],
+    "descricao": "Você escolhe uma porção de detritos ou pedra que você possa ver, dentro do alcance, e que caiba num cubo de 1,5 metros. Você manipula-a de uma das seguintes maneiras: \n\t• Se você afetar uma área de terra solta, você pode escava-la instantaneamente, movendo-a pelo solo e depositando-a 1,5 metros de distância. Esse momento não tem força suficiente para causar dano.\n\t• Você faz com que formas, cores ou ambos apareçam na terra ou pedra, escrevendo palavras, criando imagens ou moldando padrões. As mudanças duram por 1 hora.\n\t• Se a terra ou pedra que você afetou estiver no solo, você faz com que ele se torne terreno difícil. Alternativamente, você pode fazer com que solo se torne terreno normal, caso ele já seja terreno difícil. Essa mudança dura por 1 hora.\n\nSe você conjurar essa magia diversas vezes, você pode ter até dois dos seus efeitos não instantâneos ativos ao mesmo tempo, e você pode dissipar um efeito desses com uma ação.\n\tVocê gasta 5 de mana a cada 5 minutos dessa magia.",
+    "source": "Xanathar"
+}
