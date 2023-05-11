@@ -1,6 +1,6 @@
 {
     "nome": "Dissonância Ruidosa",
-    "name": "Custom",
+    "name": "Noisy Dissonance",
     "nivel": 1,
     "escola": "musical",
     "ritual": false,
@@ -23,5 +23,5 @@
         "defesa"
     ],
     "descricao": "Quando uma criatura dentro do alcance atacar um aliado seu, você pode tocar notas dissonantes que tirarão a concentração da criatura. Ela deve fazer um teste de resistência de Sabedoria. Se ela não passar, então o dano do ataque é reduzido pela metade. Você pode usar sua reação depois do mestre ter falado o dano final do ataque.",
-    "source": "Custom"
+    "source": "Homebrew"
 }

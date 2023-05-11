@@ -1,6 +1,6 @@
 {
     "nome": "Flecha Perfurante",
-    "name": "Custom",
+    "name": "Piercing Arrow",
     "nivel": 2,
     "escola": "elemental",
     "ritual": false,
@@ -38,5 +38,5 @@
         "arma"
     ],
     "descricao": "Você utiliza uma arma de ataque à distância com a propriedade munição para fazer um ataque a um inimigo dentro do alcance dessa arma. O alvo deve fazer um teste de resistência de Força. Se ele já tiver sofrido dano ou não estiver usando armadura ele o faz com desvantagem. Em uma falha, o alvo recebe os efeitos normais do ataque e mais 2d8 de dano elemental extra. Além disso, a energia elemental utilizada no disparo atravessa e continua em linha reta até atingir outro alvo, terminar o alcance da arma ou atingir um obstáculo.\nSempre que um novo alvo for atingido pelo disparo, ele deve fazer o mesmo teste de resistência de Força. O disparo continua enquanto os alvos falharem no teste. Assim que o primeiro alvo atingido obtiver um sucesso, ele recebe apenas metade do dano extra e o disparo para nele.\nApenas o primeiro alvo receberá os efeitos normais do ataque, os outros recebem apenas o dano extra.",
-    "source": "LDJ"
+    "source": "Homebrew"
 }

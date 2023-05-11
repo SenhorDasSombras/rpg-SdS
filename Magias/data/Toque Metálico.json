@@ -1,6 +1,6 @@
 {
     "nome": "Toque Metálico",
-    "name": "Shocking Grasp",
+    "name": "Metallic Grasp",
     "nivel": 0,
     "escola": "elemental",
     "ritual": false,
@@ -27,5 +27,5 @@
         "toque"
     ],
     "descricao": "Magnetismo surge da sua mão capaz de alterar uma armadura metálica. Se o alvo estiver usando alguma vestimenta de metal, faça um ataque corpo-a-corpo com magia com vantagem contra o alvo. Se atingir, o alvo sofre 1d8 de dano metálico e não pode usar reações até o início do próximo turno dele.\n\tO dano da magia aumenta em 1d8 quando você alcança o 5° nível (2d8), 11° nível (3d8) e 17° nível (4d8).",
-    "source": "LDJ"
+    "source": "Homebrew"
 }

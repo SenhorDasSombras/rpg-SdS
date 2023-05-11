@@ -1,6 +1,6 @@
 {
     "nome": "Flecha Improvisada",
-    "name": "Custom",
+    "name": "Improvised Arrow",
     "nivel": 0,
     "escola": "elemental",
     "ritual": true,
@@ -23,5 +23,5 @@
         "utilidade"
     ],
     "descricao": "Você cria flechas, virotes ou algum outro tipo de munição de forma improvisada. Você gasta sua ação criando essas munições e agora tem uma munição temporária, que pode ser gasta ao longo de dez minutos, dissolvendo-se após essa duração.\n\tA quantidade de munições dadas por essa magia aumenta em certos níveis. Para 2 no 5º nível, para 3 no 11º nível e para 4 no 17º nível.",
-    "source": "LDJ"
+    "source": "Homebrew"
 }
