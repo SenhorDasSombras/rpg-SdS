@@ -24,7 +24,7 @@ name.
 import argparse
 
 # Third Party Libraries
-import dfs.df_filter as filter
+from dfs.df_filter import DFFilter, DFQuerrier
 import dfs.df_reader as reader
 import pandas as pd
 import spell.spell_exporter as exporter
@@ -81,6 +81,17 @@ def parse_input_args():
         ),
     )
     parser.add_argument(
+        "--query_path",
+        "-Q",
+        "-q",
+        type=str,
+        default=None,
+        help=(
+            "The path to the file containing the query. The default is None "
+            "(i.e. no query is performed)."
+        ),
+    )
+    parser.add_argument(
         "--output_path",
         "-o",
         type=str,
@@ -120,8 +131,12 @@ def main() -> None:
 
     spells_df: pd.DataFrame
     if args.filter_path is not None:
-        spells_df = filter.filter_spells_df_using_json(
+        spells_df = DFFilter.filter_spells_df_using_json(
             args.filter_path, **kwargs
+        )
+    elif args.query_path is not None:
+        spells_df = DFQuerrier.query_spells_df_from_file(
+            args.query_path, **kwargs
         )
     else:
         spells_df = reader.get_asserted_spells_df(**kwargs)

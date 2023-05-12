@@ -51,7 +51,8 @@ def _replace_size(string: str, font_size: str) -> str:
     else:
         font_size = "\\normalsize"
 
-    sized_string = f"{font_size} {string}"
+    # pylint: disable=consider-using-f-string
+    sized_string = "{%s %s}" % (font_size, string)
     return sized_string
 
 
@@ -72,7 +73,8 @@ def _replace_span(markdown_text: str) -> str:
     font_size = match_obj.group("fontsize")
 
     if color != "None":
-        colored_string = f"\\textcolor{color}{string}"
+        # pylint: disable=consider-using-f-string
+        colored_string = "\\textcolor{%s}{%s}" % (color, string)
     else:
         colored_string = string
     latex_text = _replace_size(colored_string, font_size)
