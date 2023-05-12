@@ -22,3 +22,4 @@ desktop.ini
 Magias/latex_compilation/*.pdf
 Magias/latex_compilation/*.tex
 Magias/*.json
+Magias/*.txt
