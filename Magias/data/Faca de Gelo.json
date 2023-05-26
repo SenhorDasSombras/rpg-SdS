@@ -1,6 +1,6 @@
 {
     "nome": "Faca de Gelo",
-    "name": "Ice Knife (adaptação)",
+    "name": "Ice Knife",
     "nivel": 1,
     "escola": "elemental",
     "ritual": false,
@@ -10,26 +10,20 @@
     "tempo_conjuracao": "1 ação",
     "alcance_area": "pessoal",
     "componentes": "VSM (uma arma corpo-a-corpo)",
-    "mana": 400,
+    "mana": 600,
     "duracao": "instantânea",
-    "attack_save": "corpo-a-corpo",
+    "attack_save": "distância",
     "dmg_effect": "água",
     "dmg": "1d6",
     "classes": [
         "arqueiro",
-        "ladino",
-        "guerreiro",
         "bardo",
-        "monge",
         "mago",
         "xamã"
     ],
     "tags": [
-        "arma",
-        "dano",
-        "corpo-a-corpo",
-        "controle"
+        "dano"
     ],
-    "descricao": "Você congela a lâmina de uma arma que estiver empunhando e faz um ataque contra uma criatura que esteja no alcance da arma. Em um acerto, o ataque causa 1d10 a mais de dano congelante e a criatura deve fazer um teste de resistência de Força ou terá seu movimento reduzido pela metade no seu próximo turno.\n\t**Melhorar Magia**. A cada 550 de mana adicionais gastos, você adiciona 1d10 ao dano.",
+    "descricao": "Você cria um fragmento de gelo e o arremessa em um alvo dentro do alcance. Faça um ataque à distância com magia contra o alvo. Em um acerto, o alvo sofre 1d10 de dano perfurante. Acertando ou errando, o fragmento explode. O alvo e cada criatura a 1,5 metros dela devem ter sucesso em uma salvaguarda de Destreza ou recebem 2d6 de dano congelante.\n\t**Melhorar Magia** Para cada 600 de mana adicional, você adiciona 1d10 ao dano perfurante. Para cada 500 de mana adicional, você adiciona mais 1d6 no dano adicional.",
     "source": "LDJ"
 }
