@@ -19,12 +19,8 @@
     "dmg_effect": "N/A",
     "dmg": "N/A",
     "classes": [
-        "arqueiro",
         "bardo",
         "mago",
-        "ladino",
-        "guerreiro",
-        "monge",
         "xamã"
     ],
     "tags": [

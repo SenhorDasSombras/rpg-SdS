@@ -24,7 +24,6 @@
     "dmg": "1d8",
     "classes": [
         "guerreiro",
-        "bardo",
         "monge",
         "mago"
     ],

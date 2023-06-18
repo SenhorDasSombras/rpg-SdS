@@ -16,10 +16,7 @@
     "dmg_effect": "água",
     "dmg": "2d8",
     "classes": [
-        "arqueiro",
         "bardo",
-        "guerreiro",
-        "ladino",
         "mago",
         "monge",
         "xamã"

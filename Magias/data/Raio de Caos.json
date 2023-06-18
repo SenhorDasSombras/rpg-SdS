@@ -5,15 +5,11 @@
     "escola": "elemental",
     "ritual": false,
     "elementos": [
-        "água",
         "terra",
         "fogo",
         "ar",
-        "luz",
         "sombras",
-        "relâmpago",
-        "metal",
-        "veneno"
+        "relâmpago"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "36 metros",

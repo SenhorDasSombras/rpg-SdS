@@ -23,11 +23,6 @@
     "dmg_effect": "elemental",
     "dmg": "1d10",
     "classes": [
-        "arqueiro",
-        "guerreiro",
-        "ladino",
-        "monge",
-        "bardo",
         "mago",
         "xamã"
     ],

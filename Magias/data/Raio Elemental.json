@@ -23,8 +23,6 @@
     "dmg": "6d6",
     "classes": [
         "arqueiro",
-        "ladino",
-        "guerreiro",
         "bardo",
         "monge",
         "mago"
@@ -33,6 +31,6 @@
         "dano",
         "distância"
     ],
-    "descricao": "Você cria três raios elementais e os arremessa em alvos dentro do alcance. Você pode arremessa-los em um alvo ou em vários.\n\tRealize um ataque à distância com magia para cada raio. Se atingir, o alvo sofrerá 2d6 de dano elemental.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais gastos, adicione mais 1d6 ao dano de cada raio.",
+    "descricao": "Você cria três raios elementais e os arremessa em alvos dentro do alcance. Você pode arremessá-los em um alvo ou em vários.\n\tRealize um ataque à distância com magia para cada raio. Se atingir, o alvo sofrerá 2d6 de dano elemental.\n\t**Melhorar Magia**. Para cada 600 de mana adicionais gastos, adicione mais 1d6 ao dano de cada raio.",
     "source": "LDJ"
 }

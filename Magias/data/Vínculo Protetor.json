@@ -7,8 +7,7 @@
     "elementos": [
         "água",
         "terra",
-        "ar",
-        "luz",
+        "sombras",
         "metal"
     ],
     "tempo_conjuracao": "1 ação",
@@ -18,7 +17,6 @@
     "duracao": "1 hora",
     "classes": [
         "guerreiro",
-        "bardo",
         "monge",
         "xamã"
     ],

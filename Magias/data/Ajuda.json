@@ -15,9 +15,7 @@
     "duracao": "8 horas",
     "dmg": "5",
     "classes": [
-        "guerreiro",
         "bardo",
-        "monge",
         "mago",
         "xamã"
     ],

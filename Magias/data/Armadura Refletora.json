@@ -5,11 +5,7 @@
     "escola": ["elemental", "musical", "psíquica"],
     "ritual": false,
     "elementos": [
-        "água",
         "terra",
-        "fogo",
-        "ar",
-        "luz",
         "sombras",
         "relâmpago",
         "metal",
@@ -24,6 +20,7 @@
     "dmg_effect": "elemental",
     "dmg": "5",
     "classes": [
+        "guerreiro",
         "bardo",
         "monge",
         "mago",

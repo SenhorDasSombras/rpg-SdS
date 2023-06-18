@@ -26,6 +26,6 @@
         "buff",
         "defesa"
     ],
-    "descricao": "Você toca uma criatura e pode ou acabar com uma doença ou uma condição que a esteja afligindo. A condição pode ser cega, surda, paralisada ou envenenada.",
+    "descricao": "Você toca uma criatura e pode ou acabar com uma doença ou uma condição que a esteja afligindo. A condição pode ser cega, surda ou paralisada ([veneno] ou envenenada).",
     "source": "LDJ"
 }

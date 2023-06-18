@@ -21,10 +21,9 @@
     "dmg": "1d6",
     "classes": [
         "arqueiro",
-        "ladino",
-        "guerreiro",
         "mago",
-        "monge"
+        "monge",
+        "xamã"
     ],
     "tags": [
         "dano",

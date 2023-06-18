@@ -19,9 +19,6 @@
     "dmg": "1d12",
     "classes": [
         "arqueiro",
-        "guerreiro",
-        "ladino",
-        "monge",
         "bardo",
         "mago",
         "xamã"

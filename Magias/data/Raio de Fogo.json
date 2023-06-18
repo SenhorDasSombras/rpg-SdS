@@ -19,10 +19,8 @@
     "dmg": "1d10",
     "classes": [
         "arqueiro",
-        "guerreiro",
         "mago",
         "bardo",
-        "monge",
         "xamã"
     ],
     "tags": [

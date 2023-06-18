@@ -2,17 +2,12 @@
     "nome": "Arma Mágica",
     "name": "Magic Weapon",
     "nivel": 2,
-    "escola": ["elemental", "necromancia", "espiritual", "ilusionista", "musical", "psíquica", "receita"],
+    "escola": ["elemental", "necromancia", "espiritual"],
     "ritual": false,
     "elementos": [
-        "água",
-        "terra",
         "fogo",
-        "ar",
-        "luz",
         "sombras",
         "relâmpago",
-        "metal",
         "veneno"
     ],
     "tempo_conjuracao": "1 ação bônus",
