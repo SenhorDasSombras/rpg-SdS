@@ -1,0 +1,52 @@
+{
+    "name": "Bestial Spirit",
+    "AC": "11 + the power level",
+    "AC_type": "natural armor",
+    "HP": "20 (air and fire only) or 30 (rock and water only) + 5 times the power level ",
+    "speed": {
+        "walk": "30 ft",
+        "fly": "60 ft (air only)",
+        "swim": "30 ft (water only)",
+        "climb": "30 ft (rock only)",
+    },
+    "attributes": {
+        "str": "18",
+        "dex": "11",
+        "con": "16",
+        "int": "4",
+        "wis": "14",
+        "cha": "5"
+    },
+    "sense": {
+        "passive_perception": "12",
+        "darkvision": "60 ft",
+    },
+    "languages": " understands the languages you speak",
+    "challenge_rating": "-",
+    "proficiency_bonus": "equals your bonus",
+    "traits": [
+        {
+            "name": "Flyby (Air Only)",
+            "description": "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+        },
+        {
+            "name": "Pack Tactics (Fire and Rock Only)",
+            "description": "The beast has advantage on an attack roll against a creature if at least one of the beast's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        },
+        {
+            "name": "Water Breathing (Water Only)",
+            "description": "The beast can breathe only underwater."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The beast makes a number of attacks equal to half the power level (rounded down)."
+        },
+        {
+            "name": "Maul",
+            "description": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 + 4 + the power level piercing damage (+1d4 fire damage for Fire)."
+        }
+    ],
+    "source": "LDJ"
+}
