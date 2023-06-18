@@ -1,8 +1,10 @@
 """This module converts a spell series into a markdown string that can be
 printed also using this module."""
 
+# Python Standard Libraries
 import re
 
+# Third Party Libraries
 from IPython.display import Markdown, display
 
 
@@ -98,7 +100,9 @@ def _get_name_part_str(spell_series, styled=True):
     ritual_str = _get_ritual_str(spell_series)
     rare_str = _get_rare_str(spell_series)
 
-    name_str = f"**{spell_series['nome']} _({spell_series['name']})_**{lvl_str}{ritual_str}{rare_str}\n"
+    name_str = (
+        f"**{spell_series['nome']} _({spell_series['name']})_**{lvl_str}{ritual_str}{rare_str}\n"
+    )
     if styled:
         name_str = get_styled_str(name_str)
     return name_str
@@ -228,19 +232,18 @@ def print_spell_parts(
     print_markdown_list(str_list)
 
 
-def print_spell(spell_series):
+def print_spell(spell_series, **kwargs):
     """Receives a Pandas Series of spell and prints it in a nice style."""
-    print_spell_parts(spell_series)
+    print_spell_parts(spell_series, **kwargs)
 
 
-def print_spells_for_df(spells_df):
-    """Reiceves a Pandas DataFrame of spells and prints all of them using a nice style."""
+def print_spells_for_df(spells_df, **kwargs):
+    """Receives a Pandas DataFrame of spells and prints all of them using a nice style."""
     for _, row in spells_df.iterrows():
-        print_spell(row)
-        print()
+        print_spell(row, **kwargs)
 
 
-def print_spells_by_name(spells_df, name):
+def print_spells_by_name(spells_df, name, **kwargs):
     """Receives a Pandas DataFrame of spells and a name and prints the spell
     with that name.
     """
@@ -248,4 +251,4 @@ def print_spells_by_name(spells_df, name):
         (spells_df["nome"].str.contains(name, case=False))
         | (spells_df["name"].str.contains(name, case=False))
     ]
-    print_spells_for_df(spells_df)
+    print_spells_for_df(spells_df, **kwargs)
