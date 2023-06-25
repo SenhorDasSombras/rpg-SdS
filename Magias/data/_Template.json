@@ -1,7 +1,7 @@
 {
     "nome": "nome",
     "name": "name",
-    "nivel": 2,
+    "nivel": 3,
     "escola": "elemental",
     "ritual": false,
     "elementos": [
@@ -21,7 +21,7 @@
     "mana": 200,
     "duracao": "instantânea",
     "attack_save": "DEX Save",
-    "dmg_effect": "fogo",
+    "dmg_effect": "elemental",
     "dmg": "1d6",
     "classes": [
         "arqueiro",
@@ -40,7 +40,6 @@
         "dano",
         "defesa",
         "cura",
-        "invocação",
         "distância",
         "corpo-a-corpo",
         "toque",
