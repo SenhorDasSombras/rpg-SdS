@@ -1,0 +1,36 @@
+{
+    "nome": "Bola de Elemento",
+    "name": "Elemental Ball",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "45 metros",
+    "componentes": "VSM (a tiny ball of bat guano and sulfur)",
+    "mana": 2000,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "8d6",
+    "classes": [
+        "arqueiro",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of elemental power. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 elemental damage on a failed save, or half as much damage on a successful one. Depending on the element, there are additional effects:\n\t[Fire] It ignites flammable objects in the area that aren’t being worn or carried.\n\t[Water] It put offs any non-magical flames.\n\t[Air] All targets that failed the Dexterity saving throw also are pushed 10-feet away from the impact point.\n\t[Earth|Metal] All targets that failed the Dexterity saving throw also get their next turn movement cut by half.\n\t[Light|Shadows] The spell has an extra 1d6 of damage.\n\t[Lightning] All creatures within 5 feet of a target that failed the Dexterity saving throw also receive 1d4 of damage.\n\t[Poison] All targets that failed the Dexterity saving throw get poisoned and receive 1d4 acid damage at the starting of each consecutive turn. To remove this effect, they must succeed a Constitution saving throw.\n\t**Enhance Spell**. For each 1000 extra mana spent, add an additional 1d6 to the damage up to 6 extra d6s.",
+    "source": "LDJ"
+}

@@ -1,0 +1,27 @@
+{
+    "nome": "Fortaleza Intelectual",
+    "name": "Intellectual Fortress",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "V",
+    "mana": 1600,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "bardo",
+        "xamã"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.\n\t**Enhance Spell**. For each 20000 mana and 100 per minute, you can target one additional creature. The creatures must be within 30 feet of each other when you target them.",
+    "source": "Tasha"
+}

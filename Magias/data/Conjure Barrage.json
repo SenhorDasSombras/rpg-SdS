@@ -1,0 +1,36 @@
+{
+    "nome": "Conjurar Barragem",
+    "name": "Conjure Barrage",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (one piece of ammunition or a thrown weapon)",
+    "mana": 1400,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "3d8",
+    "classes": [
+        "arqueiro",
+        "guerreiro",
+        "ladino"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.",
+    "source": "LDJ"
+}

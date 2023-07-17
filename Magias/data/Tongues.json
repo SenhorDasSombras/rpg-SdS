@@ -1,0 +1,28 @@
+{
+    "nome": "Linguas",
+    "name": "Tongues",
+    "nivel": 3,
+    "escola": ["musical", "psíquica"],
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "touch",
+    "componentes": "VM (a small clay model of a ziggurat)",
+    "mana": 2000,
+    "duracao": "1 hora",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "comunicação"
+    ],
+    "descricao": "his spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.",
+    "source": "LDJ"
+}

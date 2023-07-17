@@ -1,0 +1,38 @@
+{
+    "nome": "Flecha Explosiva",
+    "name": "Explosive Arrow",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 1500,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "4d8",
+    "classes": [
+        "arqueiro",
+        "guerreiro",
+        "ladino"
+    ],
+    "tags": [
+        "dano",
+        "distância",
+        "arma"
+    ],
+    "descricao": "Make a ranged weapon attack, the weapon’s ammunition, or the weapon itself if it’s a thrown weapon, transforms into a bolt of elemental power. Make the attack roll as normal. The target takes 4d8 elemental damage on a hit, or half as much damage on a miss, instead of the weapon’s normal damage.\n\tWhether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 elemental damage on a failed save, or half as much damage on a successful one.\n\tThe piece of ammunition or weapon then returns to its normal form.\n\t**Enhance Spell**. For each 5000 extra mana spent, add 1d8 to both spell effects, up to maximum 3d8 extra dice.",
+    "source": "LDJ"
+}

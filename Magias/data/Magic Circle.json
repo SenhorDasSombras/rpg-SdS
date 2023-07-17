@@ -1,0 +1,30 @@
+{
+    "nome": "Círculo Mágico",
+    "name": "Magic Circle",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual", "musical"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 minuto",
+    "alcance_area": "3 metros",
+    "componentes": "VSM (holy water or powdered silver and iron worth 100 gp, which the spell consumes)",
+    "mana": 2500,
+    "duracao": "1 hora",
+    "attack_save": "CHA Save",
+    "classes": [
+        "bardo",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "buff",
+        "debuff",
+        "controle"
+    ],
+    "descricao": "You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.\n\tChoose one or more of the following types of creatures: celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways:\n\t• The creature can’t willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.\n\t• The creature has disadvantage on attack rolls against targets within the cylinder.\n\t• Targets within the cylinder can’t be charmed, frightened, or possessed by the creature.\n\tWhen you cast this spell, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.\n\t**Enhance Spell**. For each 3000 extra mana spent, add 1 hour to the spell's duration, up to five hours.",
+    "source": "LDJ"
+}

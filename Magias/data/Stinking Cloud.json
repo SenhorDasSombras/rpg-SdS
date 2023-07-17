@@ -1,0 +1,32 @@
+{
+    "nome": "Névoa Fedorenta",
+    "name": "Stinking Cloud",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "27 metros",
+    "componentes": "VSM (a rotten egg or several skunk cabbage leaves)",
+    "mana": 1400,
+    "mana_adicional": "100 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "CON Save",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+    ],
+    "descricao": "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.\n\tEach creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don’t need to breathe or are immune to poison automatically succeed on this saving throw.\n\t A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.",
+    "source": "LDJ"
+}

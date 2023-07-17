@@ -1,5 +1,7 @@
 {
     "name": "Bestial Spirit",
+    "size": "small",
+    "type": "beast",
     "AC": "11 + the power level",
     "AC_type": "natural armor",
     "HP": "20 (air and fire only) or 30 (rock and water only) + 5 times the power level ",
@@ -21,7 +23,7 @@
         "passive_perception": "12",
         "darkvision": "60 ft",
     },
-    "languages": " understands the languages you speak",
+    "languages": "understands the languages you speak",
     "challenge_rating": "-",
     "proficiency_bonus": "equals your bonus",
     "traits": [

@@ -1,0 +1,26 @@
+{
+    "nome": "Criar Água",
+    "name": "Create Water",
+    "nivel": 0,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 200,
+    "duracao": "instantânea",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "utilidade"
+    ],
+    "descricao": "You create 20 liters to sustain up to five humanoids for 24 hours. The water is clean and doesn't go bad.",
+    "source": "LDJ"
+}

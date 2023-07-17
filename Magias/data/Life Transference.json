@@ -1,0 +1,32 @@
+{
+    "nome": "Transferência de Vida",
+    "name": "Life Transference",
+    "nivel": 3,
+    "escola": ["elemental", "necrótica", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz",
+        "sombras",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 2000,
+    "duracao": "instantânea",
+    "dmg_effect": "necrótico",
+    "dmg": "4d8",
+    "classes": [
+        "bardo",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "dano",
+        "cura"
+    ],
+    "descricao": "You sacrifice some of your health to mend another creature’s injuries. You take 4d8 necrotic damage, which can’t be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.\n\t**Enhance Spell**. For each 5000 extra mana spent, you add 1d8 to the damage, until a maximum of 10d8.",
+    "source": "Xanathar"
+}

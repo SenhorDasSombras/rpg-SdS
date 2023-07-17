@@ -1,0 +1,32 @@
+{
+    "nome": "Passos Explosivos",
+    "name": "Fast Stride",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar",
+        "luz",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (um pouco de pó de prata)",
+    "mana": 1400,
+    "mana_adicional": "50 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "guerreiro",
+        "ladino",
+        "monge"
+    ],
+    "tags": [
+        "buff",
+        "dano"
+    ],
+    "descricao": "The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn’t provoke opportunity attacks. When you move within 5 feet of a creature or object that isn’t being worn or carried, it takes 1d6 elemental damage from your trail of heat. A creature or object can take this damage only once during a turn.\n\t**Enhance Spell**. For each 2000 extra mana spent in this spell, you increase your speed by 5 feet and the damage by 1d6, up to 6000 extra mana (i.e. 15 extra feet and 3d6 extra damage).",
+    "source": "Etc"
+}

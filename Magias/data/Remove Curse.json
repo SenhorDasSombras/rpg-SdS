@@ -1,0 +1,28 @@
+{
+    "nome": "Remover Maldição",
+    "name": "Remove Curse",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "luz",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 3500,
+    "duracao": "instantânea",
+    "classes": [
+        "bardo",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "cura"
+    ],
+    "descricao": "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner’s attunement to the object so it can be removed or discarded.",
+    "source": "LDJ"
+}

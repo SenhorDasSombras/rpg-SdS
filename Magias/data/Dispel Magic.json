@@ -1,0 +1,27 @@
+{
+    "nome": "Desativar Magia",
+    "name": "Dispel Magic",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "36 metros",
+    "componentes": "VS",
+    "mana": 1800,
+    "duracao": "instantânea",
+    "classes": [
+        "bardo",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "defesa"
+    ],
+    "descricao": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.\n\t**Enhance Spell**. You can cast this spell with a huge amount of mana. Choose an arbitrary number (e.g. 20000) and roll a d20, multiply the die value by the number you chose, that's the total mana you'll spend. If the total amount of mana used is higher than the mana used by the spell you're trying to dispel, than you make the ability check. Otherwise, the dispel fails.",
+    "source": "LDJ"
+}

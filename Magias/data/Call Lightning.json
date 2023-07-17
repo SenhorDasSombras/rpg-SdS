@@ -1,0 +1,33 @@
+{
+    "nome": "Chamar Relâmpagos",
+    "name": "Call Lightning",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "30 metros",
+    "componentes": "VS",
+    "mana": 1200,
+    "mana_adicional": "100 por minuto",
+    "duracao": "concentração, até 10 minutos",
+    "attack_save": "DEX Save",
+    "dmg_effect": "relâmpago",
+    "dmg": "3d10",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see within range directly above you. The spell fails if you can’t see a point in the air where the storm cloud could appear (for example, if you are in a room that can’t accommodate the cloud).\n\tWhen you cast the spell, choose a point you can see under the cloud. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one.\n\tIf you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.\n\t**Enhance Spell**. For each 800 extra mana spent in this spell, you increase the damage by 1d10 up to 5d10 extra damage.",
+    "source": "LDJ"
+}

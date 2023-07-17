@@ -1,0 +1,28 @@
+{
+    "nome": "Farol da Esperança",
+    "name": "Beacon of Hope",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual", "musical"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "VS",
+    "mana": 900,
+    "mana_adicional": "50 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "classes": [
+        "bardo",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "buff"
+    ],
+    "descricao": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+    "source": "LDJ"
+}

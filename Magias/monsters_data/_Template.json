@@ -1,5 +1,7 @@
 {
     "name": "name",
+    "size": "medium",
+    "type": "humanoid",
     "AC": "11",
     "AC_type": "natural",
     "HP": "10",
@@ -18,6 +20,10 @@
         "wis": "10",
         "cha": "10"
     },
+    "damage_immunities": "aaa",
+    "damage_resistances": "aaa",
+    "damage_vulnerabilities": "aaa",
+    "condition_immunities": "aaa",
     "sense": {
         "passive_perception": "10",
         "darkvision": "60 ft",
@@ -25,7 +31,7 @@
         "blindsight": "60 ft",
         "truesight": "60 ft"
     },
-    "languages": " understands the languages you speak",
+    "languages": "understands the languages you speak",
     "challenge_rating": "1",
     "proficiency_bonus": "2",
     "traits": [
@@ -35,6 +41,12 @@
         }
     ],
     "actions": [
+        {
+            "name": "name",
+            "description": "description"
+        }
+    ],
+    "bonus_actions": [
         {
             "name": "name",
             "description": "description"

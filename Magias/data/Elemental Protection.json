@@ -1,0 +1,32 @@
+{
+    "nome": "Proteção Elemental",
+    "name": "Elemental Protection",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 2000,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "xamã"
+    ],
+    "tags": [
+        "defesa",
+    ],
+    "descricao": "For the duration, the willing creature you touch has resistance to elemental damage type equal to one element you know how to cast.",
+    "source": "Custom"
+}

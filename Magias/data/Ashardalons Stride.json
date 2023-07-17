@@ -1,0 +1,35 @@
+{
+    "nome": "Passo de Ashardalon",
+    "name": "Ashardalon's Stride",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "ar",
+        "luz",
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação bonus",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 1000,
+    "mana_adicional": "100 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "ar",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "buff",
+        "dano"
+    ],
+    "descricao": "The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn’t provoke opportunity attacks. \n\tWhen you move within 5 feet of a creature or an object that isn’t being worn or carried, it takes 1d6 elemental damage from your trail of heat. A creature or object can take this damage only once during a turn. \n\t**Enhance Spell.** For each extra 800 mana spent, you can add 5 feet to the spell's effect, up to 15 extra feet. For each extra 900 mana spent, you can add 1d6 to the spell's damage, up to 3d6 extra damage.",
+    "source": "Etc."
+}

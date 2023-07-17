@@ -1,0 +1,58 @@
+{
+    "name": "Undead Spirit",
+    "AC": "11 + the power level",
+    "AC_type": "natural",
+    "HP": "30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 time the power level",
+    "speed": {
+        "walk": "30 ft",
+        "fly": "40 ft. (hover) (Ghostly only)"
+    },
+    "attributes": {
+        "str": "12",
+        "dex": "16",
+        "con": "15",
+        "int": "4",
+        "wis": "10",
+        "cha": "9"
+    },
+    "damage_immunities": [
+        "poison",
+        "necrotic"
+    ],
+    "condition_immunities": [
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "poisoned"
+    ],
+    "sense": {
+        "passive_perception": "10",
+        "darkvision": "60 ft",
+    },
+    "languages": "understands the languages you speak",
+    "challenge_rating": "-",
+    "proficiency_bonus": "equals yours",
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Fey makes a number of attacks equal to half the power level (rounded down)."
+        },
+        {
+            "name": "Shortsword",
+            "description": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + spell power piercing damage + 1d6 force damage."
+        },
+        {
+            "name": "Deathly Touch (Ghostly Only)",
+            "description": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one creature. Hit: 1d8 + 3 + the spell power necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the undead until the end of the target's next turn."
+        },
+        {
+            "name": "Grave Bolt (Skeletal Only)",
+            "description": "Ranged Spell Attack: your spell attack modifier to hit, range 150 ft., one target. Hit: 2d4 + 3 + the spell’s level necrotic damage."
+        },
+        {
+            "name": "Putrid Claw (Putrid Only)",
+            "description": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell’s level slashing damage. If the target is poisoned, it must succeed on a Constitution saving throw against your spell save DC or be paralyzed until the end of its next turn."
+        }
+    ],
+    "source": "Tasha"
+}

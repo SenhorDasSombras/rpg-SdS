@@ -1,0 +1,28 @@
+{
+    "nome": "Cochilo",
+    "name": "Catnap",
+    "nivel": 3,
+    "escola": ["elemental", "musical", "ilusionista"],
+    "ritual": false,
+    "elementos": [
+        "terra",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "9 metros",
+    "componentes": "SM (um pouco de areia)",
+    "mana": 1200,
+    "duracao": "10 minutos",
+    "classes": [
+        "bardo",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "debuff",
+        "controle"
+    ],
+    "descricao": "You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell’s duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can’t be affected by this spell again until it finishes a long rest.",
+    "source": "Xanathar"
+}

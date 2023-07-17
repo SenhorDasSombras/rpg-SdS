@@ -1,0 +1,32 @@
+{
+    "nome": "Relâmpago",
+    "name": "Lightning Boat",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "relâmpago"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (a bit of fur and a rod of amber, crystal, or glass)",
+    "mana": 1500,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.\n\tThe lightning ignites flammable objects in the area that aren’t being worn or carried.\n\t**Enhance Spell**. For each 1000 extra mana you spend on this spell, add 1d6 to the damage, up to extra 3d6.",
+    "source": "LDJ"
+}

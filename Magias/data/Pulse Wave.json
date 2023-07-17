@@ -1,0 +1,30 @@
+{
+    "nome": "Onda Pulsante",
+    "name": "Pulse Wave",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "ar",
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 1500,
+    "duracao": "instantânea",
+    "attack_save": "DEX Save",
+    "dmg_effect": "elemental",
+    "dmg": "6d6",
+    "classes": [
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "controle",
+        "dano"
+    ],
+    "descricao": "You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 elemental damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell.\n\tIn addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet.\n\t**Enhance Spell**. For each 2000 extra mana spent on this spell, add 1d6 to the damage, up to 3d6 extra damage.",
+    "source": "Etc."
+}

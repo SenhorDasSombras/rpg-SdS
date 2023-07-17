@@ -1,0 +1,29 @@
+{
+    "nome": "Rogar Maldição",
+    "name": "Bestow Curse",
+    "nivel": 3,
+    "escola": ["elemental", "necromancia", "ilusionista"],
+    "ritual": false,
+    "elementos": [
+        "sombras",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 1200,
+    "mana_adicional": "100 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "attack_save": "WIS Save",
+    "classes": [
+        "bardo",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "debuff"
+    ],
+    "descricao": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options: \n\n\t• Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score. \n\t• While cursed, the target has disadvantage on attack rolls against you. \n\t• While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing. \n\t• While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target. \n\n\tA **remove curse** spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect. \n\t**Enhance Spell**. If you cast this spell using 2000 mana instead of 1200, it's duration will be 10 minutes. If you cast this spell using 4000 mana instead of 1200, the duration is 8 hours. If you cast using 55000 mana, the duration is 24 hours. If you use 1000000 mana, the duration is permanent until dispelled. Up to when you uses 4000 mana or more, this spell requires no more concentration.",
+    "source": "LDJ"
+}

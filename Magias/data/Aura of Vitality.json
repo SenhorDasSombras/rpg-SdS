@@ -1,0 +1,28 @@
+{
+    "nome": "Aura de Vitalidade",
+    "name": "Aura of Vitality",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual", "musical"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 1500,
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "cura",
+    "dmg": "2d6",
+    "classes": [
+        "bardo",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action and 100 mana to cause one creature in the aura (including you) to regain 2d6 hit points.",
+    "source": "LDJ"
+}

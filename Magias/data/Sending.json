@@ -1,0 +1,28 @@
+{
+    "nome": "Mensagem",
+    "name": "Sending",
+    "nivel": 3,
+    "escola": "psíquica",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "ilimitado",
+    "componentes": "VSM (a short piece of fine copper wire)",
+    "mana": 1500,
+    "duracao": "instantânea",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "comunicação"
+    ],
+    "descricao": "You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.\n\t You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.",
+    "source": "LDJ"
+}

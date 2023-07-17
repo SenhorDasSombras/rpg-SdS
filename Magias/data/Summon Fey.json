@@ -1,0 +1,32 @@
+{
+    "nome": "Invocar Fadas",
+    "name": "Summon Fey",
+    "nivel": 3,
+    "escola": "invocação",
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VSM (a gilded flower worth at least 300 gp)",
+    "mana": 2000,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "utilidade",
+        "dano"
+    ],
+    "descricao": "You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood. Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\tThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.\n\t**Enhance Spell**. For each extra 2500 points of mana spent, you increase the spell power by one point. You use the spell power on the stats block. The maximum is 5.",
+    "source": "Tasha"
+}

@@ -1,0 +1,26 @@
+{
+    "nome": "Revivify",
+    "name": "Revivify",
+    "nivel": 3,
+    "escola": ["elemental", "necromancia", "espiritual"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VSM (diamonds worth 300gp, which the spell consumes)",
+    "mana": 4500,
+    "duracao": "instantânea",
+    "classes": [
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "cura"
+    ],
+    "descricao": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.",
+    "source": "LDJ"
+}

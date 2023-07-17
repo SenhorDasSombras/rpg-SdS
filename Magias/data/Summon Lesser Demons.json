@@ -1,0 +1,29 @@
+{
+    "nome": "Invocar Demônios Menores",
+    "name": "name",
+    "nivel": 3,
+    "escola": ["invocação", "necromancia"],
+    "ritual": false,
+    "elementos": [
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VSM (a vial of blood from a humanoid killed within the past 24 hours)",
+    "mana": 2000,
+    "mana_adicional": "10 por minuto",
+    "duracao": "concentração, até 1 hora",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "dano"
+    ],
+    "descricao": "You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.\n\t• 1-2: Two demons of challenge rating 1 or lower.\n\t• 3-4: Four demons of challenge rating 1/2 or lower.\n\t• 5-6: Eight demons of challenge rating 1/4 or lower.\n\tThe DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.\n\tThe demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.\n\tAs part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can't cross the circle or harm it, and they can't target anyone within it. Using the material component in this manner consumes it when the spell ends.\n\t**Enhance Spell**. If you cast this spell using 100000 mana, you summon twice as many demons. If you cast this spell using 1000000 mana, you summon three times as many demons.",
+    "source": "Xanathar"
+}

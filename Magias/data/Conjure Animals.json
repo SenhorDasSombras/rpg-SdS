@@ -1,0 +1,27 @@
+{
+    "nome": "Conjurar Animais",
+    "name": "Conjure Animals",
+    "nivel": 3,
+    "escola": ["elemental", "invocação"],
+    "ritual": false,
+    "elementos": [
+        "terra"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "18 metros",
+    "componentes": "VS",
+    "mana": 1000,
+    "mana_adicional": "10 por minuto",
+    "duracao": "1 hora",
+    "classes": [
+        "arqueiro",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "utilidade"
+    ],
+    "descricao": "You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:\n\t\n\n\t• One beast of challenge rating 2 or lower\n\t• Two beasts of challenge rating 1 or lower\n\t• Four beasts of challenge rating 1/2 or lower\n\t• Eight beasts of challenge rating 1/4 or lower\n\n\tEach beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.\n\tThe summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.\n\tThe GM has the creatures' statistics. Sample creatures can be found in the original spell.\n\t**Enhance Spell**. When you cast this spell using more mana, you choose one of the summoning options above, and more creatures appear: twice as many with 10000 mana, three times as many with 45000 mana, and four times as many with 700000 mana.",
+    "source": "LDJ"
+}

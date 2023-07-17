@@ -1,0 +1,30 @@
+{
+    "nome": "Contramagia",
+    "name": "Counter Spell",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual", "necromancia", "ilusionismo"],
+    "ritual": false,
+    "elementos": [
+        "sombras",
+        "metal"
+    ],
+    "tempo_conjuracao": "1 reação",
+    "alcance_area": "18 metros",
+    "componentes": "S",
+    "mana": 1500,
+    "duracao": "instantânea",
+    "classes": [
+        "arqueiro",
+        "bardo",
+        "guerreiro",
+        "ladino",
+        "mago",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "defesa"
+    ],
+    "descricao": "You attempt to interrupt a creature you can see within 60 feet in the process of casting a spell. If the creature is casting a spell of that uses half of the mana used by this spell, its spell fails and has no effect. Otherwise, if it is casting a spell using less than the mana used by you, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.\n\t**Enhance Spell.** You can cast this spell with a huge amount of mana. Choose an arbitrary number (e.g. 20000) and roll a d20, multiply the die value by the number you chose, that's the total mana you'll spend.",
+    "source": "LDJ"
+}

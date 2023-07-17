@@ -1,0 +1,58 @@
+{
+    "name": "Fey Spirit",
+    "size": "small",
+    "type": "fey",
+    "AC": "12 + the power level",
+    "AC_type": "natural",
+    "HP": "30 + 10 time the power level",
+    "speed": {
+        "walk": "40 ft",
+    },
+    "attributes": {
+        "str": "13",
+        "dex": "16",
+        "con": "14",
+        "int": "14",
+        "wis": "11",
+        "cha": "16"
+    },
+    "condition_immunities": [
+        "charmed",
+    ],
+    "sense": {
+        "passive_perception": "10",
+        "darkvision": "60 ft",
+    },
+    "languages": "Sylvan, understands the languages you speak",
+    "challenge_rating": "-",
+    "proficiency_bonus": "equals yours",
+    "actions": [
+        {
+            "name": "Multiattack",
+            "description": "The Fey makes a number of attacks equal to half the power level (rounded down)."
+        },
+        {
+            "name": "Shortsword",
+            "description": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6 + 3 + spell power piercing damage + 1d6 force damage."
+        }
+    ],
+    "bonus actions": [
+        {
+            "name": "Fey Step",
+            "description": "The fey magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the fey's chosen mood."
+        },
+        {
+            "name": "Fuming",
+            "description": "They fey has advantage on the next attack roll it makes before the end of this turn."
+        },
+        {
+            "name": "Mirthful",
+            "description": "The fey can force one creature it can see within 10 feet of it to make a Wisdom saving throw against your spell save DC. Unless the save succeeds, the target is charmed by you and the fey for 1 minute or until the target takes any damage."
+        },
+        {
+            "name": "Tricksy",
+            "description": "The fey can fill a 5-foot cube within 5 feet of it with magical darkness, which lasts until the end of its next turn."
+        }
+    ],
+    "source": "Tasha"
+}

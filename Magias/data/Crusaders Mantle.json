@@ -1,0 +1,31 @@
+{
+    "nome": "Manto de Crusader",
+    "name": "Crusader's Mantle",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual", "musical"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "V",
+    "mana": 1600,
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "elemental",
+    "dmg": "1d4",
+    "classes": [
+        "bardo",
+        "monge",
+        "xamã"
+    ],
+    "tags": [
+        "buff",
+        "dano",
+        "arma"
+    ],
+    "descricao": "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra 1d4 elemental damage when it hits with a weapon attack.",
+    "source": "LDJ"
+}

@@ -1,0 +1,26 @@
+{
+    "nome": "Palavra de Cura em Massa",
+    "name": "Mass Healing Word",
+    "nivel": 3,
+    "escola": ["elemental", "espiritual", "musical"],
+    "ritual": false,
+    "elementos": [
+        "água",
+        "luz"
+    ],
+    "tempo_conjuracao": "1 ação bônus",
+    "alcance_area": "18 metros",
+    "componentes": "V",
+    "mana": 2000,
+    "duracao": "instantânea",
+    "classes": [
+        "bardo",
+        "mago",
+        "xamã"
+    ],
+    "tags": [
+        "cura"
+    ],
+    "descricao": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.\n\t**Enhance Spell**. For each 2500 extra mana, add 1d4 to the healing, up to 5d4 in total.",
+    "source": "LDJ"
+}

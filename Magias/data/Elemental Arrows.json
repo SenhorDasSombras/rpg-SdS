@@ -1,0 +1,42 @@
+{
+    "nome": "Flechas Elementais",
+    "name": "Elemental Arrows",
+    "nivel": 3,
+    "escola": "elemental",
+    "ritual": false,
+    "elementos": [
+        "água",
+        "terra",
+        "fogo",
+        "ar",
+        "luz",
+        "sombras",
+        "relâmpago",
+        "metal",
+        "veneno"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "toque",
+    "componentes": "VS",
+    "mana": 1500,
+    "mana_adicional": "5 por minuto",
+    "duracao": "concentração, até 1 hora",
+    "dmg_effect": "elemental",
+    "dmg": "1d6",
+    "classes": [
+        "arqueiro",
+        "guerreiro",
+        "ladino"
+    ],
+    "tags": [
+        "debuff",
+        "controle",
+        "utilidade",
+        "dano",
+        "distância",
+        "toque",
+        "arma"
+    ],
+    "descricao": "You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the arrow has a special effect according to each element:\n\t[Fire] You deal 1d6 extra damage.\n\t[Water] The arrow heals any allies within 5 feet of the target.\n\t[Earth]The target movement is reduce by half on its next round.\n\t[Air] Add +2 to hit.\n\t[Light] Until your next round, the target has -1 on its AC.\n\t[Shadows] You deal 1d6 extra damage and the target has -1 on all its hits.\n\t[Lightning] All creatures within 5 feet of the target take 1d4 damage.\n\t[Metal] You deal 1d6 extra damage and the target movement is reduce by half on its next round.\n\t[Poison] The target gets poisoned and receives 1d4 acid damage at the starting of each of its consecutive turns. To remove this effect, the target must succeed in a Constitution saving throw.\n\tThe spell’s magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.",
+    "source": "Xanathar"
+}

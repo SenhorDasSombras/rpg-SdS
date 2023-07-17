@@ -1,0 +1,31 @@
+{
+    "nome": "Toque Vampírico",
+    "name": "Vampiric Touch",
+    "nivel": 3,
+    "escola": ["elemental", "necromancia"],
+    "ritual": false,
+    "elementos": [
+        "sombras"
+    ],
+    "tempo_conjuracao": "1 ação",
+    "alcance_area": "pessoal",
+    "componentes": "VS",
+    "mana": 2000,
+    "mana_adicional": "100 por turno",
+    "duracao": "concentração, até 1 minuto",
+    "dmg_effect": "necrótico",
+    "dmg": "3d6",
+    "classes": [
+        "guerreiro",
+        "ladino",
+        "monge"
+    ],
+    "tags": [
+        "dano",
+        "cura",
+        "corpo-a-corpo",
+        "toque"
+    ],
+    "descricao": "The touch of your shadow-wreathed hand can siphon force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.\n\t**Enhance Spell**. For each 1500 extra mana spent on this spell, add 1d6 to the damage, up to 5 extra d6s.",
+    "source": "LDJ"
+}
