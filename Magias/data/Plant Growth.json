@@ -7,7 +7,7 @@
     "elementos": [
         "terra"
     ],
-    "tempo_conjuracao": "1 ação ou 8 horas",
+    "tempo_conjuracao": "1 ação",
     "alcance_area": "45 metros",
     "componentes": "VS",
     "mana": 2000,

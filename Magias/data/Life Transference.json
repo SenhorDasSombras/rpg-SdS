@@ -2,7 +2,7 @@
     "nome": "Transferência de Vida",
     "name": "Life Transference",
     "nivel": 3,
-    "escola": ["elemental", "necrótica", "espiritual"],
+    "escola": ["elemental", "necromancia", "espiritual"],
     "ritual": false,
     "elementos": [
         "água",

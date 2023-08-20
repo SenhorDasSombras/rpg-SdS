@@ -13,7 +13,7 @@
     "alcance_area": "pessoal",
     "componentes": "V",
     "mana": 1000,
-    "mana_adicional": "50 por turno"
+    "mana_adicional": "50 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "CON Save",
     "dmg_effect": "elemental",

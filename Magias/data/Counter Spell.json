@@ -2,7 +2,7 @@
     "nome": "Contramagia",
     "name": "Counter Spell",
     "nivel": 3,
-    "escola": ["elemental", "espiritual", "necromancia", "ilusionismo"],
+    "escola": ["elemental", "espiritual", "necromancia", "ilusionista"],
     "ritual": false,
     "elementos": [
         "sombras",

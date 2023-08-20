@@ -13,7 +13,7 @@
     "mana_adicional": "50 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "WIS Save",
-    "dmg_effect": "encantado",
+    "dmg_effect": "enfeitiçado",
     "classes": [
         "bardo",
         "mago",

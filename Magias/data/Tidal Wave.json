@@ -13,7 +13,7 @@
     "mana": 2000,
     "duracao": "instantânea",
     "attack_save": "DEX Save",
-    "dmg_effect": "bludgeoning",
+    "dmg_effect": "concussão",
     "dmg": "4d8",
     "classes": [
         "bardo",

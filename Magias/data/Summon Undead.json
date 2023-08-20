@@ -4,7 +4,7 @@
     "type": "monstrosity",
     "name": "Summon Undead",
     "nivel": 3,
-    "escola": ["elemental", "invocação", "necrótica"],
+    "escola": ["elemental", "ilusionista", "necromancia"],
     "ritual": false,
     "elementos": [
         "sombras"

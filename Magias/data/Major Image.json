@@ -2,7 +2,7 @@
     "nome": "Imagem Maior",
     "name": "Major Image",
     "nivel": 3,
-    "escola": "ilusão",
+    "escola": "ilusionista",
     "ritual": false,
     "elementos": [
     ],
@@ -12,7 +12,7 @@
     "mana": 1500,
     "mana_adicional": "100 por minuto",
     "duracao": "concentração, até 10 minutos",
-    "attack_save": "INT Check",
+    "attack_save": "INT Test",
     "classes": [
         "arqueiro",
         "bardo",

@@ -2,7 +2,7 @@
     "nome": "Piscar",
     "name": "Blink",
     "nivel": 3,
-    "escola": ["elemental", "espiritual", "necromancia", "ilusória"],
+    "escola": ["elemental", "espiritual", "necromancia", "ilusionista"],
     "ritual": false,
     "elementos": [
         "luz",

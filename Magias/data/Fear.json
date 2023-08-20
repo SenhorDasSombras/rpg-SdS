@@ -12,7 +12,7 @@
     "alcance_area": "pessoal",
     "componentes": "VSM (a white feather or the heart of a hen)",
     "mana": 1500,
-    "mana_adicional": "100 por turno"
+    "mana_adicional": "100 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "DEX Save",
     "classes": [

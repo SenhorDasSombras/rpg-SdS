@@ -14,7 +14,7 @@
     "mana_adicional": "100 por turno",
     "duracao": "concentração, até 1 minuto",
     "attack_save": "STR Save",
-    "dmg_effect": "bludgeoning",
+    "dmg_effect": "concussão",
     "dmg": "3d8",
     "classes": [
         "arqueiro",

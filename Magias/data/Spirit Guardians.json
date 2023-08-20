@@ -6,7 +6,7 @@
     "ritual": false,
     "elementos": [
         "luz",
-        "sombras",
+        "sombras"
     ],
     "tempo_conjuracao": "1 ação",
     "alcance_area": "pessoal",

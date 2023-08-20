@@ -7,7 +7,7 @@
     "elementos": [
     ],
     "tempo_conjuracao": "1 ação",
-    "alcance_area": "touch",
+    "alcance_area": "toque",
     "componentes": "VM (a small clay model of a ziggurat)",
     "mana": 2000,
     "duracao": "1 hora",

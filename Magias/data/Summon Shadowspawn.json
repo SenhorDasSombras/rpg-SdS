@@ -2,7 +2,7 @@
     "nome": "Invocar Peão das Sombras",
     "name": "Summon Shadowpawn",
     "nivel": 3,
-    "escola": ["elemental", "invocação", "necrótica"],
+    "escola": ["elemental", "ilusionista", "necromancia"],
     "ritual": false,
     "elementos": [
         "sombras"
